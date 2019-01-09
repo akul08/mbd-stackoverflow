@@ -1,4 +1,4 @@
-iirk import SparkContext
+import SparkContext
 
 from pyspark.sql import SQLContext
 

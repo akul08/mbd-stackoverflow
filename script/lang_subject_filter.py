@@ -9,13 +9,10 @@ sc.setLogLevel("Error")
 spark = SparkSession.builder.getOrCreate()
 
 def subset_func(subset):
-        print(subset.count())
-        # result = subset.select('_Tags').rdd.map(lambda x: x.replace('>','').replace('<',' '))
-		# 				.flatMap(lambda x: x.split(' '))
-		# 				.map(lambda x: (x,1)
-		# 				.reduceByKey(lambda a,b: a+b))
-        # 				.sortBy(lambda x: x[1], ascending=False)
-        # print(result.collect())
+	print(subset.count())
+	#result = subset.select('_Tags').rdd.map(lambda x: x.replace('>','').replace('<',' ')).flatMap(lambda x: x.split(' ')).map(lambda x: (x,1).reduceByKey(lambda a,b: a+b))
+	#res = result.sortBy(lambda x: x[1], ascending=False)
+	#print(res.collect())
 
 if __name__ == "__main__":
 	data_path = "file:///home/s1745646/Project/sample2"
@@ -25,7 +22,7 @@ if __name__ == "__main__":
 
 	sample = spark.read.json(data_path)
 	df = sample.where(sample['_Tags'].isNotNull())
-	df.withColumn("_Tags", lower(col("_Tags")))
+	df = df.withColumn("_Tags", lower(col("_Tags")))
 
 
 	langs = spark.read.csv("file:///home/s1745646/Project/languages.csv", header=True)
@@ -40,6 +37,5 @@ if __name__ == "__main__":
 		print(subject)
 		subset = df.filter(df['_Tags'].contains(lang)).filter(df['_Tags'].contains(subject))
 		subset_func(subset)
-
 #print(subset_terms)
 #sample.printSchema()

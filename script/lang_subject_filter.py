@@ -8,6 +8,15 @@ sc = SparkContext()
 sc.setLogLevel("Error")
 spark = SparkSession.builder.getOrCreate()
 
+def subset_func(subset):
+        print(subset.count())
+        # result = subset.select('_Tags').rdd.map(lambda x: x.replace('>','').replace('<',' '))
+		# 				.flatMap(lambda x: x.split(' '))
+		# 				.map(lambda x: (x,1)
+		# 				.reduceByKey(lambda a,b: a+b))
+        # 				.sortBy(lambda x: x[1], ascending=False)
+        # print(result.collect())
+
 if __name__ == "__main__":
 	data_path = "file:///home/s1745646/Project/sample2"
 
@@ -27,10 +36,10 @@ if __name__ == "__main__":
 	for term in subset_terms:
 		lang = term[0]
 		subject = term[1]
-
+		print(lang)
+		print(subject)
 		subset = df.filter(df['_Tags'].contains(lang)).filter(df['_Tags'].contains(subject))
-		print(subset.count())
-		## Measure popularity
+		subset_func(subset)
 
 #print(subset_terms)
 #sample.printSchema()

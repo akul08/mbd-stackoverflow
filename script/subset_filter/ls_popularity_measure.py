@@ -71,4 +71,4 @@ if __name__ == "__main__":
 	if len(sys.argv) > 1:
 		data_path = sys.argv[1]
 
-    subset_filter.subset_filter(data_path, func=popularity_measure)
+	subset_filter.subset_filter(data_path, func=popularity_measure)

@@ -35,10 +35,6 @@ def subset_func(subset, csv_path, lang, subject):
 	#res = result.sortBy(lambda x: x[1], ascending=False)
 	#print(res.collect())
 
-	# to remove the angled brackets from lang and subject
-	lang = lang[1:-1]
-	subject = subject[1:-1]
-
         # For Year aggregation
         # Note: passing tuple to group_column_list variable
         calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', ), 'year')

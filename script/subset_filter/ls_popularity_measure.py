@@ -2,17 +2,20 @@ from pyspark import SparkContext
 from pyspark.sql import SQLContext
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
+
+import subset_filter
 import sys
 
 sc = SparkContext()
 sc.setLogLevel("Error")
 spark = SparkSession.builder.getOrCreate()
 
-def subset_func(subset, csv_path, lang, subject):
-	print(subset.count())
-	#result = subset.select('_Tags').rdd.map(lambda x: x.replace('>','').replace('<',' ')).flatMap(lambda x: x.split(' ')).map(lambda x: (x,1).reduceByKey(lambda a,b: a+b))
-	#res = result.sortBy(lambda x: x[1], ascending=False)
-	#print(res.collect())
+## Set module variable
+subset_filter.spark = spark
+
+def popularity_measure(subset, csv_path, lang, subject):
+    print(subset.count())
+	
 	# count no. of questions for each year
 	df_ques_count = subset.groupBy(subset.year).count()
 	df_ques_count.repartition(1).write.csv(csv_path+subject+'/'+lang+'_'+'ques_count.csv')
@@ -29,7 +32,6 @@ def subset_func(subset, csv_path, lang, subject):
 	df_score_count = subset.groupBy(subset.year).agg({'_Score': 'sum'})
 	df_score_count.repartition(1).write.csv(csv_path+subject+'/'+lang+'_'+'score_count.csv')
 
-
 if __name__ == "__main__":
 	data_path = "file:///home/s1745646/Project/sample2"
 	csv_path = 'file:///home/s2118947/'
@@ -37,22 +39,4 @@ if __name__ == "__main__":
 	if len(sys.argv) > 1:
 		data_path = sys.argv[1]
 
-	sample = spark.read.json(data_path)
-	df = sample.where(sample['_Tags'].isNotNull())
-	df = df.withColumn("_Tags", lower(col("_Tags")))
-
-
-	langs = spark.read.csv("file:///home/s1745646/Project/languages.csv", header=True)
-	subjects = spark.read.csv("file:///home/s1745646/Project/subjects.csv", header=True)
-
-	subset_terms = langs.crossJoin(subjects).rdd.map(lambda x : (x.Languages.lower(), x.Subjects.lower())).collect()
-
-	for term in subset_terms:
-		lang = "{}".format(term[0])
-		subject = "{}".format(term[1])
-		print(lang)
-		print(subject)
-		subset = df.filter(df['_Tags'].contains(lang)).filter(df['_Tags'].contains(subject))
-		subset_func(subset, csv_path, lang, subject)
-#print(subset_terms)
-#sample.printSchema()
+    subset_filter.subset_filter(data_path, func=popularity_measure)

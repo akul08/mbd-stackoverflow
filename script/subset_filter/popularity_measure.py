@@ -1,8 +1,9 @@
 def calculate_popularity_save_csv(subset, csv_path, lang, subject, group_column_list, filename_extension):
-	# printing the current arguments
-	print 'write: ', csv_path, lang, subject, group_column_list, filename_extension 
-        
-	# count no. of questions for each group_column_list
+    # printing the current arguments
+    print 'write: ', csv_path, lang, subject, group_column_list, filename_extension
+
+    # count no. of questions for each group_column_list
+
     df_ques_count = subset.groupBy(*group_column_list).count()
     df_ques_count.repartition(1).write.mode('overwrite').csv(csv_path+subject+'/'+lang+'_'+'ques_count_'+filename_extension)
 
@@ -20,10 +21,10 @@ def calculate_popularity_save_csv(subset, csv_path, lang, subject, group_column_
 
 
 def popularity_measure(subset, csv_path, lang, subject):
-	print(subset.count())
-	#result = subset.select('_Tags').rdd.map(lambda x: x.replace('>','').replace('<',' ')).flatMap(lambda x: x.split(' ')).map(lambda x: (x,1).reduceByKey(lambda a,b: a+b))
-	#res = result.sortBy(lambda x: x[1], ascending=False)
-	#print(res.collect())
+    print(subset.count())
+    #result = subset.select('_Tags').rdd.map(lambda x: x.replace('>','').replace('<',' ')).flatMap(lambda x: x.split(' ')).map(lambda x: (x,1).reduceByKey(lambda a,b: a+b))
+    #res = result.sortBy(lambda x: x[1], ascending=False)
+    #print(res.collect())
 
     # For Year aggregation
     # Note: passing tuple to group_column_list variable

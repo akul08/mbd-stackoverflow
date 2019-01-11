@@ -36,15 +36,3 @@ def popularity_measure(subset, csv_path, lang, subject):
     # For year and month aggregation
     calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', 'month'), 'year_month')
 
-def subset_func(subset, csv_path, lang, subject):
-    print(subset.count())
-    #result = subset.select('_Tags').rdd.map(lambda x: x.replace('>','').replace('<',' ')).flatMap(lambda x: x.split(' ')).map(lambda x: (x,1).reduceByKey(lambda a,b: a+b))
-    #res = result.sortBy(lambda x: x[1], ascending=False)
-    #print(res.collect())
-
-    # For Year aggregation
-    # Note: passing tuple to group_column_list variable
-    calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', ), 'year')
-
-    # For year and month aggregation
-    calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', 'month'), 'year_month')

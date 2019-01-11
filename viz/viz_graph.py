@@ -2,7 +2,10 @@ import glob
 import pandas as pd
 from datetime import datetime
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 from matplotlib.backends.backend_pdf import PdfPages
+
+plt.rcParams["figure.figsize"] = (28, 12)
 
 
 def pretty_text(text):
@@ -86,19 +89,26 @@ def plot_pdf(output_file, output_df):
 
         for y_axis_pop_meas in pop_meas_list:
             df_popmeas = df[df['popularity_measure'] == y_axis_pop_meas]
-            fig = plt.figure(dpi=100)
+            fig, ax = plt.subplots()
 
             for line_lang in language_list:
                 df_subset = df_popmeas[df_popmeas['language'] == line_lang]
-                plt.plot(df_subset['date'], df_subset['value'],
-                         marker='.', label=line_lang)
+                ax.plot(df_subset['date'], df_subset['value'],
+                        marker='.', label=line_lang)
 
             plt.xlabel('Time')
             plt.ylabel(y_axis_pop_meas)
             plt.title(graph_subj)
+
+            # changing x axis labels and ticks
+            ax.xaxis.set_major_formatter(mdates.DateFormatter("%b %y"))
+            ax.xaxis.set_major_locator(mdates.MonthLocator([1]))
+            ax.xaxis.set_minor_locator(mdates.MonthLocator([7]))
+            _ = plt.xticks(rotation=45)
+
             plt.legend()
+            plt.grid(linestyle="--", color='lightgrey')
             # plt.show()
-            plt.tight_layout()
             pdf_pages.savefig(fig)
 
     # Write the PDF document to the disk

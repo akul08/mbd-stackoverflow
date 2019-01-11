@@ -21,9 +21,9 @@ def subset_filter(data_path,
     subset_terms = langs.crossJoin(subjects).rdd.map(lambda x : (x.Languages.lower(), x.Subjects.lower())).collect()
 
     for term in subset_terms:
-		lang = "{}".format(term[0])
-		subject = "{}".format(term[1])
-		print(lang)
-		print(subject)
-		subset = df.filter(df['_Tags'].contains(lang)).filter(df['_Tags'].contains(subject))
-		func(subset, csv_path, lang, subject)
+        lang = "{}".format(term[0])
+        subject = "{}".format(term[1])
+        print(lang)
+        print(subject)
+        subset = df.filter(df['_Tags'].contains(lang)).filter(df['_Tags'].contains(subject))
+        func(subset, csv_path, lang, subject)

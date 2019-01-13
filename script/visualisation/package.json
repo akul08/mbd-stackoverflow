@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "d3": "^3.5.3",
     "datamaps": "^0.5.9"
   }

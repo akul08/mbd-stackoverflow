@@ -1,3 +1,15 @@
-.container {
-    background-color: #ffe;
+body, h2 {
+    margin: 0;
 }
+
+/* header {
+    background-color: #E0B181;
+}
+
+button {
+    background-color: #E0B181; 
+}*/
+
+body {
+    background-color: #81CAE0;
+} 

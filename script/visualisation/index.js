@@ -7,6 +7,15 @@ function titleCase(str) {
    return str.join(' ');
   }
 
+function clone(obj) {
+    if (null == obj || "object" != typeof obj) return obj;
+    var copy = obj.constructor();
+    for (var attr in obj) {
+        if (obj.hasOwnProperty(attr)) copy[attr] = obj[attr];
+    }
+    return copy;
+}
+
 
 so_visualizer = function() {
     let display_settings = {
@@ -55,6 +64,7 @@ so_visualizer = function() {
                 'country' : country
             };
         });
+
         data = clean_d;
 
         // Get unique subjects
@@ -95,6 +105,7 @@ so_visualizer = function() {
         curScoreType = newScoreType;
         updateBubbles(curSubject, curScoreType);
         console.log(curSubject, curScoreType);
+        d3.select("#filter p.scoreType").text("Score type:" + curScoreType);
     }
 
     function subjectChangeListener(d, i, e) {
@@ -102,9 +113,13 @@ so_visualizer = function() {
         curSubject = newSubject;
         updateBubbles(curSubject, curScoreType);
         console.log(curSubject, curScoreType);
+
+        d3.select("#filter p.subject").text("Subject: " + curSubject);
+        console.log(d3.select("#filter p.subject"));
     }
 
     function createScoreTypeBtns(scoretypes) {
+        d3.select("#filter").append('p').classed("scoreType", true).text("Score type:" + curScoreType);
         scoreTypeBtns = d3.select("#score_types");
         scoretypes.forEach( type => {
             scoreTypeBtns.append("button")
@@ -120,6 +135,7 @@ so_visualizer = function() {
     }
 
     function createSubjectBtns(subjects) {
+        d3.select("#filter").append('p').classed("subject", true).text("Subject: " + curScoreType);
         subjectBtns = d3.select("#subject_btns");
 
         subjects.forEach( subject => {
@@ -145,7 +161,7 @@ so_visualizer = function() {
                     rotation: [97,-30]
                 }
         });
-        
+        map.legend();
     }
 
     function validCountry(country) {
@@ -163,7 +179,7 @@ so_visualizer = function() {
         radiusScaler = d3.scale.linear()
                             .domain(d3.extent(data, function(data) {
                                     return data.value}))
-                            .range([2,10]);
+                            .range([1,5]);
     }
 
     function getColorMappings(langs) {
@@ -176,26 +192,26 @@ so_visualizer = function() {
         return mapping;
     }
 
-    let yearyPlotsIntervalId;
-    function playYearlyPlots() {
-        yearyPlotsIntervalId = setInterval(function() {
-            console.log(year);
-            year += 1;
-            if (year == 2019) {
-                year = 2012;
-                addBubbles(year);
-                clearInterval(yearyPlotsIntervalId);
-            } else {
-                addBubbles(year);
-            }
+    // let yearyPlotsIntervalId;
+    // function playYearlyPlots() {
+    //     yearyPlotsIntervalId = setInterval(function() {
+    //         console.log(year);
+    //         year += 1;
+    //         if (year == 2019) {
+    //             year = 2012;
+    //             addBubbles(year);
+    //             clearInterval(yearyPlotsIntervalId);
+    //         } else {
+    //             addBubbles(year);
+    //         }
 
-            updateWorldYearIndicator();
-        }, 1250);
-    }
+    //         updateWorldYearIndicator();
+    //     }, 1250);
+    // }
 
-    function updateWorldYearIndicator() {
-        d3.select("#worldYearIndicator").transition().delay(250).duration(1000).text("" + year);
-    }
+    // function updateWorldYearIndicator() {
+    //     d3.select("#worldYearIndicator").transition().delay(250).duration(1000).text("" + year);
+    // }
 
     function getMapLoc(entry, radius) {
         loc = {};
@@ -213,54 +229,58 @@ so_visualizer = function() {
         return loc
     }
 
-    function getScoreSum() {
-        // Sum results with equal language, subject & country
-        values = new Object();
+    function getScoreWithSeps(...args) {
+         // Sum results with equal language, subject & country
+         values = new Object();
+        //  console.log(values);
 
-        data.forEach(function(current) {
-            key = current['language'] + current['subject'] + current['country']
+         data.forEach(function(current) {
+             key = current['language'] + current['country'];
 
-            if (values[key] == null) {
-                values[key] = current;
-            } else {
-                values[key]['value'] += current['value'];
-            }
-        });
-
-        return Object.values(values);
+             args.forEach(function(elem){
+                 key += '' + current[elem];
+             });
+    
+             if (values[key] == null) {
+                 values[key] = clone(current);
+             } else {
+                 values[key]['value'] += current['value'];
+             }
+         });
+ 
+         return Object.values(values);
     }
 
     function getFilteredData(subject, scoreType) {
-        let subsetD;
 
-        if (scoreType === "All") {
-            subsetD = getScoreSum();
-            // Different scales. update scaler
-        } else {
-            subsetD = data.filter(function(row) {
-                return row['scoreType'] === scoreType;
-             });
-        }
+        if (scoreType === "All" && subject === "All") {
+            return getScoreWithSeps();
 
-        if (subject === "All") {
-            return subsetD;
-        } else {
-            return subsetD.filter(function(row) {
-                return row['subject'] === subject;
+        } else if (scoreType === "All") {
+            return getScoreWithSeps("subject").filter(function(row) {
+                return row['subject'] == subject;
             });
+        } else if (subject === "All") { 
+            return getScoreWithSeps("scoreType").filter(function(row) {
+                return row['scoreType'] == scoreType;
+            });
+        } else {
+            return getScoreWithSeps("subject", "scoreType").filter(function(row) {
+                return row['scoreType'] === scoreType && row['subject'] === subject;
+             });
         }
     }
 
     function updateBubbles(subject, scoreType) {
         d = getFilteredData(subject, scoreType);
-        setScaler(d);
-        
-        bubbles = getBubbles(d, subject);
 
+        bubbles = getBubbles(d);
+        console.log(data.filter(function(row) { return row.country === "United States" })[0])
+        
         map.bubbles(bubbles, {
             popupTemplate: function(geo, data) {
               return '<div class="hoverinfo">' + 
-                    data.name + ": " + 
+                    data.name + " " +
                     data.significance + ''
             },
             borderWidth: .4
@@ -268,15 +288,18 @@ so_visualizer = function() {
         });
     }
 
-    function getBubbles(d, subject) {
+    function getBubbles(d) {
 
         let bubbles = d.map(function(row) {
             radius = radiusScaler(row.value);
             country = row["country"];
+            if (country === "United States") {
+                console.log(row.value);
+            }
             loc = getMapLoc(row, radius);
 
             return {
-                'name': country,
+                'name': country + " " + row['subject'],
                 'radius' : radius,
                 'fillKey' : row['language'],
                 'latitude' : loc['lat'],

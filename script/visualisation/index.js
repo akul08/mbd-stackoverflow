@@ -94,7 +94,7 @@ so_visualizer = function() {
         createScoreTypeBtns(scoretypes);
 
         // Draw the map with settings
-        drawMap();
+        init();
 
         // Add the bubbles;
         updateBubbles(curSubject, curScoreType);
@@ -104,7 +104,7 @@ so_visualizer = function() {
         let newScoreType = d3.event.target.attributes[0].nodeValue;
         curScoreType = newScoreType;
         updateBubbles(curSubject, curScoreType);
-        console.log(curSubject, curScoreType);
+        // console.log(curSubject, curScoreType);
         d3.select("#filter p.scoreType").text("Score type:" + curScoreType);
     }
 
@@ -112,10 +112,10 @@ so_visualizer = function() {
         let newSubject = d3.event.target.attributes[0].nodeValue;
         curSubject = newSubject;
         updateBubbles(curSubject, curScoreType);
-        console.log(curSubject, curScoreType);
+        // console.log(curSubject, curScoreType);
 
         d3.select("#filter p.subject").text("Subject: " + curSubject);
-        console.log(d3.select("#filter p.subject"));
+        // console.log(d3.select("#filter p.subject"));
     }
 
     function createScoreTypeBtns(scoretypes) {
@@ -151,17 +151,148 @@ so_visualizer = function() {
                         .on("click", subjectChangeListener)
     }
 
-    function drawMap(){
+    var series = [
+        ["USA",36.2],["GBR",7.4],["CAN",6.2],["DEU",5.7],["FRA", 4.1],["ESP",4.1],["ITA",3.3],["MEX",3.0],["AUS",2.5],["NLD",2.4],
+        ["IND",2.1],["BRA",2.0],["GRC",1.4],["AUT",1.2],["ROU",1.2],["SRB",1.0],["COL",0.8],["POL",0.8],["ZAF",0.7],["SWE",0.7],
+        ["DNK",0.6],["VEN",0.6],["JPN",0.6],["KOR",0.6],["BEL",0.5],["RUS",0.5],["PRT",0.5]
+                            ];
+
+    var dataset = {};
+
+    var onlyValues = series.map(function(obj){ return obj[1]; });
+    var minValue = Math.min.apply(null, onlyValues),
+        maxValue = Math.max.apply(null, onlyValues);
+
+    var paletteScale = d3.scale.linear()
+                                .domain([minValue,maxValue])
+                                .range(["rgb(0,0,0)","rgb(219,219,219)"]);
+
+    series.forEach(function(item){ //
+        // item example value ["USA", 36.2]
+        var iso = item[0],
+            value = item[1];
+        dataset[iso] = { percent: value, fillColor: paletteScale(value) };
+    });
+
+    globalRotation = [97, -30];
+    globalZoom = 250;
+    var globalTranslate = [500, 250];
+    var globalRange = [2,6]
+    function init(){
         map = new Datamap({
                 element: document.getElementById("container"),
                 scope: 'world',
-                projection: 'mercator',
-                fills: getColorMappings(languages), 
-                projectionConfig: {
-                    rotation: [97,-30]
-                }
+                fills: getColorMappings(languages),
+                geographyConfig: {
+                    highlightOnHover: false,
+                    responsive: true,       
+                    borderColor: 'rgba(222,222,222,0.2)',
+                    highlightBorderWidth: 1,
+                }, 
+                projection : "orthographic",
+                projectionConfig : {
+                    rotation : globalRotation
+                },
+                data: dataset,
+                setProjection: function(element, options) {
+                                var width = options.width || element.offsetWidth;
+                                var height = options.height || element.offsetHeight;
+                                var projection, path;
+                                var svg = this.svg;
+                            
+                                projection = d3.geo[options.projection]()
+                                    .scale((width + 1) / 2 / Math.PI)
+                                    .translate([width / 2, height / (options.projection === "mercator" ? 1.45 : 1.8)]);
+
+                                svg.append("defs").append("path")
+                                    .datum({type: "Sphere"})
+                                    .attr("id", "sphere")
+                                    .attr("d", path);
+
+                                svg.append("use")
+                                    .attr("class", "stroke")
+                                    .attr("xlink:href", "#sphere");
+
+                                svg.append("use")
+                                    .attr("class", "fill")
+                                    .attr("xlink:href", "#sphere");
+
+                                projection.scale(globalZoom)
+                                            .clipAngle(90)
+                                            .rotate(options.projectionConfig.rotation)
+                                            .translate(globalTranslate);
+
+                                path = d3.geo.path().projection( projection );
+
+                                return {path: path, projection: projection};
+                            }
         });
-        map.legend();
+        map.legend({
+            legendTitle : "Languages"
+        });
+
+        map.graticule();
+          
+        var zoom = d3.behavior.zoom().on("zoom", function() {
+            
+            scale = d3.event.scale;
+            globalZoom = globalZoom * d3.event.scale;
+
+            radiusZoom = 0.01 * globalZoom
+            scaleRange = [2 + radiusZoom,6 + radiusZoom]
+            setScaler(data, scaleRange);
+            // else {
+            //     scaleRange = [Math.max(2, 2 * 1.65 * scale),Math.max(6, 6 * 1.5 * scale)]
+            //     setScaler(data, scaleRange);
+            // }
+            
+            // translate = d3.event.translate
+            // console.log(translate);
+            // // globalTranslate[1] = globalTranslate[1] + translate[1];
+            // // globalTranslate[0] = globalTranslate[0] + translate[0];
+            // map.svg.selectAll("g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+
+            redraw();
+            
+        });
+           
+        var drag = d3.behavior.drag().on('drag', function() {
+            var dx = d3.event.dx;
+            var dy = d3.event.dy;
+
+            var rotation = map.projection.rotate();
+            var radius = map.projection.scale();
+            var scale = d3.scale.linear().domain([-1 * radius, radius]).range([-90, 90]);
+            var degX = scale(dx);
+            var degY = scale(dy);
+            rotation[0] += degX;
+            rotation[1] -= degY;
+            if (rotation[1] > 90) rotation[1] = 90;
+            if (rotation[1] < -90) rotation[1] = -90;
+
+            if (rotation[0] >= 180) rotation[0] -= 360;
+            globalRotation = rotation;
+            redraw();
+        })
+        
+        d3.select("#container").select("svg").call(drag);
+        d3.select("#container").select("svg").call(zoom);
+
+        d3.select("#container").select("svg").append("defs").append("radialGradient")
+                                            .attr("id", "ocean_fill")
+                                            .attr("cx", "75%")
+                                            .attr("cy", "25%");
+    }
+
+    // function mapZoom(datamap) {
+    //     datamap.svg.call(d3.behavior.zoom().on("zoom", redraw));
+    //     datamap.svg.selectAll("g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+    // }
+
+    function redraw() {
+        d3.select("#container").html('');
+        init();
+        updateBubbles(curSubject, curScoreType);
     }
 
     function validCountry(country) {
@@ -173,18 +304,18 @@ so_visualizer = function() {
     function setColorMap(languages) {
         colorMap = d3.scale.ordinal()
                             .domain(languages)
-                            .range(["#1b70fc", "#cb9b64", "#b21bff", "#7a7352", "#88fc07"]);
+                            .range(["#469990", "#000075", "#800000", "aqua", "#grey"]);
     }
-    function setScaler(data) {
+    function setScaler(data, range=[2,6]) {
         radiusScaler = d3.scale.linear()
                             .domain(d3.extent(data, function(data) {
                                     return data.value}))
-                            .range([1,5]);
+                            .range(range);
     }
 
     function getColorMappings(langs) {
         mapping = new Object();
-        mapping['defaultFill'] = "#ABDDA4";
+        mapping['defaultFill'] = "rgba(30,30,30,0.1)";
 
         langs.forEach(lang => {
             mapping[lang] = colorMap(lang);
@@ -217,11 +348,11 @@ so_visualizer = function() {
         loc = {};
 
         if (languages.indexOf(entry['language']) === 1) {
-            loc['lat'] = entry['lat'] - radius;
-            loc['lon'] = entry['lon'] + radius;
+            loc['lat'] = entry['lat'] - 0.25 * radius;
+            loc['lon'] = entry['lon'] + 0.25 * radius;
         } else if (languages.indexOf(entry['language']) === 2) {
-            loc['lat'] = entry['lat'] + radius;
-            loc['lon'] = entry['lon'] + radius;
+            loc['lat'] = entry['lat'] + 0.25 * radius;
+            loc['lon'] = entry['lon'] + 0.25 * radius;
         } else {
             loc['lat'] = entry['lat'];
             loc['lon'] = entry['lon'];
@@ -275,7 +406,6 @@ so_visualizer = function() {
         d = getFilteredData(subject, scoreType);
 
         bubbles = getBubbles(d);
-        console.log(data.filter(function(row) { return row.country === "United States" })[0])
         
         map.bubbles(bubbles, {
             popupTemplate: function(geo, data) {
@@ -294,7 +424,6 @@ so_visualizer = function() {
             radius = radiusScaler(row.value);
             country = row["country"];
             if (country === "United States") {
-                console.log(row.value);
             }
             loc = getMapLoc(row, radius);
 

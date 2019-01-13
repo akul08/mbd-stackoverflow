@@ -1,0 +1,21 @@
+{
+  "name": "vis_stackoverflow",
+  "version": "0.0.1",
+  "description": "A d3 visualisation of the stackoverflow aggregations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "D3",
+    "StackOverflow",
+    "MBD"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "d3": "^3.5.3",
+    "datamaps": "^0.5.9"
+  }
+}

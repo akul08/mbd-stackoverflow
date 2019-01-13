@@ -9,16 +9,20 @@ function titleCase(str) {
 
 
 so_visualizer = function() {
+    let display_settings = {
+        // Fill
+    };
     var year = 2012;
-    var cur_subject;
     var map;
     var ccentroids = new Object();
     var data;
     var radiusScaler;
     var colorMap;
-    var subjects;
     var languages;
-    var scoreType = "Question";
+    var subjects;
+
+    var curSubject = "All";
+    var curScoreType = "All";
 
     d3.csv("country_centroids.csv", function(data){
         for (var i = 0; i < data.length; i++) {
@@ -39,9 +43,11 @@ so_visualizer = function() {
             country = titleCase(row['country'])
             lon = ccentroids[country].lon
             lat = ccentroids[country].lat
+
             return {
                 'language' : row['language'],
-                'subject': row['subject'],
+                'subject': row['subject'].replace(' ', ''),
+                'scoreType' : row['popularity_measure'],
                 'year' : parseInt(row["year"]),
                 'lon' : parseInt(lon),
                 'lat' : parseInt(lat),
@@ -49,49 +55,95 @@ so_visualizer = function() {
                 'country' : country
             };
         });
+        data = clean_d;
 
-        // Sum results with equal language, subject & country
-        values = new Object();
-
-        clean_d.forEach(function(current) {
-            key = current['language'] + current['subject'] + current['country']
-
-            if (values[key] == null) {
-                values[key] = current;
-            } else {
-                values[key]['value'] += current['value'];
-            }
-        });
-
-        data = Object.values(values);
-
+        // Get unique subjects
         subjects = new Set(data.map(function(row){
             return row['subject'];
         }));
+        subjects = Array.from(subjects);
 
+        // Get unique languages
         languages = new Set(data.map(function(row){
             return row['language'];
         }));
-        
         languages = Array.from(languages);
-        
 
-        setScaler();
+        // Get unique Score Types
+        scoretypes = new Set(data.map(function(row){
+            return row['scoreType'];
+        }));
+        scoretypes = Array.from(scoretypes);
+
+        // Set default radius scaler & color mapping.
+        setScaler(data);
         setColorMap(languages);
 
+        // Add subject & score type btns
+        createSubjectBtns(subjects);
+        createScoreTypeBtns(scoretypes);
+
+        // Draw the map with settings
         drawMap();
-        addBubbles();
+
+        // Add the bubbles;
+        updateBubbles(curSubject, curScoreType);
     });
+
+    function scoreTypeChangeListener(d, i, e) {
+        let newScoreType = d3.event.target.attributes[0].nodeValue;
+        curScoreType = newScoreType;
+        updateBubbles(curSubject, curScoreType);
+        console.log(curSubject, curScoreType);
+    }
+
+    function subjectChangeListener(d, i, e) {
+        let newSubject = d3.event.target.attributes[0].nodeValue;
+        curSubject = newSubject;
+        updateBubbles(curSubject, curScoreType);
+        console.log(curSubject, curScoreType);
+    }
+
+    function createScoreTypeBtns(scoretypes) {
+        scoreTypeBtns = d3.select("#score_types");
+        scoretypes.forEach( type => {
+            scoreTypeBtns.append("button")
+                        .attr('id', type)
+                        .text(type)
+                        .on("click", scoreTypeChangeListener)
+        });
+
+        scoreTypeBtns.append("button")
+                        .attr('id', "All")
+                        .text("All")
+                        .on("click", scoreTypeChangeListener)
+    }
+
+    function createSubjectBtns(subjects) {
+        subjectBtns = d3.select("#subject_btns");
+
+        subjects.forEach( subject => {
+            subjectBtns.append("button")
+                        .attr('id', subject)
+                        .text(subject)
+                        .on("click", subjectChangeListener)
+        });
+
+        subjectBtns.append("button")
+                        .attr('id', "All")
+                        .text("All")
+                        .on("click", subjectChangeListener)
+    }
 
     function drawMap(){
         map = new Datamap({
                 element: document.getElementById("container"),
                 scope: 'world',
-                // projection: 'orthographic',
+                projection: 'mercator',
                 fills: getColorMappings(languages), 
                 projectionConfig: {
-                rotation: [97,-30]
-            }
+                    rotation: [97,-30]
+                }
         });
         
     }
@@ -107,11 +159,11 @@ so_visualizer = function() {
                             .domain(languages)
                             .range(["#1b70fc", "#cb9b64", "#b21bff", "#7a7352", "#88fc07"]);
     }
-    function setScaler() {
+    function setScaler(data) {
         radiusScaler = d3.scale.linear()
                             .domain(d3.extent(data, function(data) {
                                     return data.value}))
-                            .range([2,100]);
+                            .range([2,10]);
     }
 
     function getColorMappings(langs) {
@@ -149,7 +201,6 @@ so_visualizer = function() {
         loc = {};
 
         if (languages.indexOf(entry['language']) === 1) {
-            console.log(languages.indexOf(entry['language']), entry['language'])
             loc['lat'] = entry['lat'] - radius;
             loc['lon'] = entry['lon'] + radius;
         } else if (languages.indexOf(entry['language']) === 2) {
@@ -162,16 +213,62 @@ so_visualizer = function() {
         return loc
     }
 
-    function addBubbles(year = null) {
-        d = data.filter(function(row) {
-            return row['subject'] === "Summarybigdata";
+    function getScoreSum() {
+        // Sum results with equal language, subject & country
+        values = new Object();
+
+        data.forEach(function(current) {
+            key = current['language'] + current['subject'] + current['country']
+
+            if (values[key] == null) {
+                values[key] = current;
+            } else {
+                values[key]['value'] += current['value'];
+            }
         });
 
-        if (year !== null) {
-            d = data.filter(function(d){
-                return d['year' ] === year
-            }); 
+        return Object.values(values);
+    }
+
+    function getFilteredData(subject, scoreType) {
+        let subsetD;
+
+        if (scoreType === "All") {
+            subsetD = getScoreSum();
+            // Different scales. update scaler
+        } else {
+            subsetD = data.filter(function(row) {
+                return row['scoreType'] === scoreType;
+             });
         }
+
+        if (subject === "All") {
+            return subsetD;
+        } else {
+            return subsetD.filter(function(row) {
+                return row['subject'] === subject;
+            });
+        }
+    }
+
+    function updateBubbles(subject, scoreType) {
+        d = getFilteredData(subject, scoreType);
+        setScaler(d);
+        
+        bubbles = getBubbles(d, subject);
+
+        map.bubbles(bubbles, {
+            popupTemplate: function(geo, data) {
+              return '<div class="hoverinfo">' + 
+                    data.name + ": " + 
+                    data.significance + ''
+            },
+            borderWidth: .4
+        
+        });
+    }
+
+    function getBubbles(d, subject) {
 
         let bubbles = d.map(function(row) {
             radius = radiusScaler(row.value);
@@ -188,16 +285,10 @@ so_visualizer = function() {
             }
         });
 
-        console.log(bubbles);
-        map.bubbles(bubbles, {
-            popupTemplate: function(geo, data) {
-              return '<div class="hoverinfo">' + 
-                    data.name + ": " + 
-                    data.significance + ''
-            }});
+        return bubbles;       
     }
 
     return {
-        'addBubbles' : addBubbles
+        // 'addBubbles' : addBubbles
     }
 }();

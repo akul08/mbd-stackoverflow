@@ -5,7 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.backends.backend_pdf import PdfPages
 
-plt.rcParams["figure.figsize"] = (28, 12)
+plt.rcParams["figure.figsize"] = (14, 7)
+plt.rcParams.update({'font.size': 15})
 
 
 def pretty_text(text):
@@ -13,6 +14,8 @@ def pretty_text(text):
     text = text.replace('>', '')
     text = text.replace('-', ' ')
     text = text.title()
+    if text == 'Ques':
+        text = 'Questions'
     return text
 
 
@@ -109,7 +112,7 @@ def plot_pdf(output_file, output_df):
             plt.legend()
             plt.grid(linestyle="--", color='lightgrey')
             # plt.show()
-            pdf_pages.savefig(fig)
+            pdf_pages.savefig(fig, bbox_inches='tight')
 
     # Write the PDF document to the disk
     pdf_pages.close()

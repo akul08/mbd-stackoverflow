@@ -18,7 +18,7 @@ so_visualizer = function() {
     var colorMap;
     var subjects;
     var languages;
-    var scoreType = Question;
+    var scoreType = "Question";
 
     d3.csv("country_centroids.csv", function(data){
         for (var i = 0; i < data.length; i++) {

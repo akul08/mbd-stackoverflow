@@ -55,7 +55,7 @@ so_visualizer = function() {
 
             return {
                 'language' : row['language'],
-                'subject': titleCase(row['subject'].replace("Summary", "").replace(' ', '')),
+                'subject': titleCase(row['subject'].replace("Summary", "").replace(' ', '_')),
                 'scoreType' : row['popularity_measure'],
                 'year' : parseInt(row["year"]),
                 'lon' : parseInt(lon),
@@ -114,7 +114,7 @@ so_visualizer = function() {
         updateBubbles(curSubject, curScoreType);
         // console.log(curSubject, curScoreType);
 
-        d3.select("#filter p.subject").text("Subject: " + curSubject);
+        d3.select("#filter p.subject").text("Subject: " + curSubject.replace('_', ' '));
         // console.log(d3.select("#filter p.subject"));
     }
 
@@ -137,14 +137,14 @@ so_visualizer = function() {
     }
 
     function createSubjectBtns(subjects) {
-        d3.select("#filter").append('p').classed("subject", true).text("Subject: " + curScoreType);
+        d3.select("#filter").append('p').classed("subject", true).text("Subject: " + curSubject.replace('_', ' '));
         subjectBtns = d3.select("#subject_btns");
 
         subjects.forEach( subject => {
             subjectBtns.append("button")
                         .attr("id", subject)
                         .attr("class", "btn btn-default navbar-btn")
-                        .text(subject)
+                        .text(subject.replace('_', ' '))
                         .on("click", subjectChangeListener)
         });
 

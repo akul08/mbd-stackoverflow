@@ -155,94 +155,137 @@ so_visualizer = function() {
                         .on("click", subjectChangeListener)
     }
 
-    var series = [
-        ["USA",36.2],["GBR",7.4],["CAN",6.2],["DEU",5.7],["FRA", 4.1],["ESP",4.1],["ITA",3.3],["MEX",3.0],["AUS",2.5],["NLD",2.4],
-        ["IND",2.1],["BRA",2.0],["GRC",1.4],["AUT",1.2],["ROU",1.2],["SRB",1.0],["COL",0.8],["POL",0.8],["ZAF",0.7],["SWE",0.7],
-        ["DNK",0.6],["VEN",0.6],["JPN",0.6],["KOR",0.6],["BEL",0.5],["RUS",0.5],["PRT",0.5]
-                            ];
+    // var series = [
+    //     ["USA",36.2],["GBR",7.4],["CAN",6.2],["DEU",5.7],["FRA", 4.1],["ESP",4.1],["ITA",3.3],["MEX",3.0],["AUS",2.5],["NLD",2.4],
+    //     ["IND",2.1],["BRA",2.0],["GRC",1.4],["AUT",1.2],["ROU",1.2],["SRB",1.0],["COL",0.8],["POL",0.8],["ZAF",0.7],["SWE",0.7],
+    //     ["DNK",0.6],["VEN",0.6],["JPN",0.6],["KOR",0.6],["BEL",0.5],["RUS",0.5],["PRT",0.5]
+    //                         ];
 
-    var dataset = {};
+    // var dataset = {};
 
-    var onlyValues = series.map(function(obj){ return obj[1]; });
-    var minValue = Math.min.apply(null, onlyValues),
-        maxValue = Math.max.apply(null, onlyValues);
+    // var onlyValues = series.map(function(obj){ return obj[1]; });
+    // var minValue = Math.min.apply(null, onlyValues),
+    //     maxValue = Math.max.apply(null, onlyValues);
 
-    var paletteScale = d3.scale.linear()
-                                .domain([minValue,maxValue])
-                                .range(["rgb(0,0,0)","rgb(219,219,219)"]);
+    // var paletteScale = d3.scale.linear()
+    //                             .domain([minValue,maxValue])
+    //                             .range(["rgb(0,0,0)","rgb(219,219,219)"]);
 
-    series.forEach(function(item){ //
-        // item example value ["USA", 36.2]
-        var iso = item[0],
-            value = item[1];
-        dataset[iso] = { percent: value, fillColor: paletteScale(value) };
-    });
+    // series.forEach(function(item){ //
+    //     // item example value ["USA", 36.2]
+    //     var iso = item[0],
+    //         value = item[1];
+    //     dataset[iso] = { percent: value, fillColor: paletteScale(value) };
+    // });
 
     globalRotation = [97, -30];
     globalZoom = 250;
     var globalTranslate = [500, 250];
     var globalRange = [2,6]
+    var globalProjection = "orthographic"
+
+    d3.select("#displayType").text("Change display type, current: " + globalProjection)
+                            .on("click", function() {
+                                if (globalProjection === "orthographic") {
+                                    globalProjection = "mercator";
+                                } else {
+                                    globalProjection = "orthographic"
+                                }
+                                d3.select("#displayType").text("Change display type, current:" + globalProjection);
+                                redraw();
+                            });
+
     function init(){
-        map = new Datamap({
-                element: document.getElementById("container"),
-                scope: 'world',
-                fills: getColorMappings(languages),
-                geographyConfig: {
-                    highlightOnHover: false,
-                    responsive: true,       
-                    borderColor: 'rgba(222,222,222,0.2)',
-                    highlightBorderWidth: 1,
-                }, 
-                projection : "orthographic",
-                projectionConfig : {
-                    rotation : globalRotation
-                },
-                data: dataset,
-                setProjection: function(element, options) {
-                                var width = options.width || element.offsetWidth;
-                                var height = options.height || element.offsetHeight;
-                                var projection, path;
-                                var svg = this.svg;
-                            
-                                projection = d3.geo[options.projection]()
-                                    .scale((width + 1) / 2 / Math.PI)
-                                    .translate([width / 2, height / (options.projection === "mercator" ? 1.45 : 1.8)]);
 
-                                svg.append("defs").append("path")
-                                    .datum({type: "Sphere"})
-                                    .attr("id", "sphere")
-                                    .attr("d", path);
+        if (globalProjection === "orthographic") {
+            drawOrthographic();
+        } else {
+            drawMercator();
+        }
 
-                                svg.append("use")
-                                    .attr("class", "stroke")
-                                    .attr("xlink:href", "#sphere");
-
-                                svg.append("use")
-                                    .attr("class", "fill")
-                                    .attr("xlink:href", "#sphere");
-
-                                projection.scale(globalZoom)
-                                            .clipAngle(90)
-                                            .rotate(options.projectionConfig.rotation)
-                                            .translate(globalTranslate);
-
-                                path = d3.geo.path().projection( projection );
-
-                                return {path: path, projection: projection};
-                            }
-        });
         map.legend({
             legendTitle : "Languages"
         });
 
         map.graticule();
-          
+
+        d3.select("#container").select("svg").append("defs").append("radialGradient")
+                                            .attr("id", "ocean_fill")
+                                            .attr("cx", "75%")
+                                            .attr("cy", "25%");
+    }
+
+    function drawMercator() {
+        map = new Datamap({
+            element: document.getElementById("container"),
+            scope: 'world',
+            fills: getColorMappings(languages),
+            geographyConfig: {
+                highlightOnHover: false,
+                responsive: true,       
+                borderColor: 'rgba(222,222,222,0.2)',
+                highlightBorderWidth: 1,
+            }, 
+            projection : "mercator"
+        });
+    }
+
+    function drawOrthographic() {
+        map = new Datamap({
+            element: document.getElementById("container"),
+            scope: 'world',
+            fills: getColorMappings(languages),
+            geographyConfig: {
+                highlightOnHover: false,
+                responsive: true,       
+                borderColor: 'rgba(222,222,222,0.2)',
+                highlightBorderWidth: 1,
+            }, 
+            projection : "orthographic",
+            projectionConfig : {
+                rotation : globalRotation
+            },
+            // data: dataset,
+            setProjection: function(element, options) {
+                            var width = options.width || element.offsetWidth;
+                            var height = options.height || element.offsetHeight;
+                            var projection, path;
+                            var svg = this.svg;
+                        
+                            projection = d3.geo[options.projection]()
+                                .scale((width + 1) / 2 / Math.PI)
+                                .translate([width / 2, height / (options.projection === "mercator" ? 1.45 : 1.8)]);
+
+                            svg.append("defs").append("path")
+                                .datum({type: "Sphere"})
+                                .attr("id", "sphere")
+                                .attr("d", path);
+
+                            svg.append("use")
+                                .attr("class", "stroke")
+                                .attr("xlink:href", "#sphere");
+
+                            svg.append("use")
+                                .attr("class", "fill")
+                                .attr("xlink:href", "#sphere");
+
+                            projection.scale(globalZoom)
+                                        .clipAngle(90)
+                                        .rotate(options.projectionConfig.rotation)
+                                        .translate(globalTranslate);
+
+                            path = d3.geo.path().projection( projection );
+
+                            return {path: path, projection: projection};
+                        }
+        });
+
         var zoom = d3.behavior.zoom().on("zoom", function() {
             
             scale = d3.event.scale;
             globalZoom = globalZoom * d3.event.scale;
 
-            radiusZoom = 0.01 * globalZoom
+            radiusZoom = 0.0005 * globalZoom
             scaleRange = [2 + radiusZoom,6 + radiusZoom]
             setScaler(data, scaleRange);
             // else {
@@ -281,17 +324,7 @@ so_visualizer = function() {
         
         d3.select("#container").select("svg").call(drag);
         d3.select("#container").select("svg").call(zoom);
-
-        d3.select("#container").select("svg").append("defs").append("radialGradient")
-                                            .attr("id", "ocean_fill")
-                                            .attr("cx", "75%")
-                                            .attr("cy", "25%");
     }
-
-    // function mapZoom(datamap) {
-    //     datamap.svg.call(d3.behavior.zoom().on("zoom", redraw));
-    //     datamap.svg.selectAll("g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
-    // }
 
     function redraw() {
         d3.select("#container").html('');
@@ -319,7 +352,7 @@ so_visualizer = function() {
 
     function getColorMappings(langs) {
         mapping = new Object();
-        mapping['defaultFill'] = "rgba(30,30,30,0.1)";
+        mapping['defaultFill'] = "#eee"//"rgba(30,30,30,0.1)";
 
         langs.forEach(lang => {
             mapping[lang] = colorMap(lang);

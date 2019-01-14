@@ -1,6 +1,6 @@
 function titleCase(str) {
     str = str.toLowerCase()
-             .split(' ') 
+             .split(' ')
              .map(function(word) {
                     return word !== "and" ? (word.charAt(0).toUpperCase() + word.slice(1)) : word;
                 });
@@ -55,7 +55,7 @@ so_visualizer = function() {
 
             return {
                 'language' : row['language'],
-                'subject': row['subject'].replace(' ', ''),
+                'subject': titleCase(row['subject'].replace("Summary", "").replace(' ', '')),
                 'scoreType' : row['popularity_measure'],
                 'year' : parseInt(row["year"]),
                 'lon' : parseInt(lon),
@@ -105,7 +105,7 @@ so_visualizer = function() {
         curScoreType = newScoreType;
         updateBubbles(curSubject, curScoreType);
         // console.log(curSubject, curScoreType);
-        d3.select("#filter p.scoreType").text("Score type:" + curScoreType);
+        d3.select("#filter p.scoreType").text("Score type: " + curScoreType);
     }
 
     function subjectChangeListener(d, i, e) {
@@ -119,17 +119,19 @@ so_visualizer = function() {
     }
 
     function createScoreTypeBtns(scoretypes) {
-        d3.select("#filter").append('p').classed("scoreType", true).text("Score type:" + curScoreType);
+        d3.select("#filter").append('p').classed("scoreType", true).text("Score type: " + curScoreType);
         scoreTypeBtns = d3.select("#score_types");
         scoretypes.forEach( type => {
             scoreTypeBtns.append("button")
-                        .attr('id', type)
+                        .attr("id", type)
+                        .attr("class", "btn btn-default navbar-btn")
                         .text(type)
                         .on("click", scoreTypeChangeListener)
         });
 
         scoreTypeBtns.append("button")
-                        .attr('id', "All")
+                        .attr("id", "All")
+                        .attr("class", "btn btn-default navbar-btn")
                         .text("All")
                         .on("click", scoreTypeChangeListener)
     }
@@ -140,13 +142,15 @@ so_visualizer = function() {
 
         subjects.forEach( subject => {
             subjectBtns.append("button")
-                        .attr('id', subject)
+                        .attr("id", subject)
+                        .attr("class", "btn btn-default navbar-btn")
                         .text(subject)
                         .on("click", subjectChangeListener)
         });
 
         subjectBtns.append("button")
-                        .attr('id', "All")
+                        .attr("id", "All")
+                        .attr("class", "btn btn-default navbar-btn")
                         .text("All")
                         .on("click", subjectChangeListener)
     }

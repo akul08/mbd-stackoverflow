@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <title>SO Visualisation</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono" rel="stylesheet">
+    <!-- Bootstrap cdnjs -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,20 +16,22 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
     <script src="node_modules/datamaps/dist/datamaps.all.min.js"></script>
 
-    <div class="container">
-        <header>
-            <h2> Stack overflow Visualisation </h2>
-        </header>
+    <div class="container body-shadow">
         
-
-        <div id="world">
-           <p> World post distribution </p>
-           <div id="subject_btns"></div>
-           <div id="score_types"></div>
-           <div id="filter"></div>
-        </div>
-    
-        <div id="container" style="position: relative; width: 1000px; height: 750px;"></div>
+        <nav class="navbar navbar-default">
+            <div class="header clearfix">
+                <h2> Stackoverflow Visualisation </h2>
+            </div>
+            <div class="container-fluid">
+                <div id="world" class="navbar-header">
+                   <p class="center"> World post distribution </p>
+                   <div id="subject_btns"><span>Select Subject: </span></div>
+                   <div id="score_types"><span>Select Score: </span></div>
+                   <div id="filter"></div>
+                </div>
+            </div>
+        </nav>
+        <div id="container" class="globe-div"style=""></div>
     </div>
 
     <script src="index.js"></script> 

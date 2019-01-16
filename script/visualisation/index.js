@@ -61,6 +61,7 @@ so_visualizer = function() {
                 'lon' : parseInt(lon),
                 'lat' : parseInt(lat),
                 'value' : parseInt(row['value']),
+                // 'radius' : parseInt(row['value']),
                 'country' : country
             };
         });
@@ -181,17 +182,29 @@ so_visualizer = function() {
     globalRotation = [97, -30];
     globalZoom = 250;
     var globalTranslate = [500, 250];
-    var globalRange = [2,6]
-    var globalProjection = "orthographic"
+    var globalRange = [2,6];
+    var globalProjection = "orthographic";
+    var scaleType = "relative";
 
-    d3.select("#displayType").text("Change display type, current: " + globalProjection)
+    d3.select("#displayType").text(globalProjection)
                             .on("click", function() {
                                 if (globalProjection === "orthographic") {
                                     globalProjection = "mercator";
                                 } else {
-                                    globalProjection = "orthographic"
+                                    globalProjection = "orthographic";
                                 }
-                                d3.select("#displayType").text("Change display type, current:" + globalProjection);
+                                d3.select("#displayType").text(globalProjection);
+                                redraw();
+                            });
+
+    d3.select("#scaleType").text(scaleType)
+                            .on("click", function() {
+                                if (scaleType === "relative") {
+                                    scaleType = "global";
+                                } else {
+                                    scaleType = "relative";
+                                }
+                                d3.select("#scaleType").text(scaleType);
                                 redraw();
                             });
 
@@ -225,8 +238,18 @@ so_visualizer = function() {
                 responsive: true,       
                 borderColor: 'rgba(222,222,222,0.2)',
                 highlightBorderWidth: 1,
+                borderWidth: 1,
+                borderOpacity: 1,
+                borderColor: '#C0C0C0',
             }, 
-            projection : "mercator"
+            projection : "mercator",
+            done: function(datamap){
+                datamap.svg.call(d3.behavior.zoom().on("zoom", redraw));
+                function redraw() {
+                    datamap.svg.selectAll("g").attr("transform", 
+                                                    "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+                }
+            }
         });
     }
 
@@ -240,6 +263,9 @@ so_visualizer = function() {
                 responsive: true,       
                 borderColor: 'rgba(222,222,222,0.2)',
                 highlightBorderWidth: 1,
+                borderWidth: 1,
+                borderOpacity: 1,
+                borderColor: '#C0C0C0',
             }, 
             projection : "orthographic",
             projectionConfig : {
@@ -343,7 +369,7 @@ so_visualizer = function() {
                             .domain(languages)
                             .range(["#469990", "#000075", "#800000", "aqua", "#grey"]);
     }
-    function setScaler(data, range=[2,6]) {
+    function setScaler(data, range=[2,25]) {
         radiusScaler = d3.scale.linear()
                             .domain(d3.extent(data, function(data) {
                                     return data.value}))
@@ -352,7 +378,7 @@ so_visualizer = function() {
 
     function getColorMappings(langs) {
         mapping = new Object();
-        mapping['defaultFill'] = "#eee"//"rgba(30,30,30,0.1)";
+        mapping['defaultFill'] = "#eee"; //"rgba(30,30,30,0.1)";
 
         langs.forEach(lang => {
             mapping[lang] = colorMap(lang);
@@ -440,14 +466,21 @@ so_visualizer = function() {
     }
 
     function updateBubbles(subject, scoreType) {
+        all = getFilteredData('All', 'All');
         d = getFilteredData(subject, scoreType);
+        if (scaleType === "global") {
+            setScaler(all);
+        } else {
+            setScaler(d);   
+        }
 
         bubbles = getBubbles(d);
         
         map.bubbles(bubbles, {
             popupTemplate: function(geo, data) {
               return '<div class="hoverinfo">' + 
-                    data.name + " " +
+                    data.country + ", Subject:  " + 
+                    data.name + ", " +
                     data.significance + ''
             },
             borderWidth: .4
@@ -458,15 +491,21 @@ so_visualizer = function() {
     function getBubbles(d) {
 
         let bubbles = d.map(function(row) {
-            radius = radiusScaler(row.value);
+            radius = radiusScaler(row['value']);
             country = row["country"];
             if (country === "United States") {
             }
             loc = getMapLoc(row, radius);
 
+            name = curSubject
+
+            // name = country + " " + row['subject'];
+            // name = curSubject === "All" ? country + ", subject: " + curSubject : name ;
+
             return {
-                'name': country + " " + row['subject'],
+                'name': name,
                 'radius' : radius,
+                'country' : country,
                 'fillKey' : row['language'],
                 'latitude' : loc['lat'],
                 'longitude' : loc['lon'],

@@ -11,7 +11,8 @@ def subset_filter(data_path,
                     subjects_path="file:///home/s1745646/Project/subjects.csv", 
                     func=subset_func):
 
-    sample = spark.read.json(data_path)
+    #sample = spark.read.json(data_path)
+    sample = spark.read.parquet(data_path)
     df = sample.where(sample['_Tags'].isNotNull())
     df = df.withColumn("_Tags", lower(col("_Tags")))
 

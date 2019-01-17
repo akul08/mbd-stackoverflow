@@ -195,6 +195,7 @@ so_visualizer = function() {
                                 }
                                 d3.select("#displayType").text(globalProjection);
                                 redraw();
+                                updateBubbles(curSubject, curScoreType);
                             });
 
     d3.select("#scaleType").text(scaleType)

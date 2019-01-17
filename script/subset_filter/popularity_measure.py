@@ -31,8 +31,7 @@ def popularity_measure(subset, csv_path, lang, subject):
 
     # For Year aggregation
     # Note: passing tuple to group_column_list variable
-    calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', ), 'year')
+    calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', '_PostTypeId', 'country' ), 'year')
 
     # For year and month aggregation
-    calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', 'month'), 'year_month_with_location')
-
+    calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', 'month', '_PostTypeId', 'country's), 'year_month_with_location')

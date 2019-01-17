@@ -1,15 +1,46 @@
-body, h2 {
-    margin: 0;
-}
-
-/* header {
-    background-color: #E0B181;
-}
-
-button {
-    background-color: #E0B181; 
-}*/
-
+html,
 body {
-    background-color: #81CAE0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #fff;
 } 
+.header, .center {
+    text-align: center;
+}
+.navbar {
+    margin-bottom: 0;
+}
+.navbar-header {
+    width: 100%;
+}
+.btn {
+    margin: 5px;
+}
+.body-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    /*margin-top: 20px;*/
+    height: 100%;
+    padding: 0 !important;
+    border-radius: 4px;
+}
+.datamaps-legend {
+    display: inline-block;
+    left: auto !important;
+    right: 50px;
+}
+.globe-div {
+    margin-top: 10px;
+    position: relative; 
+    width: 100%;
+    height: 700px;
+    border-radius: 4px;
+    background-color: lightblue;
+}
+.globe-div path {
+    margin-top: 10px;
+}

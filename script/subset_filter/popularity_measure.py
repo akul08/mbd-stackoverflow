@@ -34,5 +34,5 @@ def popularity_measure(subset, csv_path, lang, subject):
     calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', ), 'year')
 
     # For year and month aggregation
-    calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', 'month'), 'year_month')
+    calculate_popularity_save_csv(subset, csv_path, lang, subject, ('year', 'month'), 'year_month_with_location')
 

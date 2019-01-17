@@ -5,6 +5,7 @@ from pyspark.sql.functions import *
 
 import subset_filter
 import popularity_measure
+import most_X
 import topNTags
 import sys
 
@@ -23,7 +24,8 @@ if __name__ == "__main__":
         if len(sys.argv) > 1:
                 data_path = sys.argv[1]
 	# popularity measure
-        subset_filter.subset_filter(data_path, func=popularity_measure.popularity_measure)
+        # subset_filter.subset_filter(data_path, func=popularity_measure.popularity_measure)
+        subset_filter.subset_filter(data_path, func=most_X.get_most)
 	
 	# compute topNTags
 	#subset_filter.subset_filter(data_path, func=topNTags.topNTags)

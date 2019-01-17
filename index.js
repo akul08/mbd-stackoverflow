@@ -206,6 +206,7 @@ so_visualizer = function() {
                                 }
                                 d3.select("#scaleType").text(scaleType);
                                 redraw();
+                                updateBubbles(curSubject, curScoreType);
                             });
 
     function init(){

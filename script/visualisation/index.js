@@ -209,10 +209,13 @@ so_visualizer = function() {
 
         map.graticule();
 
+        
         d3.select("#container").select("svg").append("defs").append("radialGradient")
                                             .attr("id", "ocean_fill")
                                             .attr("cx", "75%")
                                             .attr("cy", "25%");
+
+        d3.select("#container").select("svg").on("mouseup", function() {updateBubbles(curSubject, curScoreType);})
     }
 
     function drawMercator() {
@@ -280,27 +283,25 @@ so_visualizer = function() {
                         }
         });
 
-        var zoom = d3.behavior.zoom().on("zoom", function() {
+        var zoom = d3.behavior.zoom().on("zoom", function(d, i) {
             
             scale = d3.event.scale;
             globalZoom = globalZoom * d3.event.scale;
 
-            radiusZoom = 0.0005 * globalZoom
-            scaleRange = [2 + radiusZoom,6 + radiusZoom]
+            radiusZoom = 0.0005 * globalZoom;
+            scaleRange = [2 + radiusZoom,6 + radiusZoom];
             setScaler(data, scaleRange);
+            // console.log(d,i);
+            // globalTranslate = computeTranslation()
             // else {
             //     scaleRange = [Math.max(2, 2 * 1.65 * scale),Math.max(6, 6 * 1.5 * scale)]
             //     setScaler(data, scaleRange);
             // }
             
-            // translate = d3.event.translate
-            // console.log(translate);
-            // // globalTranslate[1] = globalTranslate[1] + translate[1];
-            // // globalTranslate[0] = globalTranslate[0] + translate[0];
             // map.svg.selectAll("g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 
             redraw();
-            
+            updateBubbles(curSubject, curScoreType)
         });
            
         var drag = d3.behavior.drag().on('drag', function() {
@@ -326,10 +327,28 @@ so_visualizer = function() {
         d3.select("#container").select("svg").call(zoom);
     }
 
+    function computeTranslation(width, height) {
+
+        if (d3.event == null || d3.event.translate == null) {
+            return globalTranslate;
+        }
+
+        translate = d3.event.translate
+        console.log(translate);
+
+        dx = translate[0];
+        dy = translate[1];
+
+        globalTranslate[0] = 180 / width * dx;
+        globalTranslate[1] = -180 / height * dy;
+
+        return globalTranslate;
+    }
+
     function redraw() {
         d3.select("#container").html('');
         init();
-        updateBubbles(curSubject, curScoreType);
+        // updateBubbles(curSubject, curScoreType);
     }
 
     function validCountry(country) {

@@ -327,7 +327,7 @@ so_visualizer = function() {
             // map.svg.selectAll("g").attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
 
             redraw();
-            updateBubbles(curSubject, curScoreType)
+            // updateBubbles(curSubject, curScoreType);
         });
            
         var drag = d3.behavior.drag().on('drag', function() {

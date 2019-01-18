@@ -23,7 +23,12 @@ def subset_filter(data_path,
     for term in subset_terms:
         lang = "{}".format(term[0])
         subject = "{}".format(term[1])
+        keywords = "{}".format(term[2])
+
         print(lang)
         print(subject)
+        print(keywords)
+
         subset = df.filter(df['_Tags'].contains(lang)).filter(df['_Tags'].contains(subject))
+        # subset = subset.filter()
         func(subset, csv_path, lang, subject)

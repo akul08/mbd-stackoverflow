@@ -23,9 +23,11 @@ if __name__ == "__main__":
 
         if len(sys.argv) > 1:
                 data_path = sys.argv[1]
+
+        subset_filter.subset_filter(data_path, func= (lambda subset, csv_path, lang, subject: print(lang,subject)))
 	# popularity measure
         # subset_filter.subset_filter(data_path, func=popularity_measure.popularity_measure)
-        subset_filter.subset_filter(data_path, func=most_X.get_most)
+        # subset_filter.subset_filter(data_path, func=most_X.get_most)
 	
 	# compute topNTags
 	#subset_filter.subset_filter(data_path, func=topNTags.topNTags)

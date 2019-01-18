@@ -17,18 +17,18 @@ def subset_filter(data_path,
 
     langs = spark.read.csv(langs_path, header=True)
     subjects = spark.read.csv(subjects_path, header=True)
+    subjects.show()
+    # subset_terms = langs.crossJoin(subjects).rdd.map(lambda x : (x.Languages.lower(), x.Subjects.lower(), x.Keywords)).collect()
 
-    subset_terms = langs.crossJoin(subjects).rdd.map(lambda x : (x.Languages.lower(), x.Subjects.lower(), x.Keywords)).collect()
+    # for term in subset_terms:
+    #     lang = "{}".format(term[0])
+    #     subject = "{}".format(term[1])
+    #     keywords = "{}".format(term[2])
 
-    for term in subset_terms:
-        lang = "{}".format(term[0])
-        subject = "{}".format(term[1])
-        keywords = "{}".format(term[2])
+    #     print(lang)
+    #     print(subject)
+    #     print(keywords)
 
-        print(lang)
-        print(subject)
-        print(keywords)
-
-        subset = df.filter(df['_Tags'].contains(lang)).filter(df['_Tags'].contains(subject))
-        # subset = subset.filter()
-        func(subset, csv_path, lang, subject)
+    #     subset = df.filter(df['_Tags'].contains(lang)).filter(df['_Tags'].contains(subject))
+    #     # subset = subset.filter()
+    #     func(subset, csv_path, lang, subject)

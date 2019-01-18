@@ -20,7 +20,7 @@ def pretty_text(text):
 
 
 # data_path = 'file:///home/s2118947/full_result/'
-data_path = '../../full_result/'
+data_path = '../../new/'
 
 df_month = pd.DataFrame(columns=['language', 'subject', 'popularity_measure',
                                  'year', 'month', 'value'])
@@ -30,29 +30,23 @@ df_year = pd.DataFrame(columns=['language', 'subject', 'popularity_measure',
 subject_list = glob.glob(data_path + '*')
 for sub in subject_list:
     year_data_list = glob.glob(sub + '/*_year')
-    month_data_list = glob.glob(sub + '/*_month')
+    month_data_list = glob.glob(sub + '/*_month_with_location')
 
     for file in month_data_list:
         csv_file = glob.glob(file + '/*.csv')[0]
-        csv_df = pd.read_csv(csv_file, names=['year', 'month', 'value'])
-        csv_df['language'] = pretty_text(file.split('/')[-1].split('_')[0])
-        csv_df['subject'] = pretty_text(sub.split('/')[-1])
-        csv_df['popularity_measure'] = pretty_text(
-            file.split('/')[-1].split('_')[1])
-
-        df_month = df_month.append(
-            csv_df, ignore_index=True, sort=False)
+        csv_df = pd.read_csv(csv_file, names=['year', 'month', 'post_type_id',
+                                              'country', 'value',
+                                              'popularity_measure', 'language',
+                                              'subject'])
+        df_month = df_month.append(csv_df, ignore_index=True, sort=False)
 
     for file in year_data_list:
         csv_file = glob.glob(file + '/*.csv')[0]
-        csv_df = pd.read_csv(csv_file, names=['year', 'value'])
-        csv_df['language'] = pretty_text(file.split('/')[-1].split('_')[0])
-        csv_df['subject'] = pretty_text(sub.split('/')[-1])
-        csv_df['popularity_measure'] = pretty_text(
-            file.split('/')[-1].split('_')[1])
-
-        df_year = df_year.append(
-            csv_df, ignore_index=True, sort=False)
+        csv_df = pd.read_csv(csv_file, names=['year', 'post_type_id',
+                                              'country', 'value',
+                                              'popularity_measure', 'language',
+                                              'subject'])
+        df_year = df_year.append(csv_df, ignore_index=True, sort=False)
 
 df_month['date'] = df_month.apply(lambda row: datetime(year=row['year'],
                                                        month=row['month'],
@@ -76,6 +70,40 @@ df_month = df_month.drop(df_month[df_month['date'] == datetime(year=2018,
 df_month = df_month.drop(df_month[df_month['date'] == datetime(year=2018,
                                                                month=11,
                                                                day=1)].index)
+
+group_cols = ['date', 'language', 'subject', 'popularity_measure']
+
+# drop countries for graph and combine values for same dates and lang, subject
+df_month = df_month.drop('country', axis=1)
+df_month = df_month.drop('post_type_id', axis=1)
+
+df_agg = df_month.groupby(group_cols)['value'].sum()
+df_month = df_month.drop('value', axis=1)
+df_month.drop_duplicates(subset=group_cols, keep='last', inplace=True)
+df_month = df_month.merge(right=df_agg.to_frame(), right_index=True,
+                          left_on=group_cols, how='right')
+
+df_year = df_year.drop('country', axis=1)
+df_year = df_year.drop('post_type_id', axis=1)
+
+df_agg = df_year.groupby(group_cols)['value'].sum()
+df_year = df_year.drop('value', axis=1)
+df_year.drop_duplicates(subset=group_cols, keep='last', inplace=True)
+df_year = df_year.merge(right=df_agg.to_frame(), right_index=True,
+                        left_on=group_cols, how='right')
+
+
+df_month['language'] = df_month['language'].apply(lambda x: pretty_text(x))
+df_year['language'] = df_year['language'].apply(lambda x: pretty_text(x))
+
+df_month['popularity_measure'] = df_month['popularity_measure'].apply(
+    lambda x: pretty_text(x))
+df_year['popularity_measure'] = df_year['popularity_measure'].apply(
+    lambda x: pretty_text(x))
+
+df_month['subject'] = df_month['subject'].apply(lambda x: pretty_text(x))
+df_year['subject'] = df_year['subject'].apply(lambda x: pretty_text(x))
+
 df_month.to_csv('resultant.csv', index=False)
 
 

@@ -1,1757 +1,2121 @@
-language,subject,popularity_measure,year,month,value,date
-Python,Bigdata,Answers,2012,2,1,2012-02-01
-Python,Bigdata,Answers,2012,3,3,2012-03-01
-Python,Bigdata,Answers,2012,4,3,2012-04-01
-Python,Bigdata,Answers,2012,5,2,2012-05-01
-Python,Bigdata,Answers,2012,8,6,2012-08-01
-Python,Bigdata,Answers,2012,9,1,2012-09-01
-Python,Bigdata,Answers,2012,10,4,2012-10-01
-Python,Bigdata,Answers,2013,2,10,2013-02-01
-Python,Bigdata,Answers,2013,3,2,2013-03-01
-Python,Bigdata,Answers,2013,4,9,2013-04-01
-Python,Bigdata,Answers,2013,5,1,2013-05-01
-Python,Bigdata,Answers,2013,6,5,2013-06-01
-Python,Bigdata,Answers,2013,7,3,2013-07-01
-Python,Bigdata,Answers,2013,8,2,2013-08-01
-Python,Bigdata,Answers,2013,9,8,2013-09-01
-Python,Bigdata,Answers,2013,10,14,2013-10-01
-Python,Bigdata,Answers,2013,11,3,2013-11-01
-Python,Bigdata,Answers,2013,12,3,2013-12-01
-Python,Bigdata,Answers,2014,1,7,2014-01-01
-Python,Bigdata,Answers,2014,2,9,2014-02-01
-Python,Bigdata,Answers,2014,3,8,2014-03-01
-Python,Bigdata,Answers,2014,4,12,2014-04-01
-Python,Bigdata,Answers,2014,5,14,2014-05-01
-Python,Bigdata,Answers,2014,6,3,2014-06-01
-Python,Bigdata,Answers,2014,7,15,2014-07-01
-Python,Bigdata,Answers,2014,8,15,2014-08-01
-Python,Bigdata,Answers,2014,9,10,2014-09-01
-Python,Bigdata,Answers,2014,10,6,2014-10-01
-Python,Bigdata,Answers,2014,11,28,2014-11-01
-Python,Bigdata,Answers,2014,12,2,2014-12-01
-Python,Bigdata,Answers,2015,1,3,2015-01-01
-Python,Bigdata,Answers,2015,2,4,2015-02-01
-Python,Bigdata,Answers,2015,3,4,2015-03-01
-Python,Bigdata,Answers,2015,4,10,2015-04-01
-Python,Bigdata,Answers,2015,5,9,2015-05-01
-Python,Bigdata,Answers,2015,6,12,2015-06-01
-Python,Bigdata,Answers,2015,7,14,2015-07-01
-Python,Bigdata,Answers,2015,8,5,2015-08-01
-Python,Bigdata,Answers,2015,9,19,2015-09-01
-Python,Bigdata,Answers,2015,10,10,2015-10-01
-Python,Bigdata,Answers,2015,11,14,2015-11-01
-Python,Bigdata,Answers,2015,12,6,2015-12-01
-Python,Bigdata,Answers,2016,1,10,2016-01-01
-Python,Bigdata,Answers,2016,2,13,2016-02-01
-Python,Bigdata,Answers,2016,3,15,2016-03-01
-Python,Bigdata,Answers,2016,4,16,2016-04-01
-Python,Bigdata,Answers,2016,5,23,2016-05-01
-Python,Bigdata,Answers,2016,6,19,2016-06-01
-Python,Bigdata,Answers,2016,7,11,2016-07-01
-Python,Bigdata,Answers,2016,8,16,2016-08-01
-Python,Bigdata,Answers,2016,9,16,2016-09-01
-Python,Bigdata,Answers,2016,10,9,2016-10-01
-Python,Bigdata,Answers,2016,11,14,2016-11-01
-Python,Bigdata,Answers,2016,12,9,2016-12-01
-Python,Bigdata,Answers,2017,1,12,2017-01-01
-Python,Bigdata,Answers,2017,2,18,2017-02-01
-Python,Bigdata,Answers,2017,3,16,2017-03-01
-Python,Bigdata,Answers,2017,4,15,2017-04-01
-Python,Bigdata,Answers,2017,5,19,2017-05-01
-Python,Bigdata,Answers,2017,6,12,2017-06-01
-Python,Bigdata,Answers,2017,7,11,2017-07-01
-Python,Bigdata,Answers,2017,8,12,2017-08-01
-Python,Bigdata,Answers,2017,9,9,2017-09-01
-Python,Bigdata,Answers,2017,10,12,2017-10-01
-Python,Bigdata,Answers,2017,11,20,2017-11-01
-Python,Bigdata,Answers,2017,12,8,2017-12-01
-Python,Bigdata,Answers,2018,1,11,2018-01-01
-Python,Bigdata,Answers,2018,2,14,2018-02-01
-Python,Bigdata,Answers,2018,3,26,2018-03-01
-Python,Bigdata,Answers,2018,4,10,2018-04-01
-Python,Bigdata,Answers,2018,5,17,2018-05-01
-Python,Bigdata,Answers,2018,6,3,2018-06-01
-Python,Bigdata,Answers,2018,7,7,2018-07-01
-Python,Bigdata,Answers,2018,8,8,2018-08-01
-Python,Bigdata,Answers,2018,9,16,2018-09-01
-Python,Bigdata,Answers,2018,10,19,2018-10-01
-Python,Bigdata,Questions,2012,2,1,2012-02-01
-Python,Bigdata,Questions,2012,3,1,2012-03-01
-Python,Bigdata,Questions,2012,4,1,2012-04-01
-Python,Bigdata,Questions,2012,5,2,2012-05-01
-Python,Bigdata,Questions,2012,8,2,2012-08-01
-Python,Bigdata,Questions,2012,9,1,2012-09-01
-Python,Bigdata,Questions,2012,10,2,2012-10-01
-Python,Bigdata,Questions,2013,2,5,2013-02-01
-Python,Bigdata,Questions,2013,3,4,2013-03-01
-Python,Bigdata,Questions,2013,4,6,2013-04-01
-Python,Bigdata,Questions,2013,5,1,2013-05-01
-Python,Bigdata,Questions,2013,6,4,2013-06-01
-Python,Bigdata,Questions,2013,7,3,2013-07-01
-Python,Bigdata,Questions,2013,8,1,2013-08-01
-Python,Bigdata,Questions,2013,9,6,2013-09-01
-Python,Bigdata,Questions,2013,10,9,2013-10-01
-Python,Bigdata,Questions,2013,11,4,2013-11-01
-Python,Bigdata,Questions,2013,12,2,2013-12-01
-Python,Bigdata,Questions,2014,1,3,2014-01-01
-Python,Bigdata,Questions,2014,2,5,2014-02-01
-Python,Bigdata,Questions,2014,3,3,2014-03-01
-Python,Bigdata,Questions,2014,4,7,2014-04-01
-Python,Bigdata,Questions,2014,5,3,2014-05-01
-Python,Bigdata,Questions,2014,6,1,2014-06-01
-Python,Bigdata,Questions,2014,7,9,2014-07-01
-Python,Bigdata,Questions,2014,8,9,2014-08-01
-Python,Bigdata,Questions,2014,9,8,2014-09-01
-Python,Bigdata,Questions,2014,10,5,2014-10-01
-Python,Bigdata,Questions,2014,11,14,2014-11-01
-Python,Bigdata,Questions,2014,12,3,2014-12-01
-Python,Bigdata,Questions,2015,1,2,2015-01-01
-Python,Bigdata,Questions,2015,2,7,2015-02-01
-Python,Bigdata,Questions,2015,3,4,2015-03-01
-Python,Bigdata,Questions,2015,4,7,2015-04-01
-Python,Bigdata,Questions,2015,5,7,2015-05-01
-Python,Bigdata,Questions,2015,6,8,2015-06-01
-Python,Bigdata,Questions,2015,7,8,2015-07-01
-Python,Bigdata,Questions,2015,8,6,2015-08-01
-Python,Bigdata,Questions,2015,9,10,2015-09-01
-Python,Bigdata,Questions,2015,10,9,2015-10-01
-Python,Bigdata,Questions,2015,11,12,2015-11-01
-Python,Bigdata,Questions,2015,12,6,2015-12-01
-Python,Bigdata,Questions,2016,1,11,2016-01-01
-Python,Bigdata,Questions,2016,2,9,2016-02-01
-Python,Bigdata,Questions,2016,3,14,2016-03-01
-Python,Bigdata,Questions,2016,4,14,2016-04-01
-Python,Bigdata,Questions,2016,5,16,2016-05-01
-Python,Bigdata,Questions,2016,6,20,2016-06-01
-Python,Bigdata,Questions,2016,7,11,2016-07-01
-Python,Bigdata,Questions,2016,8,12,2016-08-01
-Python,Bigdata,Questions,2016,9,13,2016-09-01
-Python,Bigdata,Questions,2016,10,6,2016-10-01
-Python,Bigdata,Questions,2016,11,13,2016-11-01
-Python,Bigdata,Questions,2016,12,6,2016-12-01
-Python,Bigdata,Questions,2017,1,9,2017-01-01
-Python,Bigdata,Questions,2017,2,14,2017-02-01
-Python,Bigdata,Questions,2017,3,15,2017-03-01
-Python,Bigdata,Questions,2017,4,14,2017-04-01
-Python,Bigdata,Questions,2017,5,17,2017-05-01
-Python,Bigdata,Questions,2017,6,13,2017-06-01
-Python,Bigdata,Questions,2017,7,9,2017-07-01
-Python,Bigdata,Questions,2017,8,17,2017-08-01
-Python,Bigdata,Questions,2017,9,9,2017-09-01
-Python,Bigdata,Questions,2017,10,13,2017-10-01
-Python,Bigdata,Questions,2017,11,17,2017-11-01
-Python,Bigdata,Questions,2017,12,8,2017-12-01
-Python,Bigdata,Questions,2018,1,13,2018-01-01
-Python,Bigdata,Questions,2018,2,13,2018-02-01
-Python,Bigdata,Questions,2018,3,17,2018-03-01
-Python,Bigdata,Questions,2018,4,11,2018-04-01
-Python,Bigdata,Questions,2018,5,17,2018-05-01
-Python,Bigdata,Questions,2018,6,6,2018-06-01
-Python,Bigdata,Questions,2018,7,11,2018-07-01
-Python,Bigdata,Questions,2018,8,13,2018-08-01
-Python,Bigdata,Questions,2018,9,16,2018-09-01
-Python,Bigdata,Questions,2018,10,15,2018-10-01
-Python,Bigdata,Score,2012,2,0,2012-02-01
-Python,Bigdata,Score,2012,3,2,2012-03-01
-Python,Bigdata,Score,2012,4,2,2012-04-01
-Python,Bigdata,Score,2012,5,2,2012-05-01
-Python,Bigdata,Score,2012,8,6,2012-08-01
-Python,Bigdata,Score,2012,9,2,2012-09-01
-Python,Bigdata,Score,2012,10,4,2012-10-01
-Python,Bigdata,Score,2013,2,12,2013-02-01
-Python,Bigdata,Score,2013,3,4,2013-03-01
-Python,Bigdata,Score,2013,4,35,2013-04-01
-Python,Bigdata,Score,2013,5,0,2013-05-01
-Python,Bigdata,Score,2013,6,6,2013-06-01
-Python,Bigdata,Score,2013,7,3,2013-07-01
-Python,Bigdata,Score,2013,8,21,2013-08-01
-Python,Bigdata,Score,2013,9,3,2013-09-01
-Python,Bigdata,Score,2013,10,17,2013-10-01
-Python,Bigdata,Score,2013,11,3,2013-11-01
-Python,Bigdata,Score,2013,12,0,2013-12-01
-Python,Bigdata,Score,2014,1,3,2014-01-01
-Python,Bigdata,Score,2014,2,9,2014-02-01
-Python,Bigdata,Score,2014,3,3,2014-03-01
-Python,Bigdata,Score,2014,4,5,2014-04-01
-Python,Bigdata,Score,2014,5,29,2014-05-01
-Python,Bigdata,Score,2014,6,2,2014-06-01
-Python,Bigdata,Score,2014,7,12,2014-07-01
-Python,Bigdata,Score,2014,8,16,2014-08-01
-Python,Bigdata,Score,2014,9,4,2014-09-01
-Python,Bigdata,Score,2014,10,6,2014-10-01
-Python,Bigdata,Score,2014,11,41,2014-11-01
-Python,Bigdata,Score,2014,12,1,2014-12-01
-Python,Bigdata,Score,2015,1,6,2015-01-01
-Python,Bigdata,Score,2015,2,10,2015-02-01
-Python,Bigdata,Score,2015,3,8,2015-03-01
-Python,Bigdata,Score,2015,4,31,2015-04-01
-Python,Bigdata,Score,2015,5,5,2015-05-01
-Python,Bigdata,Score,2015,6,10,2015-06-01
-Python,Bigdata,Score,2015,7,11,2015-07-01
-Python,Bigdata,Score,2015,8,16,2015-08-01
-Python,Bigdata,Score,2015,9,30,2015-09-01
-Python,Bigdata,Score,2015,10,9,2015-10-01
-Python,Bigdata,Score,2015,11,25,2015-11-01
-Python,Bigdata,Score,2015,12,6,2015-12-01
-Python,Bigdata,Score,2016,1,16,2016-01-01
-Python,Bigdata,Score,2016,2,9,2016-02-01
-Python,Bigdata,Score,2016,3,18,2016-03-01
-Python,Bigdata,Score,2016,4,35,2016-04-01
-Python,Bigdata,Score,2016,5,19,2016-05-01
-Python,Bigdata,Score,2016,6,7,2016-06-01
-Python,Bigdata,Score,2016,7,10,2016-07-01
-Python,Bigdata,Score,2016,8,72,2016-08-01
-Python,Bigdata,Score,2016,9,19,2016-09-01
-Python,Bigdata,Score,2016,10,8,2016-10-01
-Python,Bigdata,Score,2016,11,14,2016-11-01
-Python,Bigdata,Score,2016,12,4,2016-12-01
-Python,Bigdata,Score,2017,1,20,2017-01-01
-Python,Bigdata,Score,2017,2,7,2017-02-01
-Python,Bigdata,Score,2017,3,6,2017-03-01
-Python,Bigdata,Score,2017,4,23,2017-04-01
-Python,Bigdata,Score,2017,5,14,2017-05-01
-Python,Bigdata,Score,2017,6,14,2017-06-01
-Python,Bigdata,Score,2017,7,6,2017-07-01
-Python,Bigdata,Score,2017,8,12,2017-08-01
-Python,Bigdata,Score,2017,9,4,2017-09-01
-Python,Bigdata,Score,2017,10,20,2017-10-01
-Python,Bigdata,Score,2017,11,10,2017-11-01
-Python,Bigdata,Score,2017,12,11,2017-12-01
-Python,Bigdata,Score,2018,1,-2,2018-01-01
-Python,Bigdata,Score,2018,2,-2,2018-02-01
-Python,Bigdata,Score,2018,3,10,2018-03-01
-Python,Bigdata,Score,2018,4,12,2018-04-01
-Python,Bigdata,Score,2018,5,8,2018-05-01
-Python,Bigdata,Score,2018,6,-2,2018-06-01
-Python,Bigdata,Score,2018,7,3,2018-07-01
-Python,Bigdata,Score,2018,8,-1,2018-08-01
-Python,Bigdata,Score,2018,9,-2,2018-09-01
-Python,Bigdata,Score,2018,10,4,2018-10-01
-Python,Bigdata,Views,2012,2,125,2012-02-01
-Python,Bigdata,Views,2012,3,477,2012-03-01
-Python,Bigdata,Views,2012,4,74,2012-04-01
-Python,Bigdata,Views,2012,5,1762,2012-05-01
-Python,Bigdata,Views,2012,8,4540,2012-08-01
-Python,Bigdata,Views,2012,9,942,2012-09-01
-Python,Bigdata,Views,2012,10,2350,2012-10-01
-Python,Bigdata,Views,2013,2,8636,2013-02-01
-Python,Bigdata,Views,2013,3,689,2013-03-01
-Python,Bigdata,Views,2013,4,15210,2013-04-01
-Python,Bigdata,Views,2013,5,269,2013-05-01
-Python,Bigdata,Views,2013,6,4835,2013-06-01
-Python,Bigdata,Views,2013,7,2741,2013-07-01
-Python,Bigdata,Views,2013,8,30843,2013-08-01
-Python,Bigdata,Views,2013,9,3600,2013-09-01
-Python,Bigdata,Views,2013,10,13149,2013-10-01
-Python,Bigdata,Views,2013,11,1403,2013-11-01
-Python,Bigdata,Views,2013,12,964,2013-12-01
-Python,Bigdata,Views,2014,1,2273,2014-01-01
-Python,Bigdata,Views,2014,2,6924,2014-02-01
-Python,Bigdata,Views,2014,3,2792,2014-03-01
-Python,Bigdata,Views,2014,4,3192,2014-04-01
-Python,Bigdata,Views,2014,5,12162,2014-05-01
-Python,Bigdata,Views,2014,6,143,2014-06-01
-Python,Bigdata,Views,2014,7,9905,2014-07-01
-Python,Bigdata,Views,2014,8,10135,2014-08-01
-Python,Bigdata,Views,2014,9,3953,2014-09-01
-Python,Bigdata,Views,2014,10,2083,2014-10-01
-Python,Bigdata,Views,2014,11,58668,2014-11-01
-Python,Bigdata,Views,2014,12,674,2014-12-01
-Python,Bigdata,Views,2015,1,4652,2015-01-01
-Python,Bigdata,Views,2015,2,2446,2015-02-01
-Python,Bigdata,Views,2015,3,1774,2015-03-01
-Python,Bigdata,Views,2015,4,32699,2015-04-01
-Python,Bigdata,Views,2015,5,4397,2015-05-01
-Python,Bigdata,Views,2015,6,9203,2015-06-01
-Python,Bigdata,Views,2015,7,7195,2015-07-01
-Python,Bigdata,Views,2015,8,3298,2015-08-01
-Python,Bigdata,Views,2015,9,19118,2015-09-01
-Python,Bigdata,Views,2015,10,6048,2015-10-01
-Python,Bigdata,Views,2015,11,33319,2015-11-01
-Python,Bigdata,Views,2015,12,889,2015-12-01
-Python,Bigdata,Views,2016,1,3981,2016-01-01
-Python,Bigdata,Views,2016,2,4841,2016-02-01
-Python,Bigdata,Views,2016,3,7453,2016-03-01
-Python,Bigdata,Views,2016,4,5068,2016-04-01
-Python,Bigdata,Views,2016,5,12443,2016-05-01
-Python,Bigdata,Views,2016,6,4115,2016-06-01
-Python,Bigdata,Views,2016,7,7963,2016-07-01
-Python,Bigdata,Views,2016,8,21898,2016-08-01
-Python,Bigdata,Views,2016,9,7659,2016-09-01
-Python,Bigdata,Views,2016,10,1210,2016-10-01
-Python,Bigdata,Views,2016,11,12832,2016-11-01
-Python,Bigdata,Views,2016,12,6468,2016-12-01
-Python,Bigdata,Views,2017,1,2584,2017-01-01
-Python,Bigdata,Views,2017,2,5731,2017-02-01
-Python,Bigdata,Views,2017,3,4786,2017-03-01
-Python,Bigdata,Views,2017,4,8718,2017-04-01
-Python,Bigdata,Views,2017,5,9496,2017-05-01
-Python,Bigdata,Views,2017,6,5197,2017-06-01
-Python,Bigdata,Views,2017,7,1531,2017-07-01
-Python,Bigdata,Views,2017,8,3556,2017-08-01
-Python,Bigdata,Views,2017,9,2384,2017-09-01
-Python,Bigdata,Views,2017,10,6473,2017-10-01
-Python,Bigdata,Views,2017,11,9893,2017-11-01
-Python,Bigdata,Views,2017,12,1797,2017-12-01
-Python,Bigdata,Views,2018,1,2809,2018-01-01
-Python,Bigdata,Views,2018,2,2099,2018-02-01
-Python,Bigdata,Views,2018,3,4137,2018-03-01
-Python,Bigdata,Views,2018,4,1599,2018-04-01
-Python,Bigdata,Views,2018,5,1945,2018-05-01
-Python,Bigdata,Views,2018,6,2154,2018-06-01
-Python,Bigdata,Views,2018,7,1121,2018-07-01
-Python,Bigdata,Views,2018,8,701,2018-08-01
-Python,Bigdata,Views,2018,9,1109,2018-09-01
-Python,Bigdata,Views,2018,10,582,2018-10-01
-R,Bigdata,Answers,2012,1,4,2012-01-01
-R,Bigdata,Answers,2012,2,9,2012-02-01
-R,Bigdata,Answers,2012,3,2,2012-03-01
-R,Bigdata,Answers,2012,5,2,2012-05-01
-R,Bigdata,Answers,2012,6,6,2012-06-01
-R,Bigdata,Answers,2012,7,4,2012-07-01
-R,Bigdata,Answers,2012,8,3,2012-08-01
-R,Bigdata,Answers,2012,9,6,2012-09-01
-R,Bigdata,Answers,2012,10,2,2012-10-01
-R,Bigdata,Answers,2012,11,5,2012-11-01
-R,Bigdata,Answers,2012,12,6,2012-12-01
-R,Bigdata,Answers,2013,1,3,2013-01-01
-R,Bigdata,Answers,2013,2,7,2013-02-01
-R,Bigdata,Answers,2013,3,6,2013-03-01
-R,Bigdata,Answers,2013,4,9,2013-04-01
-R,Bigdata,Answers,2013,5,6,2013-05-01
-R,Bigdata,Answers,2013,6,14,2013-06-01
-R,Bigdata,Answers,2013,7,3,2013-07-01
-R,Bigdata,Answers,2013,8,8,2013-08-01
-R,Bigdata,Answers,2013,9,7,2013-09-01
-R,Bigdata,Answers,2013,10,12,2013-10-01
-R,Bigdata,Answers,2013,11,11,2013-11-01
-R,Bigdata,Answers,2013,12,8,2013-12-01
-R,Bigdata,Answers,2014,1,9,2014-01-01
-R,Bigdata,Answers,2014,2,14,2014-02-01
-R,Bigdata,Answers,2014,3,14,2014-03-01
-R,Bigdata,Answers,2014,4,10,2014-04-01
-R,Bigdata,Answers,2014,5,16,2014-05-01
-R,Bigdata,Answers,2014,6,5,2014-06-01
-R,Bigdata,Answers,2014,7,14,2014-07-01
-R,Bigdata,Answers,2014,8,7,2014-08-01
-R,Bigdata,Answers,2014,9,4,2014-09-01
-R,Bigdata,Answers,2014,10,0,2014-10-01
-R,Bigdata,Answers,2014,11,3,2014-11-01
-R,Bigdata,Answers,2014,12,15,2014-12-01
-R,Bigdata,Answers,2015,1,3,2015-01-01
-R,Bigdata,Answers,2015,2,5,2015-02-01
-R,Bigdata,Answers,2015,3,13,2015-03-01
-R,Bigdata,Answers,2015,4,8,2015-04-01
-R,Bigdata,Answers,2015,5,3,2015-05-01
-R,Bigdata,Answers,2015,6,10,2015-06-01
-R,Bigdata,Answers,2015,7,9,2015-07-01
-R,Bigdata,Answers,2015,8,3,2015-08-01
-R,Bigdata,Answers,2015,9,8,2015-09-01
-R,Bigdata,Answers,2015,10,6,2015-10-01
-R,Bigdata,Answers,2015,11,3,2015-11-01
-R,Bigdata,Answers,2015,12,13,2015-12-01
-R,Bigdata,Answers,2016,1,5,2016-01-01
-R,Bigdata,Answers,2016,2,6,2016-02-01
-R,Bigdata,Answers,2016,3,6,2016-03-01
-R,Bigdata,Answers,2016,4,2,2016-04-01
-R,Bigdata,Answers,2016,5,14,2016-05-01
-R,Bigdata,Answers,2016,6,3,2016-06-01
-R,Bigdata,Answers,2016,7,7,2016-07-01
-R,Bigdata,Answers,2016,8,5,2016-08-01
-R,Bigdata,Answers,2016,9,5,2016-09-01
-R,Bigdata,Answers,2016,10,5,2016-10-01
-R,Bigdata,Answers,2016,11,2,2016-11-01
-R,Bigdata,Answers,2016,12,1,2016-12-01
-R,Bigdata,Answers,2017,1,5,2017-01-01
-R,Bigdata,Answers,2017,2,7,2017-02-01
-R,Bigdata,Answers,2017,3,5,2017-03-01
-R,Bigdata,Answers,2017,4,6,2017-04-01
-R,Bigdata,Answers,2017,5,3,2017-05-01
-R,Bigdata,Answers,2017,6,9,2017-06-01
-R,Bigdata,Answers,2017,7,4,2017-07-01
-R,Bigdata,Answers,2017,8,6,2017-08-01
-R,Bigdata,Answers,2017,9,4,2017-09-01
-R,Bigdata,Answers,2017,10,8,2017-10-01
-R,Bigdata,Answers,2017,11,10,2017-11-01
-R,Bigdata,Answers,2017,12,4,2017-12-01
-R,Bigdata,Answers,2018,1,4,2018-01-01
-R,Bigdata,Answers,2018,2,11,2018-02-01
-R,Bigdata,Answers,2018,3,6,2018-03-01
-R,Bigdata,Answers,2018,4,4,2018-04-01
-R,Bigdata,Answers,2018,5,6,2018-05-01
-R,Bigdata,Answers,2018,6,0,2018-06-01
-R,Bigdata,Answers,2018,7,2,2018-07-01
-R,Bigdata,Answers,2018,8,4,2018-08-01
-R,Bigdata,Answers,2018,9,7,2018-09-01
-R,Bigdata,Answers,2018,10,6,2018-10-01
-R,Bigdata,Questions,2012,1,2,2012-01-01
-R,Bigdata,Questions,2012,2,3,2012-02-01
-R,Bigdata,Questions,2012,3,2,2012-03-01
-R,Bigdata,Questions,2012,5,1,2012-05-01
-R,Bigdata,Questions,2012,6,2,2012-06-01
-R,Bigdata,Questions,2012,7,2,2012-07-01
-R,Bigdata,Questions,2012,8,2,2012-08-01
-R,Bigdata,Questions,2012,9,5,2012-09-01
-R,Bigdata,Questions,2012,10,2,2012-10-01
-R,Bigdata,Questions,2012,11,3,2012-11-01
-R,Bigdata,Questions,2012,12,3,2012-12-01
-R,Bigdata,Questions,2013,1,2,2013-01-01
-R,Bigdata,Questions,2013,2,3,2013-02-01
-R,Bigdata,Questions,2013,3,5,2013-03-01
-R,Bigdata,Questions,2013,4,7,2013-04-01
-R,Bigdata,Questions,2013,5,6,2013-05-01
-R,Bigdata,Questions,2013,6,9,2013-06-01
-R,Bigdata,Questions,2013,7,3,2013-07-01
-R,Bigdata,Questions,2013,8,8,2013-08-01
-R,Bigdata,Questions,2013,9,5,2013-09-01
-R,Bigdata,Questions,2013,10,10,2013-10-01
-R,Bigdata,Questions,2013,11,8,2013-11-01
-R,Bigdata,Questions,2013,12,7,2013-12-01
-R,Bigdata,Questions,2014,1,7,2014-01-01
-R,Bigdata,Questions,2014,2,9,2014-02-01
-R,Bigdata,Questions,2014,3,8,2014-03-01
-R,Bigdata,Questions,2014,4,8,2014-04-01
-R,Bigdata,Questions,2014,5,7,2014-05-01
-R,Bigdata,Questions,2014,6,6,2014-06-01
-R,Bigdata,Questions,2014,7,7,2014-07-01
-R,Bigdata,Questions,2014,8,6,2014-08-01
-R,Bigdata,Questions,2014,9,4,2014-09-01
-R,Bigdata,Questions,2014,10,1,2014-10-01
-R,Bigdata,Questions,2014,11,2,2014-11-01
-R,Bigdata,Questions,2014,12,7,2014-12-01
-R,Bigdata,Questions,2015,1,3,2015-01-01
-R,Bigdata,Questions,2015,2,4,2015-02-01
-R,Bigdata,Questions,2015,3,11,2015-03-01
-R,Bigdata,Questions,2015,4,5,2015-04-01
-R,Bigdata,Questions,2015,5,4,2015-05-01
-R,Bigdata,Questions,2015,6,11,2015-06-01
-R,Bigdata,Questions,2015,7,10,2015-07-01
-R,Bigdata,Questions,2015,8,4,2015-08-01
-R,Bigdata,Questions,2015,9,10,2015-09-01
-R,Bigdata,Questions,2015,10,5,2015-10-01
-R,Bigdata,Questions,2015,11,6,2015-11-01
-R,Bigdata,Questions,2015,12,9,2015-12-01
-R,Bigdata,Questions,2016,1,5,2016-01-01
-R,Bigdata,Questions,2016,2,7,2016-02-01
-R,Bigdata,Questions,2016,3,4,2016-03-01
-R,Bigdata,Questions,2016,4,5,2016-04-01
-R,Bigdata,Questions,2016,5,6,2016-05-01
-R,Bigdata,Questions,2016,6,6,2016-06-01
-R,Bigdata,Questions,2016,7,10,2016-07-01
-R,Bigdata,Questions,2016,8,5,2016-08-01
-R,Bigdata,Questions,2016,9,5,2016-09-01
-R,Bigdata,Questions,2016,10,6,2016-10-01
-R,Bigdata,Questions,2016,11,2,2016-11-01
-R,Bigdata,Questions,2016,12,2,2016-12-01
-R,Bigdata,Questions,2017,1,4,2017-01-01
-R,Bigdata,Questions,2017,2,8,2017-02-01
-R,Bigdata,Questions,2017,3,7,2017-03-01
-R,Bigdata,Questions,2017,4,5,2017-04-01
-R,Bigdata,Questions,2017,5,2,2017-05-01
-R,Bigdata,Questions,2017,6,8,2017-06-01
-R,Bigdata,Questions,2017,7,6,2017-07-01
-R,Bigdata,Questions,2017,8,6,2017-08-01
-R,Bigdata,Questions,2017,9,5,2017-09-01
-R,Bigdata,Questions,2017,10,7,2017-10-01
-R,Bigdata,Questions,2017,11,8,2017-11-01
-R,Bigdata,Questions,2017,12,2,2017-12-01
-R,Bigdata,Questions,2018,1,3,2018-01-01
-R,Bigdata,Questions,2018,2,9,2018-02-01
-R,Bigdata,Questions,2018,3,5,2018-03-01
-R,Bigdata,Questions,2018,4,8,2018-04-01
-R,Bigdata,Questions,2018,5,7,2018-05-01
-R,Bigdata,Questions,2018,6,3,2018-06-01
-R,Bigdata,Questions,2018,7,5,2018-07-01
-R,Bigdata,Questions,2018,8,6,2018-08-01
-R,Bigdata,Questions,2018,9,6,2018-09-01
-R,Bigdata,Questions,2018,10,6,2018-10-01
-R,Bigdata,Score,2012,1,12,2012-01-01
-R,Bigdata,Score,2012,2,47,2012-02-01
-R,Bigdata,Score,2012,3,11,2012-03-01
-R,Bigdata,Score,2012,5,14,2012-05-01
-R,Bigdata,Score,2012,6,40,2012-06-01
-R,Bigdata,Score,2012,7,3,2012-07-01
-R,Bigdata,Score,2012,8,4,2012-08-01
-R,Bigdata,Score,2012,9,13,2012-09-01
-R,Bigdata,Score,2012,10,38,2012-10-01
-R,Bigdata,Score,2012,11,9,2012-11-01
-R,Bigdata,Score,2012,12,14,2012-12-01
-R,Bigdata,Score,2013,1,10,2013-01-01
-R,Bigdata,Score,2013,2,7,2013-02-01
-R,Bigdata,Score,2013,3,6,2013-03-01
-R,Bigdata,Score,2013,4,13,2013-04-01
-R,Bigdata,Score,2013,5,11,2013-05-01
-R,Bigdata,Score,2013,6,45,2013-06-01
-R,Bigdata,Score,2013,7,0,2013-07-01
-R,Bigdata,Score,2013,8,5,2013-08-01
-R,Bigdata,Score,2013,9,22,2013-09-01
-R,Bigdata,Score,2013,10,33,2013-10-01
-R,Bigdata,Score,2013,11,10,2013-11-01
-R,Bigdata,Score,2013,12,3,2013-12-01
-R,Bigdata,Score,2014,1,9,2014-01-01
-R,Bigdata,Score,2014,2,21,2014-02-01
-R,Bigdata,Score,2014,3,15,2014-03-01
-R,Bigdata,Score,2014,4,4,2014-04-01
-R,Bigdata,Score,2014,5,16,2014-05-01
-R,Bigdata,Score,2014,6,13,2014-06-01
-R,Bigdata,Score,2014,7,7,2014-07-01
-R,Bigdata,Score,2014,8,8,2014-08-01
-R,Bigdata,Score,2014,9,1,2014-09-01
-R,Bigdata,Score,2014,10,0,2014-10-01
-R,Bigdata,Score,2014,11,10,2014-11-01
-R,Bigdata,Score,2014,12,30,2014-12-01
-R,Bigdata,Score,2015,1,-1,2015-01-01
-R,Bigdata,Score,2015,2,8,2015-02-01
-R,Bigdata,Score,2015,3,5,2015-03-01
-R,Bigdata,Score,2015,4,14,2015-04-01
-R,Bigdata,Score,2015,5,5,2015-05-01
-R,Bigdata,Score,2015,6,10,2015-06-01
-R,Bigdata,Score,2015,7,13,2015-07-01
-R,Bigdata,Score,2015,8,3,2015-08-01
-R,Bigdata,Score,2015,9,11,2015-09-01
-R,Bigdata,Score,2015,10,1,2015-10-01
-R,Bigdata,Score,2015,11,2,2015-11-01
-R,Bigdata,Score,2015,12,18,2015-12-01
-R,Bigdata,Score,2016,1,9,2016-01-01
-R,Bigdata,Score,2016,2,1,2016-02-01
-R,Bigdata,Score,2016,3,4,2016-03-01
-R,Bigdata,Score,2016,4,12,2016-04-01
-R,Bigdata,Score,2016,5,5,2016-05-01
-R,Bigdata,Score,2016,6,3,2016-06-01
-R,Bigdata,Score,2016,7,9,2016-07-01
-R,Bigdata,Score,2016,8,1,2016-08-01
-R,Bigdata,Score,2016,9,3,2016-09-01
-R,Bigdata,Score,2016,10,8,2016-10-01
-R,Bigdata,Score,2016,11,0,2016-11-01
-R,Bigdata,Score,2016,12,-1,2016-12-01
-R,Bigdata,Score,2017,1,1,2017-01-01
-R,Bigdata,Score,2017,2,11,2017-02-01
-R,Bigdata,Score,2017,3,0,2017-03-01
-R,Bigdata,Score,2017,4,4,2017-04-01
-R,Bigdata,Score,2017,5,1,2017-05-01
-R,Bigdata,Score,2017,6,13,2017-06-01
-R,Bigdata,Score,2017,7,0,2017-07-01
-R,Bigdata,Score,2017,8,1,2017-08-01
-R,Bigdata,Score,2017,9,6,2017-09-01
-R,Bigdata,Score,2017,10,8,2017-10-01
-R,Bigdata,Score,2017,11,4,2017-11-01
-R,Bigdata,Score,2017,12,0,2017-12-01
-R,Bigdata,Score,2018,1,2,2018-01-01
-R,Bigdata,Score,2018,2,4,2018-02-01
-R,Bigdata,Score,2018,3,2,2018-03-01
-R,Bigdata,Score,2018,4,-1,2018-04-01
-R,Bigdata,Score,2018,5,9,2018-05-01
-R,Bigdata,Score,2018,6,1,2018-06-01
-R,Bigdata,Score,2018,7,-3,2018-07-01
-R,Bigdata,Score,2018,8,9,2018-08-01
-R,Bigdata,Score,2018,9,3,2018-09-01
-R,Bigdata,Score,2018,10,-1,2018-10-01
-R,Bigdata,Views,2012,1,5240,2012-01-01
-R,Bigdata,Views,2012,2,21140,2012-02-01
-R,Bigdata,Views,2012,3,2595,2012-03-01
-R,Bigdata,Views,2012,5,379,2012-05-01
-R,Bigdata,Views,2012,6,21249,2012-06-01
-R,Bigdata,Views,2012,7,1267,2012-07-01
-R,Bigdata,Views,2012,8,6364,2012-08-01
-R,Bigdata,Views,2012,9,7365,2012-09-01
-R,Bigdata,Views,2012,10,7963,2012-10-01
-R,Bigdata,Views,2012,11,3104,2012-11-01
-R,Bigdata,Views,2012,12,2989,2012-12-01
-R,Bigdata,Views,2013,1,4405,2013-01-01
-R,Bigdata,Views,2013,2,3165,2013-02-01
-R,Bigdata,Views,2013,3,2991,2013-03-01
-R,Bigdata,Views,2013,4,11511,2013-04-01
-R,Bigdata,Views,2013,5,4108,2013-05-01
-R,Bigdata,Views,2013,6,34338,2013-06-01
-R,Bigdata,Views,2013,7,1233,2013-07-01
-R,Bigdata,Views,2013,8,5273,2013-08-01
-R,Bigdata,Views,2013,9,9623,2013-09-01
-R,Bigdata,Views,2013,10,44082,2013-10-01
-R,Bigdata,Views,2013,11,5648,2013-11-01
-R,Bigdata,Views,2013,12,2244,2013-12-01
-R,Bigdata,Views,2014,1,5807,2014-01-01
-R,Bigdata,Views,2014,2,22160,2014-02-01
-R,Bigdata,Views,2014,3,24854,2014-03-01
-R,Bigdata,Views,2014,4,9033,2014-04-01
-R,Bigdata,Views,2014,5,6791,2014-05-01
-R,Bigdata,Views,2014,6,6831,2014-06-01
-R,Bigdata,Views,2014,7,5427,2014-07-01
-R,Bigdata,Views,2014,8,14288,2014-08-01
-R,Bigdata,Views,2014,9,820,2014-09-01
-R,Bigdata,Views,2014,10,173,2014-10-01
-R,Bigdata,Views,2014,11,2493,2014-11-01
-R,Bigdata,Views,2014,12,17328,2014-12-01
-R,Bigdata,Views,2015,1,1331,2015-01-01
-R,Bigdata,Views,2015,2,1261,2015-02-01
-R,Bigdata,Views,2015,3,3629,2015-03-01
-R,Bigdata,Views,2015,4,1819,2015-04-01
-R,Bigdata,Views,2015,5,802,2015-05-01
-R,Bigdata,Views,2015,6,2077,2015-06-01
-R,Bigdata,Views,2015,7,6999,2015-07-01
-R,Bigdata,Views,2015,8,1966,2015-08-01
-R,Bigdata,Views,2015,9,5612,2015-09-01
-R,Bigdata,Views,2015,10,1022,2015-10-01
-R,Bigdata,Views,2015,11,1281,2015-11-01
-R,Bigdata,Views,2015,12,4454,2015-12-01
-R,Bigdata,Views,2016,1,1251,2016-01-01
-R,Bigdata,Views,2016,2,1690,2016-02-01
-R,Bigdata,Views,2016,3,1516,2016-03-01
-R,Bigdata,Views,2016,4,11868,2016-04-01
-R,Bigdata,Views,2016,5,7081,2016-05-01
-R,Bigdata,Views,2016,6,817,2016-06-01
-R,Bigdata,Views,2016,7,3381,2016-07-01
-R,Bigdata,Views,2016,8,1195,2016-08-01
-R,Bigdata,Views,2016,9,1629,2016-09-01
-R,Bigdata,Views,2016,10,2114,2016-10-01
-R,Bigdata,Views,2016,11,1308,2016-11-01
-R,Bigdata,Views,2016,12,159,2016-12-01
-R,Bigdata,Views,2017,1,477,2017-01-01
-R,Bigdata,Views,2017,2,2173,2017-02-01
-R,Bigdata,Views,2017,3,741,2017-03-01
-R,Bigdata,Views,2017,4,1540,2017-04-01
-R,Bigdata,Views,2017,5,119,2017-05-01
-R,Bigdata,Views,2017,6,1648,2017-06-01
-R,Bigdata,Views,2017,7,500,2017-07-01
-R,Bigdata,Views,2017,8,852,2017-08-01
-R,Bigdata,Views,2017,9,674,2017-09-01
-R,Bigdata,Views,2017,10,1245,2017-10-01
-R,Bigdata,Views,2017,11,1688,2017-11-01
-R,Bigdata,Views,2017,12,111,2017-12-01
-R,Bigdata,Views,2018,1,221,2018-01-01
-R,Bigdata,Views,2018,2,732,2018-02-01
-R,Bigdata,Views,2018,3,509,2018-03-01
-R,Bigdata,Views,2018,4,445,2018-04-01
-R,Bigdata,Views,2018,5,403,2018-05-01
-R,Bigdata,Views,2018,6,70,2018-06-01
-R,Bigdata,Views,2018,7,206,2018-07-01
-R,Bigdata,Views,2018,8,347,2018-08-01
-R,Bigdata,Views,2018,9,271,2018-09-01
-R,Bigdata,Views,2018,10,250,2018-10-01
-Scala,Bigdata,Answers,2012,7,1,2012-07-01
-Scala,Bigdata,Answers,2012,11,0,2012-11-01
-Scala,Bigdata,Answers,2013,1,6,2013-01-01
-Scala,Bigdata,Answers,2013,6,1,2013-06-01
-Scala,Bigdata,Answers,2013,7,4,2013-07-01
-Scala,Bigdata,Answers,2013,9,1,2013-09-01
-Scala,Bigdata,Answers,2013,11,1,2013-11-01
-Scala,Bigdata,Answers,2013,12,2,2013-12-01
-Scala,Bigdata,Answers,2014,1,1,2014-01-01
-Scala,Bigdata,Answers,2014,2,1,2014-02-01
-Scala,Bigdata,Answers,2014,3,3,2014-03-01
-Scala,Bigdata,Answers,2014,4,2,2014-04-01
-Scala,Bigdata,Answers,2014,9,2,2014-09-01
-Scala,Bigdata,Answers,2014,10,2,2014-10-01
-Scala,Bigdata,Answers,2014,11,27,2014-11-01
-Scala,Bigdata,Answers,2014,12,3,2014-12-01
-Scala,Bigdata,Answers,2015,1,5,2015-01-01
-Scala,Bigdata,Answers,2015,2,2,2015-02-01
-Scala,Bigdata,Answers,2015,3,6,2015-03-01
-Scala,Bigdata,Answers,2015,4,5,2015-04-01
-Scala,Bigdata,Answers,2015,5,6,2015-05-01
-Scala,Bigdata,Answers,2015,6,4,2015-06-01
-Scala,Bigdata,Answers,2015,7,2,2015-07-01
-Scala,Bigdata,Answers,2015,8,3,2015-08-01
-Scala,Bigdata,Answers,2015,9,11,2015-09-01
-Scala,Bigdata,Answers,2015,10,5,2015-10-01
-Scala,Bigdata,Answers,2015,11,1,2015-11-01
-Scala,Bigdata,Answers,2015,12,5,2015-12-01
-Scala,Bigdata,Answers,2016,1,0,2016-01-01
-Scala,Bigdata,Answers,2016,3,4,2016-03-01
-Scala,Bigdata,Answers,2016,4,16,2016-04-01
-Scala,Bigdata,Answers,2016,5,3,2016-05-01
-Scala,Bigdata,Answers,2016,6,20,2016-06-01
-Scala,Bigdata,Answers,2016,7,6,2016-07-01
-Scala,Bigdata,Answers,2016,8,26,2016-08-01
-Scala,Bigdata,Answers,2016,9,17,2016-09-01
-Scala,Bigdata,Answers,2016,10,15,2016-10-01
-Scala,Bigdata,Answers,2016,11,5,2016-11-01
-Scala,Bigdata,Answers,2016,12,8,2016-12-01
-Scala,Bigdata,Answers,2017,1,9,2017-01-01
-Scala,Bigdata,Answers,2017,2,8,2017-02-01
-Scala,Bigdata,Answers,2017,3,5,2017-03-01
-Scala,Bigdata,Answers,2017,4,5,2017-04-01
-Scala,Bigdata,Answers,2017,5,11,2017-05-01
-Scala,Bigdata,Answers,2017,6,9,2017-06-01
-Scala,Bigdata,Answers,2017,7,5,2017-07-01
-Scala,Bigdata,Answers,2017,8,2,2017-08-01
-Scala,Bigdata,Answers,2017,9,5,2017-09-01
-Scala,Bigdata,Answers,2017,10,8,2017-10-01
-Scala,Bigdata,Answers,2017,11,7,2017-11-01
-Scala,Bigdata,Answers,2017,12,1,2017-12-01
-Scala,Bigdata,Answers,2018,1,4,2018-01-01
-Scala,Bigdata,Answers,2018,2,2,2018-02-01
-Scala,Bigdata,Answers,2018,3,11,2018-03-01
-Scala,Bigdata,Answers,2018,4,5,2018-04-01
-Scala,Bigdata,Answers,2018,5,8,2018-05-01
-Scala,Bigdata,Answers,2018,6,10,2018-06-01
-Scala,Bigdata,Answers,2018,7,14,2018-07-01
-Scala,Bigdata,Answers,2018,8,5,2018-08-01
-Scala,Bigdata,Answers,2018,9,17,2018-09-01
-Scala,Bigdata,Answers,2018,10,14,2018-10-01
-Scala,Bigdata,Questions,2012,7,1,2012-07-01
-Scala,Bigdata,Questions,2012,11,1,2012-11-01
-Scala,Bigdata,Questions,2013,1,2,2013-01-01
-Scala,Bigdata,Questions,2013,6,2,2013-06-01
-Scala,Bigdata,Questions,2013,7,3,2013-07-01
-Scala,Bigdata,Questions,2013,9,1,2013-09-01
-Scala,Bigdata,Questions,2013,11,1,2013-11-01
-Scala,Bigdata,Questions,2013,12,1,2013-12-01
-Scala,Bigdata,Questions,2014,1,2,2014-01-01
-Scala,Bigdata,Questions,2014,2,1,2014-02-01
-Scala,Bigdata,Questions,2014,3,3,2014-03-01
-Scala,Bigdata,Questions,2014,4,1,2014-04-01
-Scala,Bigdata,Questions,2014,9,1,2014-09-01
-Scala,Bigdata,Questions,2014,10,2,2014-10-01
-Scala,Bigdata,Questions,2014,11,13,2014-11-01
-Scala,Bigdata,Questions,2014,12,2,2014-12-01
-Scala,Bigdata,Questions,2015,1,2,2015-01-01
-Scala,Bigdata,Questions,2015,2,1,2015-02-01
-Scala,Bigdata,Questions,2015,3,5,2015-03-01
-Scala,Bigdata,Questions,2015,4,3,2015-04-01
-Scala,Bigdata,Questions,2015,5,3,2015-05-01
-Scala,Bigdata,Questions,2015,6,3,2015-06-01
-Scala,Bigdata,Questions,2015,7,2,2015-07-01
-Scala,Bigdata,Questions,2015,8,3,2015-08-01
-Scala,Bigdata,Questions,2015,9,6,2015-09-01
-Scala,Bigdata,Questions,2015,10,4,2015-10-01
-Scala,Bigdata,Questions,2015,11,1,2015-11-01
-Scala,Bigdata,Questions,2015,12,4,2015-12-01
-Scala,Bigdata,Questions,2016,1,1,2016-01-01
-Scala,Bigdata,Questions,2016,3,4,2016-03-01
-Scala,Bigdata,Questions,2016,4,14,2016-04-01
-Scala,Bigdata,Questions,2016,5,4,2016-05-01
-Scala,Bigdata,Questions,2016,6,12,2016-06-01
-Scala,Bigdata,Questions,2016,7,5,2016-07-01
-Scala,Bigdata,Questions,2016,8,20,2016-08-01
-Scala,Bigdata,Questions,2016,9,16,2016-09-01
-Scala,Bigdata,Questions,2016,10,11,2016-10-01
-Scala,Bigdata,Questions,2016,11,4,2016-11-01
-Scala,Bigdata,Questions,2016,12,5,2016-12-01
-Scala,Bigdata,Questions,2017,1,8,2017-01-01
-Scala,Bigdata,Questions,2017,2,5,2017-02-01
-Scala,Bigdata,Questions,2017,3,4,2017-03-01
-Scala,Bigdata,Questions,2017,4,3,2017-04-01
-Scala,Bigdata,Questions,2017,5,8,2017-05-01
-Scala,Bigdata,Questions,2017,6,5,2017-06-01
-Scala,Bigdata,Questions,2017,7,7,2017-07-01
-Scala,Bigdata,Questions,2017,8,3,2017-08-01
-Scala,Bigdata,Questions,2017,9,7,2017-09-01
-Scala,Bigdata,Questions,2017,10,8,2017-10-01
-Scala,Bigdata,Questions,2017,11,4,2017-11-01
-Scala,Bigdata,Questions,2017,12,2,2017-12-01
-Scala,Bigdata,Questions,2018,1,5,2018-01-01
-Scala,Bigdata,Questions,2018,2,3,2018-02-01
-Scala,Bigdata,Questions,2018,3,11,2018-03-01
-Scala,Bigdata,Questions,2018,4,6,2018-04-01
-Scala,Bigdata,Questions,2018,5,11,2018-05-01
-Scala,Bigdata,Questions,2018,6,12,2018-06-01
-Scala,Bigdata,Questions,2018,7,8,2018-07-01
-Scala,Bigdata,Questions,2018,8,5,2018-08-01
-Scala,Bigdata,Questions,2018,9,14,2018-09-01
-Scala,Bigdata,Questions,2018,10,9,2018-10-01
-Scala,Bigdata,Score,2012,7,2,2012-07-01
-Scala,Bigdata,Score,2012,11,2,2012-11-01
-Scala,Bigdata,Score,2013,1,28,2013-01-01
-Scala,Bigdata,Score,2013,6,1,2013-06-01
-Scala,Bigdata,Score,2013,7,4,2013-07-01
-Scala,Bigdata,Score,2013,9,0,2013-09-01
-Scala,Bigdata,Score,2013,11,1,2013-11-01
-Scala,Bigdata,Score,2013,12,0,2013-12-01
-Scala,Bigdata,Score,2014,1,0,2014-01-01
-Scala,Bigdata,Score,2014,2,2,2014-02-01
-Scala,Bigdata,Score,2014,3,8,2014-03-01
-Scala,Bigdata,Score,2014,4,2,2014-04-01
-Scala,Bigdata,Score,2014,9,0,2014-09-01
-Scala,Bigdata,Score,2014,10,0,2014-10-01
-Scala,Bigdata,Score,2014,11,37,2014-11-01
-Scala,Bigdata,Score,2014,12,20,2014-12-01
-Scala,Bigdata,Score,2015,1,20,2015-01-01
-Scala,Bigdata,Score,2015,2,6,2015-02-01
-Scala,Bigdata,Score,2015,3,7,2015-03-01
-Scala,Bigdata,Score,2015,4,6,2015-04-01
-Scala,Bigdata,Score,2015,5,16,2015-05-01
-Scala,Bigdata,Score,2015,6,3,2015-06-01
-Scala,Bigdata,Score,2015,7,7,2015-07-01
-Scala,Bigdata,Score,2015,8,2,2015-08-01
-Scala,Bigdata,Score,2015,9,10,2015-09-01
-Scala,Bigdata,Score,2015,10,-2,2015-10-01
-Scala,Bigdata,Score,2015,11,0,2015-11-01
-Scala,Bigdata,Score,2015,12,13,2015-12-01
-Scala,Bigdata,Score,2016,1,1,2016-01-01
-Scala,Bigdata,Score,2016,3,2,2016-03-01
-Scala,Bigdata,Score,2016,4,8,2016-04-01
-Scala,Bigdata,Score,2016,5,8,2016-05-01
-Scala,Bigdata,Score,2016,6,33,2016-06-01
-Scala,Bigdata,Score,2016,7,0,2016-07-01
-Scala,Bigdata,Score,2016,8,30,2016-08-01
-Scala,Bigdata,Score,2016,9,24,2016-09-01
-Scala,Bigdata,Score,2016,10,22,2016-10-01
-Scala,Bigdata,Score,2016,11,2,2016-11-01
-Scala,Bigdata,Score,2016,12,9,2016-12-01
-Scala,Bigdata,Score,2017,1,9,2017-01-01
-Scala,Bigdata,Score,2017,2,12,2017-02-01
-Scala,Bigdata,Score,2017,3,-2,2017-03-01
-Scala,Bigdata,Score,2017,4,2,2017-04-01
-Scala,Bigdata,Score,2017,5,7,2017-05-01
-Scala,Bigdata,Score,2017,6,14,2017-06-01
-Scala,Bigdata,Score,2017,7,0,2017-07-01
-Scala,Bigdata,Score,2017,8,5,2017-08-01
-Scala,Bigdata,Score,2017,9,-1,2017-09-01
-Scala,Bigdata,Score,2017,10,-5,2017-10-01
-Scala,Bigdata,Score,2017,11,5,2017-11-01
-Scala,Bigdata,Score,2017,12,0,2017-12-01
-Scala,Bigdata,Score,2018,1,4,2018-01-01
-Scala,Bigdata,Score,2018,2,1,2018-02-01
-Scala,Bigdata,Score,2018,3,8,2018-03-01
-Scala,Bigdata,Score,2018,4,3,2018-04-01
-Scala,Bigdata,Score,2018,5,14,2018-05-01
-Scala,Bigdata,Score,2018,6,1,2018-06-01
-Scala,Bigdata,Score,2018,7,2,2018-07-01
-Scala,Bigdata,Score,2018,8,1,2018-08-01
-Scala,Bigdata,Score,2018,9,2,2018-09-01
-Scala,Bigdata,Score,2018,10,0,2018-10-01
-Scala,Bigdata,Views,2012,7,188,2012-07-01
-Scala,Bigdata,Views,2012,11,257,2012-11-01
-Scala,Bigdata,Views,2013,1,13693,2013-01-01
-Scala,Bigdata,Views,2013,6,5760,2013-06-01
-Scala,Bigdata,Views,2013,7,2664,2013-07-01
-Scala,Bigdata,Views,2013,9,284,2013-09-01
-Scala,Bigdata,Views,2013,11,101,2013-11-01
-Scala,Bigdata,Views,2013,12,135,2013-12-01
-Scala,Bigdata,Views,2014,1,143,2014-01-01
-Scala,Bigdata,Views,2014,2,1114,2014-02-01
-Scala,Bigdata,Views,2014,3,997,2014-03-01
-Scala,Bigdata,Views,2014,4,3625,2014-04-01
-Scala,Bigdata,Views,2014,9,51,2014-09-01
-Scala,Bigdata,Views,2014,10,375,2014-10-01
-Scala,Bigdata,Views,2014,11,58186,2014-11-01
-Scala,Bigdata,Views,2014,12,4482,2014-12-01
-Scala,Bigdata,Views,2015,1,16262,2015-01-01
-Scala,Bigdata,Views,2015,2,3603,2015-02-01
-Scala,Bigdata,Views,2015,3,1859,2015-03-01
-Scala,Bigdata,Views,2015,4,3335,2015-04-01
-Scala,Bigdata,Views,2015,5,7435,2015-05-01
-Scala,Bigdata,Views,2015,6,5467,2015-06-01
-Scala,Bigdata,Views,2015,7,2036,2015-07-01
-Scala,Bigdata,Views,2015,8,3668,2015-08-01
-Scala,Bigdata,Views,2015,9,9072,2015-09-01
-Scala,Bigdata,Views,2015,10,3469,2015-10-01
-Scala,Bigdata,Views,2015,11,64,2015-11-01
-Scala,Bigdata,Views,2015,12,6792,2015-12-01
-Scala,Bigdata,Views,2016,1,49,2016-01-01
-Scala,Bigdata,Views,2016,3,1383,2016-03-01
-Scala,Bigdata,Views,2016,4,10002,2016-04-01
-Scala,Bigdata,Views,2016,5,7132,2016-05-01
-Scala,Bigdata,Views,2016,6,11309,2016-06-01
-Scala,Bigdata,Views,2016,7,2260,2016-07-01
-Scala,Bigdata,Views,2016,8,18715,2016-08-01
-Scala,Bigdata,Views,2016,9,19185,2016-09-01
-Scala,Bigdata,Views,2016,10,28636,2016-10-01
-Scala,Bigdata,Views,2016,11,2686,2016-11-01
-Scala,Bigdata,Views,2016,12,3115,2016-12-01
-Scala,Bigdata,Views,2017,1,13954,2017-01-01
-Scala,Bigdata,Views,2017,2,4088,2017-02-01
-Scala,Bigdata,Views,2017,3,1688,2017-03-01
-Scala,Bigdata,Views,2017,4,3186,2017-04-01
-Scala,Bigdata,Views,2017,5,4067,2017-05-01
-Scala,Bigdata,Views,2017,6,24713,2017-06-01
-Scala,Bigdata,Views,2017,7,3159,2017-07-01
-Scala,Bigdata,Views,2017,8,562,2017-08-01
-Scala,Bigdata,Views,2017,9,1177,2017-09-01
-Scala,Bigdata,Views,2017,10,2105,2017-10-01
-Scala,Bigdata,Views,2017,11,1027,2017-11-01
-Scala,Bigdata,Views,2017,12,144,2017-12-01
-Scala,Bigdata,Views,2018,1,1435,2018-01-01
-Scala,Bigdata,Views,2018,2,372,2018-02-01
-Scala,Bigdata,Views,2018,3,2087,2018-03-01
-Scala,Bigdata,Views,2018,4,1316,2018-04-01
-Scala,Bigdata,Views,2018,5,2157,2018-05-01
-Scala,Bigdata,Views,2018,6,1814,2018-06-01
-Scala,Bigdata,Views,2018,7,882,2018-07-01
-Scala,Bigdata,Views,2018,8,232,2018-08-01
-Scala,Bigdata,Views,2018,9,1038,2018-09-01
-Scala,Bigdata,Views,2018,10,533,2018-10-01
-Python,Machine Learning,Answers,2012,1,36,2012-01-01
-Python,Machine Learning,Answers,2012,2,26,2012-02-01
-Python,Machine Learning,Answers,2012,3,14,2012-03-01
-Python,Machine Learning,Answers,2012,4,30,2012-04-01
-Python,Machine Learning,Answers,2012,5,12,2012-05-01
-Python,Machine Learning,Answers,2012,6,34,2012-06-01
-Python,Machine Learning,Answers,2012,7,20,2012-07-01
-Python,Machine Learning,Answers,2012,8,30,2012-08-01
-Python,Machine Learning,Answers,2012,9,19,2012-09-01
-Python,Machine Learning,Answers,2012,10,18,2012-10-01
-Python,Machine Learning,Answers,2012,11,38,2012-11-01
-Python,Machine Learning,Answers,2012,12,22,2012-12-01
-Python,Machine Learning,Answers,2013,1,26,2013-01-01
-Python,Machine Learning,Answers,2013,2,18,2013-02-01
-Python,Machine Learning,Answers,2013,3,41,2013-03-01
-Python,Machine Learning,Answers,2013,4,35,2013-04-01
-Python,Machine Learning,Answers,2013,5,53,2013-05-01
-Python,Machine Learning,Answers,2013,6,40,2013-06-01
-Python,Machine Learning,Answers,2013,7,50,2013-07-01
-Python,Machine Learning,Answers,2013,8,30,2013-08-01
-Python,Machine Learning,Answers,2013,9,31,2013-09-01
-Python,Machine Learning,Answers,2013,10,44,2013-10-01
-Python,Machine Learning,Answers,2013,11,59,2013-11-01
-Python,Machine Learning,Answers,2013,12,54,2013-12-01
-Python,Machine Learning,Answers,2014,1,47,2014-01-01
-Python,Machine Learning,Answers,2014,2,76,2014-02-01
-Python,Machine Learning,Answers,2014,3,56,2014-03-01
-Python,Machine Learning,Answers,2014,4,49,2014-04-01
-Python,Machine Learning,Answers,2014,5,19,2014-05-01
-Python,Machine Learning,Answers,2014,6,42,2014-06-01
-Python,Machine Learning,Answers,2014,7,49,2014-07-01
-Python,Machine Learning,Answers,2014,8,37,2014-08-01
-Python,Machine Learning,Answers,2014,9,31,2014-09-01
-Python,Machine Learning,Answers,2014,10,64,2014-10-01
-Python,Machine Learning,Answers,2014,11,37,2014-11-01
-Python,Machine Learning,Answers,2014,12,76,2014-12-01
-Python,Machine Learning,Answers,2015,1,71,2015-01-01
-Python,Machine Learning,Answers,2015,2,46,2015-02-01
-Python,Machine Learning,Answers,2015,3,45,2015-03-01
-Python,Machine Learning,Answers,2015,4,89,2015-04-01
-Python,Machine Learning,Answers,2015,5,92,2015-05-01
-Python,Machine Learning,Answers,2015,6,61,2015-06-01
-Python,Machine Learning,Answers,2015,7,94,2015-07-01
-Python,Machine Learning,Answers,2015,8,90,2015-08-01
-Python,Machine Learning,Answers,2015,9,71,2015-09-01
-Python,Machine Learning,Answers,2015,10,78,2015-10-01
-Python,Machine Learning,Answers,2015,11,169,2015-11-01
-Python,Machine Learning,Answers,2015,12,134,2015-12-01
-Python,Machine Learning,Answers,2016,1,170,2016-01-01
-Python,Machine Learning,Answers,2016,2,144,2016-02-01
-Python,Machine Learning,Answers,2016,3,152,2016-03-01
-Python,Machine Learning,Answers,2016,4,182,2016-04-01
-Python,Machine Learning,Answers,2016,5,216,2016-05-01
-Python,Machine Learning,Answers,2016,6,173,2016-06-01
-Python,Machine Learning,Answers,2016,7,176,2016-07-01
-Python,Machine Learning,Answers,2016,8,213,2016-08-01
-Python,Machine Learning,Answers,2016,9,153,2016-09-01
-Python,Machine Learning,Answers,2016,10,198,2016-10-01
-Python,Machine Learning,Answers,2016,11,216,2016-11-01
-Python,Machine Learning,Answers,2016,12,192,2016-12-01
-Python,Machine Learning,Answers,2017,1,255,2017-01-01
-Python,Machine Learning,Answers,2017,2,263,2017-02-01
-Python,Machine Learning,Answers,2017,3,283,2017-03-01
-Python,Machine Learning,Answers,2017,4,281,2017-04-01
-Python,Machine Learning,Answers,2017,5,233,2017-05-01
-Python,Machine Learning,Answers,2017,6,287,2017-06-01
-Python,Machine Learning,Answers,2017,7,368,2017-07-01
-Python,Machine Learning,Answers,2017,8,334,2017-08-01
-Python,Machine Learning,Answers,2017,9,305,2017-09-01
-Python,Machine Learning,Answers,2017,10,288,2017-10-01
-Python,Machine Learning,Answers,2017,11,333,2017-11-01
-Python,Machine Learning,Answers,2017,12,247,2017-12-01
-Python,Machine Learning,Answers,2018,1,293,2018-01-01
-Python,Machine Learning,Answers,2018,2,339,2018-02-01
-Python,Machine Learning,Answers,2018,3,415,2018-03-01
-Python,Machine Learning,Answers,2018,4,443,2018-04-01
-Python,Machine Learning,Answers,2018,5,372,2018-05-01
-Python,Machine Learning,Answers,2018,6,326,2018-06-01
-Python,Machine Learning,Answers,2018,7,403,2018-07-01
-Python,Machine Learning,Answers,2018,8,356,2018-08-01
-Python,Machine Learning,Answers,2018,9,266,2018-09-01
-Python,Machine Learning,Answers,2018,10,343,2018-10-01
-Python,Machine Learning,Questions,2012,1,13,2012-01-01
-Python,Machine Learning,Questions,2012,2,8,2012-02-01
-Python,Machine Learning,Questions,2012,3,8,2012-03-01
-Python,Machine Learning,Questions,2012,4,18,2012-04-01
-Python,Machine Learning,Questions,2012,5,6,2012-05-01
-Python,Machine Learning,Questions,2012,6,17,2012-06-01
-Python,Machine Learning,Questions,2012,7,12,2012-07-01
-Python,Machine Learning,Questions,2012,8,16,2012-08-01
-Python,Machine Learning,Questions,2012,9,12,2012-09-01
-Python,Machine Learning,Questions,2012,10,14,2012-10-01
-Python,Machine Learning,Questions,2012,11,16,2012-11-01
-Python,Machine Learning,Questions,2012,12,16,2012-12-01
-Python,Machine Learning,Questions,2013,1,17,2013-01-01
-Python,Machine Learning,Questions,2013,2,11,2013-02-01
-Python,Machine Learning,Questions,2013,3,19,2013-03-01
-Python,Machine Learning,Questions,2013,4,23,2013-04-01
-Python,Machine Learning,Questions,2013,5,30,2013-05-01
-Python,Machine Learning,Questions,2013,6,21,2013-06-01
-Python,Machine Learning,Questions,2013,7,27,2013-07-01
-Python,Machine Learning,Questions,2013,8,20,2013-08-01
-Python,Machine Learning,Questions,2013,9,22,2013-09-01
-Python,Machine Learning,Questions,2013,10,22,2013-10-01
-Python,Machine Learning,Questions,2013,11,31,2013-11-01
-Python,Machine Learning,Questions,2013,12,40,2013-12-01
-Python,Machine Learning,Questions,2014,1,35,2014-01-01
-Python,Machine Learning,Questions,2014,2,42,2014-02-01
-Python,Machine Learning,Questions,2014,3,38,2014-03-01
-Python,Machine Learning,Questions,2014,4,33,2014-04-01
-Python,Machine Learning,Questions,2014,5,18,2014-05-01
-Python,Machine Learning,Questions,2014,6,37,2014-06-01
-Python,Machine Learning,Questions,2014,7,40,2014-07-01
-Python,Machine Learning,Questions,2014,8,27,2014-08-01
-Python,Machine Learning,Questions,2014,9,25,2014-09-01
-Python,Machine Learning,Questions,2014,10,40,2014-10-01
-Python,Machine Learning,Questions,2014,11,29,2014-11-01
-Python,Machine Learning,Questions,2014,12,53,2014-12-01
-Python,Machine Learning,Questions,2015,1,59,2015-01-01
-Python,Machine Learning,Questions,2015,2,39,2015-02-01
-Python,Machine Learning,Questions,2015,3,50,2015-03-01
-Python,Machine Learning,Questions,2015,4,63,2015-04-01
-Python,Machine Learning,Questions,2015,5,77,2015-05-01
-Python,Machine Learning,Questions,2015,6,50,2015-06-01
-Python,Machine Learning,Questions,2015,7,67,2015-07-01
-Python,Machine Learning,Questions,2015,8,65,2015-08-01
-Python,Machine Learning,Questions,2015,9,56,2015-09-01
-Python,Machine Learning,Questions,2015,10,63,2015-10-01
-Python,Machine Learning,Questions,2015,11,86,2015-11-01
-Python,Machine Learning,Questions,2015,12,101,2015-12-01
-Python,Machine Learning,Questions,2016,1,119,2016-01-01
-Python,Machine Learning,Questions,2016,2,117,2016-02-01
-Python,Machine Learning,Questions,2016,3,134,2016-03-01
-Python,Machine Learning,Questions,2016,4,143,2016-04-01
-Python,Machine Learning,Questions,2016,5,141,2016-05-01
-Python,Machine Learning,Questions,2016,6,136,2016-06-01
-Python,Machine Learning,Questions,2016,7,142,2016-07-01
-Python,Machine Learning,Questions,2016,8,151,2016-08-01
-Python,Machine Learning,Questions,2016,9,121,2016-09-01
-Python,Machine Learning,Questions,2016,10,174,2016-10-01
-Python,Machine Learning,Questions,2016,11,186,2016-11-01
-Python,Machine Learning,Questions,2016,12,179,2016-12-01
-Python,Machine Learning,Questions,2017,1,224,2017-01-01
-Python,Machine Learning,Questions,2017,2,222,2017-02-01
-Python,Machine Learning,Questions,2017,3,268,2017-03-01
-Python,Machine Learning,Questions,2017,4,251,2017-04-01
-Python,Machine Learning,Questions,2017,5,220,2017-05-01
-Python,Machine Learning,Questions,2017,6,279,2017-06-01
-Python,Machine Learning,Questions,2017,7,346,2017-07-01
-Python,Machine Learning,Questions,2017,8,298,2017-08-01
-Python,Machine Learning,Questions,2017,9,250,2017-09-01
-Python,Machine Learning,Questions,2017,10,262,2017-10-01
-Python,Machine Learning,Questions,2017,11,281,2017-11-01
-Python,Machine Learning,Questions,2017,12,259,2017-12-01
-Python,Machine Learning,Questions,2018,1,304,2018-01-01
-Python,Machine Learning,Questions,2018,2,354,2018-02-01
-Python,Machine Learning,Questions,2018,3,438,2018-03-01
-Python,Machine Learning,Questions,2018,4,491,2018-04-01
-Python,Machine Learning,Questions,2018,5,418,2018-05-01
-Python,Machine Learning,Questions,2018,6,360,2018-06-01
-Python,Machine Learning,Questions,2018,7,438,2018-07-01
-Python,Machine Learning,Questions,2018,8,389,2018-08-01
-Python,Machine Learning,Questions,2018,9,326,2018-09-01
-Python,Machine Learning,Questions,2018,10,401,2018-10-01
-Python,Machine Learning,Score,2012,1,194,2012-01-01
-Python,Machine Learning,Score,2012,2,95,2012-02-01
-Python,Machine Learning,Score,2012,3,58,2012-03-01
-Python,Machine Learning,Score,2012,4,126,2012-04-01
-Python,Machine Learning,Score,2012,5,173,2012-05-01
-Python,Machine Learning,Score,2012,6,122,2012-06-01
-Python,Machine Learning,Score,2012,7,47,2012-07-01
-Python,Machine Learning,Score,2012,8,156,2012-08-01
-Python,Machine Learning,Score,2012,9,121,2012-09-01
-Python,Machine Learning,Score,2012,10,67,2012-10-01
-Python,Machine Learning,Score,2012,11,129,2012-11-01
-Python,Machine Learning,Score,2012,12,67,2012-12-01
-Python,Machine Learning,Score,2013,1,95,2013-01-01
-Python,Machine Learning,Score,2013,2,32,2013-02-01
-Python,Machine Learning,Score,2013,3,112,2013-03-01
-Python,Machine Learning,Score,2013,4,53,2013-04-01
-Python,Machine Learning,Score,2013,5,125,2013-05-01
-Python,Machine Learning,Score,2013,6,135,2013-06-01
-Python,Machine Learning,Score,2013,7,123,2013-07-01
-Python,Machine Learning,Score,2013,8,62,2013-08-01
-Python,Machine Learning,Score,2013,9,62,2013-09-01
-Python,Machine Learning,Score,2013,10,128,2013-10-01
-Python,Machine Learning,Score,2013,11,272,2013-11-01
-Python,Machine Learning,Score,2013,12,157,2013-12-01
-Python,Machine Learning,Score,2014,1,80,2014-01-01
-Python,Machine Learning,Score,2014,2,145,2014-02-01
-Python,Machine Learning,Score,2014,3,99,2014-03-01
-Python,Machine Learning,Score,2014,4,200,2014-04-01
-Python,Machine Learning,Score,2014,5,20,2014-05-01
-Python,Machine Learning,Score,2014,6,88,2014-06-01
-Python,Machine Learning,Score,2014,7,93,2014-07-01
-Python,Machine Learning,Score,2014,8,59,2014-08-01
-Python,Machine Learning,Score,2014,9,57,2014-09-01
-Python,Machine Learning,Score,2014,10,123,2014-10-01
-Python,Machine Learning,Score,2014,11,71,2014-11-01
-Python,Machine Learning,Score,2014,12,126,2014-12-01
-Python,Machine Learning,Score,2015,1,105,2015-01-01
-Python,Machine Learning,Score,2015,2,97,2015-02-01
-Python,Machine Learning,Score,2015,3,52,2015-03-01
-Python,Machine Learning,Score,2015,4,263,2015-04-01
-Python,Machine Learning,Score,2015,5,132,2015-05-01
-Python,Machine Learning,Score,2015,6,161,2015-06-01
-Python,Machine Learning,Score,2015,7,270,2015-07-01
-Python,Machine Learning,Score,2015,8,206,2015-08-01
-Python,Machine Learning,Score,2015,9,124,2015-09-01
-Python,Machine Learning,Score,2015,10,163,2015-10-01
-Python,Machine Learning,Score,2015,11,748,2015-11-01
-Python,Machine Learning,Score,2015,12,612,2015-12-01
-Python,Machine Learning,Score,2016,1,685,2016-01-01
-Python,Machine Learning,Score,2016,2,334,2016-02-01
-Python,Machine Learning,Score,2016,3,344,2016-03-01
-Python,Machine Learning,Score,2016,4,390,2016-04-01
-Python,Machine Learning,Score,2016,5,421,2016-05-01
-Python,Machine Learning,Score,2016,6,315,2016-06-01
-Python,Machine Learning,Score,2016,7,308,2016-07-01
-Python,Machine Learning,Score,2016,8,642,2016-08-01
-Python,Machine Learning,Score,2016,9,206,2016-09-01
-Python,Machine Learning,Score,2016,10,264,2016-10-01
-Python,Machine Learning,Score,2016,11,398,2016-11-01
-Python,Machine Learning,Score,2016,12,290,2016-12-01
-Python,Machine Learning,Score,2017,1,440,2017-01-01
-Python,Machine Learning,Score,2017,2,342,2017-02-01
-Python,Machine Learning,Score,2017,3,415,2017-03-01
-Python,Machine Learning,Score,2017,4,339,2017-04-01
-Python,Machine Learning,Score,2017,5,220,2017-05-01
-Python,Machine Learning,Score,2017,6,371,2017-06-01
-Python,Machine Learning,Score,2017,7,353,2017-07-01
-Python,Machine Learning,Score,2017,8,333,2017-08-01
-Python,Machine Learning,Score,2017,9,249,2017-09-01
-Python,Machine Learning,Score,2017,10,223,2017-10-01
-Python,Machine Learning,Score,2017,11,221,2017-11-01
-Python,Machine Learning,Score,2017,12,244,2017-12-01
-Python,Machine Learning,Score,2018,1,273,2018-01-01
-Python,Machine Learning,Score,2018,2,399,2018-02-01
-Python,Machine Learning,Score,2018,3,211,2018-03-01
-Python,Machine Learning,Score,2018,4,245,2018-04-01
-Python,Machine Learning,Score,2018,5,240,2018-05-01
-Python,Machine Learning,Score,2018,6,116,2018-06-01
-Python,Machine Learning,Score,2018,7,101,2018-07-01
-Python,Machine Learning,Score,2018,8,283,2018-08-01
-Python,Machine Learning,Score,2018,9,124,2018-09-01
-Python,Machine Learning,Score,2018,10,56,2018-10-01
-Python,Machine Learning,Views,2012,1,49494,2012-01-01
-Python,Machine Learning,Views,2012,2,73338,2012-02-01
-Python,Machine Learning,Views,2012,3,23428,2012-03-01
-Python,Machine Learning,Views,2012,4,83693,2012-04-01
-Python,Machine Learning,Views,2012,5,95350,2012-05-01
-Python,Machine Learning,Views,2012,6,75843,2012-06-01
-Python,Machine Learning,Views,2012,7,24531,2012-07-01
-Python,Machine Learning,Views,2012,8,132027,2012-08-01
-Python,Machine Learning,Views,2012,9,57260,2012-09-01
-Python,Machine Learning,Views,2012,10,35211,2012-10-01
-Python,Machine Learning,Views,2012,11,147907,2012-11-01
-Python,Machine Learning,Views,2012,12,67718,2012-12-01
-Python,Machine Learning,Views,2013,1,59363,2013-01-01
-Python,Machine Learning,Views,2013,2,38953,2013-02-01
-Python,Machine Learning,Views,2013,3,126344,2013-03-01
-Python,Machine Learning,Views,2013,4,47722,2013-04-01
-Python,Machine Learning,Views,2013,5,88405,2013-05-01
-Python,Machine Learning,Views,2013,6,71027,2013-06-01
-Python,Machine Learning,Views,2013,7,175404,2013-07-01
-Python,Machine Learning,Views,2013,8,92106,2013-08-01
-Python,Machine Learning,Views,2013,9,74091,2013-09-01
-Python,Machine Learning,Views,2013,10,106620,2013-10-01
-Python,Machine Learning,Views,2013,11,202871,2013-11-01
-Python,Machine Learning,Views,2013,12,124325,2013-12-01
-Python,Machine Learning,Views,2014,1,92838,2014-01-01
-Python,Machine Learning,Views,2014,2,131872,2014-02-01
-Python,Machine Learning,Views,2014,3,79450,2014-03-01
-Python,Machine Learning,Views,2014,4,184629,2014-04-01
-Python,Machine Learning,Views,2014,5,13644,2014-05-01
-Python,Machine Learning,Views,2014,6,59154,2014-06-01
-Python,Machine Learning,Views,2014,7,107613,2014-07-01
-Python,Machine Learning,Views,2014,8,49967,2014-08-01
-Python,Machine Learning,Views,2014,9,43968,2014-09-01
-Python,Machine Learning,Views,2014,10,95098,2014-10-01
-Python,Machine Learning,Views,2014,11,45304,2014-11-01
-Python,Machine Learning,Views,2014,12,122544,2014-12-01
-Python,Machine Learning,Views,2015,1,79814,2015-01-01
-Python,Machine Learning,Views,2015,2,107688,2015-02-01
-Python,Machine Learning,Views,2015,3,55348,2015-03-01
-Python,Machine Learning,Views,2015,4,194381,2015-04-01
-Python,Machine Learning,Views,2015,5,121820,2015-05-01
-Python,Machine Learning,Views,2015,6,138035,2015-06-01
-Python,Machine Learning,Views,2015,7,261743,2015-07-01
-Python,Machine Learning,Views,2015,8,163535,2015-08-01
-Python,Machine Learning,Views,2015,9,98300,2015-09-01
-Python,Machine Learning,Views,2015,10,147298,2015-10-01
-Python,Machine Learning,Views,2015,11,596999,2015-11-01
-Python,Machine Learning,Views,2015,12,385428,2015-12-01
-Python,Machine Learning,Views,2016,1,505698,2016-01-01
-Python,Machine Learning,Views,2016,2,246111,2016-02-01
-Python,Machine Learning,Views,2016,3,331115,2016-03-01
-Python,Machine Learning,Views,2016,4,335213,2016-04-01
-Python,Machine Learning,Views,2016,5,401311,2016-05-01
-Python,Machine Learning,Views,2016,6,262143,2016-06-01
-Python,Machine Learning,Views,2016,7,213855,2016-07-01
-Python,Machine Learning,Views,2016,8,621510,2016-08-01
-Python,Machine Learning,Views,2016,9,158985,2016-09-01
-Python,Machine Learning,Views,2016,10,239449,2016-10-01
-Python,Machine Learning,Views,2016,11,356520,2016-11-01
-Python,Machine Learning,Views,2016,12,175342,2016-12-01
-Python,Machine Learning,Views,2017,1,342501,2017-01-01
-Python,Machine Learning,Views,2017,2,256854,2017-02-01
-Python,Machine Learning,Views,2017,3,360423,2017-03-01
-Python,Machine Learning,Views,2017,4,234398,2017-04-01
-Python,Machine Learning,Views,2017,5,153892,2017-05-01
-Python,Machine Learning,Views,2017,6,211366,2017-06-01
-Python,Machine Learning,Views,2017,7,212393,2017-07-01
-Python,Machine Learning,Views,2017,8,263934,2017-08-01
-Python,Machine Learning,Views,2017,9,169783,2017-09-01
-Python,Machine Learning,Views,2017,10,135761,2017-10-01
-Python,Machine Learning,Views,2017,11,211170,2017-11-01
-Python,Machine Learning,Views,2017,12,130251,2017-12-01
-Python,Machine Learning,Views,2018,1,151776,2018-01-01
-Python,Machine Learning,Views,2018,2,173423,2018-02-01
-Python,Machine Learning,Views,2018,3,120470,2018-03-01
-Python,Machine Learning,Views,2018,4,104562,2018-04-01
-Python,Machine Learning,Views,2018,5,90703,2018-05-01
-Python,Machine Learning,Views,2018,6,63986,2018-06-01
-Python,Machine Learning,Views,2018,7,55738,2018-07-01
-Python,Machine Learning,Views,2018,8,40676,2018-08-01
-Python,Machine Learning,Views,2018,9,24122,2018-09-01
-Python,Machine Learning,Views,2018,10,19727,2018-10-01
-R,Machine Learning,Answers,2012,1,4,2012-01-01
-R,Machine Learning,Answers,2012,2,4,2012-02-01
-R,Machine Learning,Answers,2012,3,2,2012-03-01
-R,Machine Learning,Answers,2012,4,14,2012-04-01
-R,Machine Learning,Answers,2012,5,6,2012-05-01
-R,Machine Learning,Answers,2012,6,16,2012-06-01
-R,Machine Learning,Answers,2012,7,3,2012-07-01
-R,Machine Learning,Answers,2012,8,9,2012-08-01
-R,Machine Learning,Answers,2012,9,4,2012-09-01
-R,Machine Learning,Answers,2012,10,3,2012-10-01
-R,Machine Learning,Answers,2012,11,6,2012-11-01
-R,Machine Learning,Answers,2012,12,12,2012-12-01
-R,Machine Learning,Answers,2013,1,4,2013-01-01
-R,Machine Learning,Answers,2013,2,5,2013-02-01
-R,Machine Learning,Answers,2013,3,8,2013-03-01
-R,Machine Learning,Answers,2013,4,7,2013-04-01
-R,Machine Learning,Answers,2013,5,10,2013-05-01
-R,Machine Learning,Answers,2013,6,29,2013-06-01
-R,Machine Learning,Answers,2013,7,17,2013-07-01
-R,Machine Learning,Answers,2013,8,10,2013-08-01
-R,Machine Learning,Answers,2013,9,10,2013-09-01
-R,Machine Learning,Answers,2013,10,18,2013-10-01
-R,Machine Learning,Answers,2013,11,11,2013-11-01
-R,Machine Learning,Answers,2013,12,18,2013-12-01
-R,Machine Learning,Answers,2014,1,11,2014-01-01
-R,Machine Learning,Answers,2014,2,19,2014-02-01
-R,Machine Learning,Answers,2014,3,17,2014-03-01
-R,Machine Learning,Answers,2014,4,23,2014-04-01
-R,Machine Learning,Answers,2014,5,18,2014-05-01
-R,Machine Learning,Answers,2014,6,14,2014-06-01
-R,Machine Learning,Answers,2014,7,16,2014-07-01
-R,Machine Learning,Answers,2014,8,4,2014-08-01
-R,Machine Learning,Answers,2014,9,14,2014-09-01
-R,Machine Learning,Answers,2014,10,14,2014-10-01
-R,Machine Learning,Answers,2014,11,7,2014-11-01
-R,Machine Learning,Answers,2014,12,19,2014-12-01
-R,Machine Learning,Answers,2015,1,7,2015-01-01
-R,Machine Learning,Answers,2015,2,6,2015-02-01
-R,Machine Learning,Answers,2015,3,8,2015-03-01
-R,Machine Learning,Answers,2015,4,22,2015-04-01
-R,Machine Learning,Answers,2015,5,26,2015-05-01
-R,Machine Learning,Answers,2015,6,19,2015-06-01
-R,Machine Learning,Answers,2015,7,21,2015-07-01
-R,Machine Learning,Answers,2015,8,24,2015-08-01
-R,Machine Learning,Answers,2015,9,16,2015-09-01
-R,Machine Learning,Answers,2015,10,27,2015-10-01
-R,Machine Learning,Answers,2015,11,31,2015-11-01
-R,Machine Learning,Answers,2015,12,24,2015-12-01
-R,Machine Learning,Answers,2016,1,40,2016-01-01
-R,Machine Learning,Answers,2016,2,35,2016-02-01
-R,Machine Learning,Answers,2016,3,48,2016-03-01
-R,Machine Learning,Answers,2016,4,34,2016-04-01
-R,Machine Learning,Answers,2016,5,39,2016-05-01
-R,Machine Learning,Answers,2016,6,27,2016-06-01
-R,Machine Learning,Answers,2016,7,42,2016-07-01
-R,Machine Learning,Answers,2016,8,29,2016-08-01
-R,Machine Learning,Answers,2016,9,30,2016-09-01
-R,Machine Learning,Answers,2016,10,44,2016-10-01
-R,Machine Learning,Answers,2016,11,49,2016-11-01
-R,Machine Learning,Answers,2016,12,30,2016-12-01
-R,Machine Learning,Answers,2017,1,30,2017-01-01
-R,Machine Learning,Answers,2017,2,21,2017-02-01
-R,Machine Learning,Answers,2017,3,38,2017-03-01
-R,Machine Learning,Answers,2017,4,39,2017-04-01
-R,Machine Learning,Answers,2017,5,27,2017-05-01
-R,Machine Learning,Answers,2017,6,22,2017-06-01
-R,Machine Learning,Answers,2017,7,36,2017-07-01
-R,Machine Learning,Answers,2017,8,22,2017-08-01
-R,Machine Learning,Answers,2017,9,19,2017-09-01
-R,Machine Learning,Answers,2017,10,33,2017-10-01
-R,Machine Learning,Answers,2017,11,33,2017-11-01
-R,Machine Learning,Answers,2017,12,16,2017-12-01
-R,Machine Learning,Answers,2018,1,28,2018-01-01
-R,Machine Learning,Answers,2018,2,37,2018-02-01
-R,Machine Learning,Answers,2018,3,50,2018-03-01
-R,Machine Learning,Answers,2018,4,26,2018-04-01
-R,Machine Learning,Answers,2018,5,30,2018-05-01
-R,Machine Learning,Answers,2018,6,19,2018-06-01
-R,Machine Learning,Answers,2018,7,21,2018-07-01
-R,Machine Learning,Answers,2018,8,20,2018-08-01
-R,Machine Learning,Answers,2018,9,18,2018-09-01
-R,Machine Learning,Answers,2018,10,22,2018-10-01
-R,Machine Learning,Questions,2012,1,2,2012-01-01
-R,Machine Learning,Questions,2012,2,3,2012-02-01
-R,Machine Learning,Questions,2012,3,1,2012-03-01
-R,Machine Learning,Questions,2012,4,6,2012-04-01
-R,Machine Learning,Questions,2012,5,5,2012-05-01
-R,Machine Learning,Questions,2012,6,7,2012-06-01
-R,Machine Learning,Questions,2012,7,3,2012-07-01
-R,Machine Learning,Questions,2012,8,6,2012-08-01
-R,Machine Learning,Questions,2012,9,4,2012-09-01
-R,Machine Learning,Questions,2012,10,2,2012-10-01
-R,Machine Learning,Questions,2012,11,3,2012-11-01
-R,Machine Learning,Questions,2012,12,6,2012-12-01
-R,Machine Learning,Questions,2013,1,3,2013-01-01
-R,Machine Learning,Questions,2013,2,4,2013-02-01
-R,Machine Learning,Questions,2013,3,6,2013-03-01
-R,Machine Learning,Questions,2013,4,6,2013-04-01
-R,Machine Learning,Questions,2013,5,7,2013-05-01
-R,Machine Learning,Questions,2013,6,14,2013-06-01
-R,Machine Learning,Questions,2013,7,10,2013-07-01
-R,Machine Learning,Questions,2013,8,8,2013-08-01
-R,Machine Learning,Questions,2013,9,9,2013-09-01
-R,Machine Learning,Questions,2013,10,14,2013-10-01
-R,Machine Learning,Questions,2013,11,9,2013-11-01
-R,Machine Learning,Questions,2013,12,12,2013-12-01
-R,Machine Learning,Questions,2014,1,6,2014-01-01
-R,Machine Learning,Questions,2014,2,13,2014-02-01
-R,Machine Learning,Questions,2014,3,15,2014-03-01
-R,Machine Learning,Questions,2014,4,14,2014-04-01
-R,Machine Learning,Questions,2014,5,18,2014-05-01
-R,Machine Learning,Questions,2014,6,13,2014-06-01
-R,Machine Learning,Questions,2014,7,10,2014-07-01
-R,Machine Learning,Questions,2014,8,6,2014-08-01
-R,Machine Learning,Questions,2014,9,10,2014-09-01
-R,Machine Learning,Questions,2014,10,13,2014-10-01
-R,Machine Learning,Questions,2014,11,12,2014-11-01
-R,Machine Learning,Questions,2014,12,12,2014-12-01
-R,Machine Learning,Questions,2015,1,8,2015-01-01
-R,Machine Learning,Questions,2015,2,8,2015-02-01
-R,Machine Learning,Questions,2015,3,12,2015-03-01
-R,Machine Learning,Questions,2015,4,22,2015-04-01
-R,Machine Learning,Questions,2015,5,19,2015-05-01
-R,Machine Learning,Questions,2015,6,15,2015-06-01
-R,Machine Learning,Questions,2015,7,20,2015-07-01
-R,Machine Learning,Questions,2015,8,18,2015-08-01
-R,Machine Learning,Questions,2015,9,15,2015-09-01
-R,Machine Learning,Questions,2015,10,27,2015-10-01
-R,Machine Learning,Questions,2015,11,25,2015-11-01
-R,Machine Learning,Questions,2015,12,26,2015-12-01
-R,Machine Learning,Questions,2016,1,41,2016-01-01
-R,Machine Learning,Questions,2016,2,26,2016-02-01
-R,Machine Learning,Questions,2016,3,44,2016-03-01
-R,Machine Learning,Questions,2016,4,34,2016-04-01
-R,Machine Learning,Questions,2016,5,35,2016-05-01
-R,Machine Learning,Questions,2016,6,24,2016-06-01
-R,Machine Learning,Questions,2016,7,35,2016-07-01
-R,Machine Learning,Questions,2016,8,30,2016-08-01
-R,Machine Learning,Questions,2016,9,34,2016-09-01
-R,Machine Learning,Questions,2016,10,44,2016-10-01
-R,Machine Learning,Questions,2016,11,42,2016-11-01
-R,Machine Learning,Questions,2016,12,33,2016-12-01
-R,Machine Learning,Questions,2017,1,29,2017-01-01
-R,Machine Learning,Questions,2017,2,24,2017-02-01
-R,Machine Learning,Questions,2017,3,40,2017-03-01
-R,Machine Learning,Questions,2017,4,41,2017-04-01
-R,Machine Learning,Questions,2017,5,29,2017-05-01
-R,Machine Learning,Questions,2017,6,22,2017-06-01
-R,Machine Learning,Questions,2017,7,46,2017-07-01
-R,Machine Learning,Questions,2017,8,26,2017-08-01
-R,Machine Learning,Questions,2017,9,26,2017-09-01
-R,Machine Learning,Questions,2017,10,30,2017-10-01
-R,Machine Learning,Questions,2017,11,34,2017-11-01
-R,Machine Learning,Questions,2017,12,30,2017-12-01
-R,Machine Learning,Questions,2018,1,34,2018-01-01
-R,Machine Learning,Questions,2018,2,45,2018-02-01
-R,Machine Learning,Questions,2018,3,50,2018-03-01
-R,Machine Learning,Questions,2018,4,41,2018-04-01
-R,Machine Learning,Questions,2018,5,41,2018-05-01
-R,Machine Learning,Questions,2018,6,34,2018-06-01
-R,Machine Learning,Questions,2018,7,33,2018-07-01
-R,Machine Learning,Questions,2018,8,26,2018-08-01
-R,Machine Learning,Questions,2018,9,25,2018-09-01
-R,Machine Learning,Questions,2018,10,30,2018-10-01
-R,Machine Learning,Score,2012,1,11,2012-01-01
-R,Machine Learning,Score,2012,2,20,2012-02-01
-R,Machine Learning,Score,2012,3,1,2012-03-01
-R,Machine Learning,Score,2012,4,22,2012-04-01
-R,Machine Learning,Score,2012,5,21,2012-05-01
-R,Machine Learning,Score,2012,6,63,2012-06-01
-R,Machine Learning,Score,2012,7,13,2012-07-01
-R,Machine Learning,Score,2012,8,19,2012-08-01
-R,Machine Learning,Score,2012,9,8,2012-09-01
-R,Machine Learning,Score,2012,10,9,2012-10-01
-R,Machine Learning,Score,2012,11,11,2012-11-01
-R,Machine Learning,Score,2012,12,51,2012-12-01
-R,Machine Learning,Score,2013,1,5,2013-01-01
-R,Machine Learning,Score,2013,2,18,2013-02-01
-R,Machine Learning,Score,2013,3,24,2013-03-01
-R,Machine Learning,Score,2013,4,11,2013-04-01
-R,Machine Learning,Score,2013,5,24,2013-05-01
-R,Machine Learning,Score,2013,6,123,2013-06-01
-R,Machine Learning,Score,2013,7,44,2013-07-01
-R,Machine Learning,Score,2013,8,11,2013-08-01
-R,Machine Learning,Score,2013,9,24,2013-09-01
-R,Machine Learning,Score,2013,10,36,2013-10-01
-R,Machine Learning,Score,2013,11,18,2013-11-01
-R,Machine Learning,Score,2013,12,24,2013-12-01
-R,Machine Learning,Score,2014,1,9,2014-01-01
-R,Machine Learning,Score,2014,2,26,2014-02-01
-R,Machine Learning,Score,2014,3,45,2014-03-01
-R,Machine Learning,Score,2014,4,29,2014-04-01
-R,Machine Learning,Score,2014,5,22,2014-05-01
-R,Machine Learning,Score,2014,6,16,2014-06-01
-R,Machine Learning,Score,2014,7,32,2014-07-01
-R,Machine Learning,Score,2014,8,8,2014-08-01
-R,Machine Learning,Score,2014,9,26,2014-09-01
-R,Machine Learning,Score,2014,10,40,2014-10-01
-R,Machine Learning,Score,2014,11,22,2014-11-01
-R,Machine Learning,Score,2014,12,44,2014-12-01
-R,Machine Learning,Score,2015,1,11,2015-01-01
-R,Machine Learning,Score,2015,2,10,2015-02-01
-R,Machine Learning,Score,2015,3,12,2015-03-01
-R,Machine Learning,Score,2015,4,89,2015-04-01
-R,Machine Learning,Score,2015,5,33,2015-05-01
-R,Machine Learning,Score,2015,6,13,2015-06-01
-R,Machine Learning,Score,2015,7,16,2015-07-01
-R,Machine Learning,Score,2015,8,18,2015-08-01
-R,Machine Learning,Score,2015,9,18,2015-09-01
-R,Machine Learning,Score,2015,10,39,2015-10-01
-R,Machine Learning,Score,2015,11,39,2015-11-01
-R,Machine Learning,Score,2015,12,47,2015-12-01
-R,Machine Learning,Score,2016,1,62,2016-01-01
-R,Machine Learning,Score,2016,2,23,2016-02-01
-R,Machine Learning,Score,2016,3,22,2016-03-01
-R,Machine Learning,Score,2016,4,33,2016-04-01
-R,Machine Learning,Score,2016,5,48,2016-05-01
-R,Machine Learning,Score,2016,6,20,2016-06-01
-R,Machine Learning,Score,2016,7,37,2016-07-01
-R,Machine Learning,Score,2016,8,23,2016-08-01
-R,Machine Learning,Score,2016,9,56,2016-09-01
-R,Machine Learning,Score,2016,10,39,2016-10-01
-R,Machine Learning,Score,2016,11,45,2016-11-01
-R,Machine Learning,Score,2016,12,13,2016-12-01
-R,Machine Learning,Score,2017,1,36,2017-01-01
-R,Machine Learning,Score,2017,2,20,2017-02-01
-R,Machine Learning,Score,2017,3,41,2017-03-01
-R,Machine Learning,Score,2017,4,30,2017-04-01
-R,Machine Learning,Score,2017,5,25,2017-05-01
-R,Machine Learning,Score,2017,6,2,2017-06-01
-R,Machine Learning,Score,2017,7,20,2017-07-01
-R,Machine Learning,Score,2017,8,11,2017-08-01
-R,Machine Learning,Score,2017,9,14,2017-09-01
-R,Machine Learning,Score,2017,10,14,2017-10-01
-R,Machine Learning,Score,2017,11,0,2017-11-01
-R,Machine Learning,Score,2017,12,58,2017-12-01
-R,Machine Learning,Score,2018,1,20,2018-01-01
-R,Machine Learning,Score,2018,2,35,2018-02-01
-R,Machine Learning,Score,2018,3,20,2018-03-01
-R,Machine Learning,Score,2018,4,32,2018-04-01
-R,Machine Learning,Score,2018,5,6,2018-05-01
-R,Machine Learning,Score,2018,6,7,2018-06-01
-R,Machine Learning,Score,2018,7,1,2018-07-01
-R,Machine Learning,Score,2018,8,18,2018-08-01
-R,Machine Learning,Score,2018,9,21,2018-09-01
-R,Machine Learning,Score,2018,10,10,2018-10-01
-R,Machine Learning,Views,2012,1,4484,2012-01-01
-R,Machine Learning,Views,2012,2,3862,2012-02-01
-R,Machine Learning,Views,2012,3,2140,2012-03-01
-R,Machine Learning,Views,2012,4,37225,2012-04-01
-R,Machine Learning,Views,2012,5,48603,2012-05-01
-R,Machine Learning,Views,2012,6,51596,2012-06-01
-R,Machine Learning,Views,2012,7,6136,2012-07-01
-R,Machine Learning,Views,2012,8,16823,2012-08-01
-R,Machine Learning,Views,2012,9,5254,2012-09-01
-R,Machine Learning,Views,2012,10,6575,2012-10-01
-R,Machine Learning,Views,2012,11,11033,2012-11-01
-R,Machine Learning,Views,2012,12,63544,2012-12-01
-R,Machine Learning,Views,2013,1,1745,2013-01-01
-R,Machine Learning,Views,2013,2,14470,2013-02-01
-R,Machine Learning,Views,2013,3,31263,2013-03-01
-R,Machine Learning,Views,2013,4,10873,2013-04-01
-R,Machine Learning,Views,2013,5,21141,2013-05-01
-R,Machine Learning,Views,2013,6,84328,2013-06-01
-R,Machine Learning,Views,2013,7,64810,2013-07-01
-R,Machine Learning,Views,2013,8,21532,2013-08-01
-R,Machine Learning,Views,2013,9,23653,2013-09-01
-R,Machine Learning,Views,2013,10,45856,2013-10-01
-R,Machine Learning,Views,2013,11,18253,2013-11-01
-R,Machine Learning,Views,2013,12,26492,2013-12-01
-R,Machine Learning,Views,2014,1,25695,2014-01-01
-R,Machine Learning,Views,2014,2,30754,2014-02-01
-R,Machine Learning,Views,2014,3,29892,2014-03-01
-R,Machine Learning,Views,2014,4,44684,2014-04-01
-R,Machine Learning,Views,2014,5,18057,2014-05-01
-R,Machine Learning,Views,2014,6,8747,2014-06-01
-R,Machine Learning,Views,2014,7,38734,2014-07-01
-R,Machine Learning,Views,2014,8,2097,2014-08-01
-R,Machine Learning,Views,2014,9,46803,2014-09-01
-R,Machine Learning,Views,2014,10,25673,2014-10-01
-R,Machine Learning,Views,2014,11,12939,2014-11-01
-R,Machine Learning,Views,2014,12,36247,2014-12-01
-R,Machine Learning,Views,2015,1,8767,2015-01-01
-R,Machine Learning,Views,2015,2,5976,2015-02-01
-R,Machine Learning,Views,2015,3,8229,2015-03-01
-R,Machine Learning,Views,2015,4,66396,2015-04-01
-R,Machine Learning,Views,2015,5,57955,2015-05-01
-R,Machine Learning,Views,2015,6,15180,2015-06-01
-R,Machine Learning,Views,2015,7,9954,2015-07-01
-R,Machine Learning,Views,2015,8,16163,2015-08-01
-R,Machine Learning,Views,2015,9,13553,2015-09-01
-R,Machine Learning,Views,2015,10,44215,2015-10-01
-R,Machine Learning,Views,2015,11,20506,2015-11-01
-R,Machine Learning,Views,2015,12,30029,2015-12-01
-R,Machine Learning,Views,2016,1,57445,2016-01-01
-R,Machine Learning,Views,2016,2,16028,2016-02-01
-R,Machine Learning,Views,2016,3,66157,2016-03-01
-R,Machine Learning,Views,2016,4,63698,2016-04-01
-R,Machine Learning,Views,2016,5,25445,2016-05-01
-R,Machine Learning,Views,2016,6,13422,2016-06-01
-R,Machine Learning,Views,2016,7,46383,2016-07-01
-R,Machine Learning,Views,2016,8,18316,2016-08-01
-R,Machine Learning,Views,2016,9,31429,2016-09-01
-R,Machine Learning,Views,2016,10,45419,2016-10-01
-R,Machine Learning,Views,2016,11,42640,2016-11-01
-R,Machine Learning,Views,2016,12,15177,2016-12-01
-R,Machine Learning,Views,2017,1,32916,2017-01-01
-R,Machine Learning,Views,2017,2,18531,2017-02-01
-R,Machine Learning,Views,2017,3,18730,2017-03-01
-R,Machine Learning,Views,2017,4,17742,2017-04-01
-R,Machine Learning,Views,2017,5,11223,2017-05-01
-R,Machine Learning,Views,2017,6,5670,2017-06-01
-R,Machine Learning,Views,2017,7,12711,2017-07-01
-R,Machine Learning,Views,2017,8,8643,2017-08-01
-R,Machine Learning,Views,2017,9,14952,2017-09-01
-R,Machine Learning,Views,2017,10,8923,2017-10-01
-R,Machine Learning,Views,2017,11,8002,2017-11-01
-R,Machine Learning,Views,2017,12,7980,2017-12-01
-R,Machine Learning,Views,2018,1,8602,2018-01-01
-R,Machine Learning,Views,2018,2,10794,2018-02-01
-R,Machine Learning,Views,2018,3,8923,2018-03-01
-R,Machine Learning,Views,2018,4,5396,2018-04-01
-R,Machine Learning,Views,2018,5,4006,2018-05-01
-R,Machine Learning,Views,2018,6,2821,2018-06-01
-R,Machine Learning,Views,2018,7,3340,2018-07-01
-R,Machine Learning,Views,2018,8,2382,2018-08-01
-R,Machine Learning,Views,2018,9,1841,2018-09-01
-R,Machine Learning,Views,2018,10,1262,2018-10-01
-Scala,Machine Learning,Answers,2012,1,5,2012-01-01
-Scala,Machine Learning,Answers,2012,2,5,2012-02-01
-Scala,Machine Learning,Answers,2012,9,3,2012-09-01
-Scala,Machine Learning,Answers,2012,10,2,2012-10-01
-Scala,Machine Learning,Answers,2013,4,1,2013-04-01
-Scala,Machine Learning,Answers,2013,6,1,2013-06-01
-Scala,Machine Learning,Answers,2013,7,2,2013-07-01
-Scala,Machine Learning,Answers,2013,11,1,2013-11-01
-Scala,Machine Learning,Answers,2013,12,2,2013-12-01
-Scala,Machine Learning,Answers,2014,1,1,2014-01-01
-Scala,Machine Learning,Answers,2014,3,1,2014-03-01
-Scala,Machine Learning,Answers,2014,7,3,2014-07-01
-Scala,Machine Learning,Answers,2014,9,1,2014-09-01
-Scala,Machine Learning,Answers,2014,11,1,2014-11-01
-Scala,Machine Learning,Answers,2014,12,3,2014-12-01
-Scala,Machine Learning,Answers,2015,2,2,2015-02-01
-Scala,Machine Learning,Answers,2015,3,1,2015-03-01
-Scala,Machine Learning,Answers,2015,4,4,2015-04-01
-Scala,Machine Learning,Answers,2015,5,0,2015-05-01
-Scala,Machine Learning,Answers,2015,6,4,2015-06-01
-Scala,Machine Learning,Answers,2015,7,4,2015-07-01
-Scala,Machine Learning,Answers,2015,8,3,2015-08-01
-Scala,Machine Learning,Answers,2015,9,0,2015-09-01
-Scala,Machine Learning,Answers,2015,10,3,2015-10-01
-Scala,Machine Learning,Answers,2015,11,3,2015-11-01
-Scala,Machine Learning,Answers,2016,1,3,2016-01-01
-Scala,Machine Learning,Answers,2016,2,3,2016-02-01
-Scala,Machine Learning,Answers,2016,3,2,2016-03-01
-Scala,Machine Learning,Answers,2016,4,9,2016-04-01
-Scala,Machine Learning,Answers,2016,5,0,2016-05-01
-Scala,Machine Learning,Answers,2016,6,7,2016-06-01
-Scala,Machine Learning,Answers,2016,7,5,2016-07-01
-Scala,Machine Learning,Answers,2016,8,5,2016-08-01
-Scala,Machine Learning,Answers,2016,9,1,2016-09-01
-Scala,Machine Learning,Answers,2016,10,5,2016-10-01
-Scala,Machine Learning,Answers,2016,11,8,2016-11-01
-Scala,Machine Learning,Answers,2016,12,5,2016-12-01
-Scala,Machine Learning,Answers,2017,1,5,2017-01-01
-Scala,Machine Learning,Answers,2017,3,5,2017-03-01
-Scala,Machine Learning,Answers,2017,4,5,2017-04-01
-Scala,Machine Learning,Answers,2017,5,6,2017-05-01
-Scala,Machine Learning,Answers,2017,6,1,2017-06-01
-Scala,Machine Learning,Answers,2017,7,10,2017-07-01
-Scala,Machine Learning,Answers,2017,8,7,2017-08-01
-Scala,Machine Learning,Answers,2017,9,3,2017-09-01
-Scala,Machine Learning,Answers,2017,10,2,2017-10-01
-Scala,Machine Learning,Answers,2017,11,3,2017-11-01
-Scala,Machine Learning,Answers,2017,12,1,2017-12-01
-Scala,Machine Learning,Answers,2018,1,3,2018-01-01
-Scala,Machine Learning,Answers,2018,2,3,2018-02-01
-Scala,Machine Learning,Answers,2018,3,4,2018-03-01
-Scala,Machine Learning,Answers,2018,4,4,2018-04-01
-Scala,Machine Learning,Answers,2018,5,3,2018-05-01
-Scala,Machine Learning,Answers,2018,6,5,2018-06-01
-Scala,Machine Learning,Answers,2018,7,4,2018-07-01
-Scala,Machine Learning,Answers,2018,8,1,2018-08-01
-Scala,Machine Learning,Answers,2018,9,1,2018-09-01
-Scala,Machine Learning,Questions,2012,1,3,2012-01-01
-Scala,Machine Learning,Questions,2012,2,1,2012-02-01
-Scala,Machine Learning,Questions,2012,9,1,2012-09-01
-Scala,Machine Learning,Questions,2012,10,1,2012-10-01
-Scala,Machine Learning,Questions,2013,4,2,2013-04-01
-Scala,Machine Learning,Questions,2013,6,1,2013-06-01
-Scala,Machine Learning,Questions,2013,7,1,2013-07-01
-Scala,Machine Learning,Questions,2013,11,1,2013-11-01
-Scala,Machine Learning,Questions,2013,12,2,2013-12-01
-Scala,Machine Learning,Questions,2014,1,1,2014-01-01
-Scala,Machine Learning,Questions,2014,3,1,2014-03-01
-Scala,Machine Learning,Questions,2014,7,1,2014-07-01
-Scala,Machine Learning,Questions,2014,9,1,2014-09-01
-Scala,Machine Learning,Questions,2014,11,1,2014-11-01
-Scala,Machine Learning,Questions,2014,12,2,2014-12-01
-Scala,Machine Learning,Questions,2015,2,2,2015-02-01
-Scala,Machine Learning,Questions,2015,3,1,2015-03-01
-Scala,Machine Learning,Questions,2015,4,3,2015-04-01
-Scala,Machine Learning,Questions,2015,5,1,2015-05-01
-Scala,Machine Learning,Questions,2015,6,4,2015-06-01
-Scala,Machine Learning,Questions,2015,7,2,2015-07-01
-Scala,Machine Learning,Questions,2015,8,2,2015-08-01
-Scala,Machine Learning,Questions,2015,9,1,2015-09-01
-Scala,Machine Learning,Questions,2015,10,3,2015-10-01
-Scala,Machine Learning,Questions,2015,11,3,2015-11-01
-Scala,Machine Learning,Questions,2016,1,2,2016-01-01
-Scala,Machine Learning,Questions,2016,2,3,2016-02-01
-Scala,Machine Learning,Questions,2016,3,2,2016-03-01
-Scala,Machine Learning,Questions,2016,4,12,2016-04-01
-Scala,Machine Learning,Questions,2016,5,3,2016-05-01
-Scala,Machine Learning,Questions,2016,6,9,2016-06-01
-Scala,Machine Learning,Questions,2016,7,6,2016-07-01
-Scala,Machine Learning,Questions,2016,8,4,2016-08-01
-Scala,Machine Learning,Questions,2016,9,2,2016-09-01
-Scala,Machine Learning,Questions,2016,10,4,2016-10-01
-Scala,Machine Learning,Questions,2016,11,10,2016-11-01
-Scala,Machine Learning,Questions,2016,12,3,2016-12-01
-Scala,Machine Learning,Questions,2017,1,4,2017-01-01
-Scala,Machine Learning,Questions,2017,3,6,2017-03-01
-Scala,Machine Learning,Questions,2017,4,2,2017-04-01
-Scala,Machine Learning,Questions,2017,5,8,2017-05-01
-Scala,Machine Learning,Questions,2017,6,2,2017-06-01
-Scala,Machine Learning,Questions,2017,7,10,2017-07-01
-Scala,Machine Learning,Questions,2017,8,8,2017-08-01
-Scala,Machine Learning,Questions,2017,9,6,2017-09-01
-Scala,Machine Learning,Questions,2017,10,2,2017-10-01
-Scala,Machine Learning,Questions,2017,11,4,2017-11-01
-Scala,Machine Learning,Questions,2017,12,1,2017-12-01
-Scala,Machine Learning,Questions,2018,1,4,2018-01-01
-Scala,Machine Learning,Questions,2018,2,4,2018-02-01
-Scala,Machine Learning,Questions,2018,3,5,2018-03-01
-Scala,Machine Learning,Questions,2018,4,4,2018-04-01
-Scala,Machine Learning,Questions,2018,5,2,2018-05-01
-Scala,Machine Learning,Questions,2018,6,5,2018-06-01
-Scala,Machine Learning,Questions,2018,7,3,2018-07-01
-Scala,Machine Learning,Questions,2018,8,3,2018-08-01
-Scala,Machine Learning,Questions,2018,9,3,2018-09-01
-Scala,Machine Learning,Score,2012,1,14,2012-01-01
-Scala,Machine Learning,Score,2012,2,9,2012-02-01
-Scala,Machine Learning,Score,2012,9,6,2012-09-01
-Scala,Machine Learning,Score,2012,10,1,2012-10-01
-Scala,Machine Learning,Score,2013,4,4,2013-04-01
-Scala,Machine Learning,Score,2013,6,0,2013-06-01
-Scala,Machine Learning,Score,2013,7,2,2013-07-01
-Scala,Machine Learning,Score,2013,11,1,2013-11-01
-Scala,Machine Learning,Score,2013,12,5,2013-12-01
-Scala,Machine Learning,Score,2014,1,3,2014-01-01
-Scala,Machine Learning,Score,2014,3,3,2014-03-01
-Scala,Machine Learning,Score,2014,7,3,2014-07-01
-Scala,Machine Learning,Score,2014,9,2,2014-09-01
-Scala,Machine Learning,Score,2014,11,2,2014-11-01
-Scala,Machine Learning,Score,2014,12,14,2014-12-01
-Scala,Machine Learning,Score,2015,2,1,2015-02-01
-Scala,Machine Learning,Score,2015,3,4,2015-03-01
-Scala,Machine Learning,Score,2015,4,2,2015-04-01
-Scala,Machine Learning,Score,2015,5,0,2015-05-01
-Scala,Machine Learning,Score,2015,6,-1,2015-06-01
-Scala,Machine Learning,Score,2015,7,0,2015-07-01
-Scala,Machine Learning,Score,2015,8,1,2015-08-01
-Scala,Machine Learning,Score,2015,9,1,2015-09-01
-Scala,Machine Learning,Score,2015,10,6,2015-10-01
-Scala,Machine Learning,Score,2015,11,7,2015-11-01
-Scala,Machine Learning,Score,2016,1,9,2016-01-01
-Scala,Machine Learning,Score,2016,2,7,2016-02-01
-Scala,Machine Learning,Score,2016,3,2,2016-03-01
-Scala,Machine Learning,Score,2016,4,13,2016-04-01
-Scala,Machine Learning,Score,2016,5,8,2016-05-01
-Scala,Machine Learning,Score,2016,6,4,2016-06-01
-Scala,Machine Learning,Score,2016,7,3,2016-07-01
-Scala,Machine Learning,Score,2016,8,5,2016-08-01
-Scala,Machine Learning,Score,2016,9,3,2016-09-01
-Scala,Machine Learning,Score,2016,10,1,2016-10-01
-Scala,Machine Learning,Score,2016,11,12,2016-11-01
-Scala,Machine Learning,Score,2016,12,1,2016-12-01
-Scala,Machine Learning,Score,2017,1,9,2017-01-01
-Scala,Machine Learning,Score,2017,3,6,2017-03-01
-Scala,Machine Learning,Score,2017,4,6,2017-04-01
-Scala,Machine Learning,Score,2017,5,8,2017-05-01
-Scala,Machine Learning,Score,2017,6,0,2017-06-01
-Scala,Machine Learning,Score,2017,7,8,2017-07-01
-Scala,Machine Learning,Score,2017,8,2,2017-08-01
-Scala,Machine Learning,Score,2017,9,3,2017-09-01
-Scala,Machine Learning,Score,2017,10,0,2017-10-01
-Scala,Machine Learning,Score,2017,11,3,2017-11-01
-Scala,Machine Learning,Score,2017,12,1,2017-12-01
-Scala,Machine Learning,Score,2018,1,3,2018-01-01
-Scala,Machine Learning,Score,2018,2,3,2018-02-01
-Scala,Machine Learning,Score,2018,3,1,2018-03-01
-Scala,Machine Learning,Score,2018,4,2,2018-04-01
-Scala,Machine Learning,Score,2018,5,2,2018-05-01
-Scala,Machine Learning,Score,2018,6,-3,2018-06-01
-Scala,Machine Learning,Score,2018,7,2,2018-07-01
-Scala,Machine Learning,Score,2018,8,0,2018-08-01
-Scala,Machine Learning,Score,2018,9,-1,2018-09-01
-Scala,Machine Learning,Views,2012,1,4639,2012-01-01
-Scala,Machine Learning,Views,2012,2,3027,2012-02-01
-Scala,Machine Learning,Views,2012,9,2242,2012-09-01
-Scala,Machine Learning,Views,2012,10,307,2012-10-01
-Scala,Machine Learning,Views,2013,4,712,2013-04-01
-Scala,Machine Learning,Views,2013,6,2855,2013-06-01
-Scala,Machine Learning,Views,2013,7,2447,2013-07-01
-Scala,Machine Learning,Views,2013,11,101,2013-11-01
-Scala,Machine Learning,Views,2013,12,1622,2013-12-01
-Scala,Machine Learning,Views,2014,1,723,2014-01-01
-Scala,Machine Learning,Views,2014,3,514,2014-03-01
-Scala,Machine Learning,Views,2014,7,213,2014-07-01
-Scala,Machine Learning,Views,2014,9,419,2014-09-01
-Scala,Machine Learning,Views,2014,11,888,2014-11-01
-Scala,Machine Learning,Views,2014,12,4851,2014-12-01
-Scala,Machine Learning,Views,2015,2,924,2015-02-01
-Scala,Machine Learning,Views,2015,3,1304,2015-03-01
-Scala,Machine Learning,Views,2015,4,1228,2015-04-01
-Scala,Machine Learning,Views,2015,5,174,2015-05-01
-Scala,Machine Learning,Views,2015,6,4362,2015-06-01
-Scala,Machine Learning,Views,2015,7,334,2015-07-01
-Scala,Machine Learning,Views,2015,8,1018,2015-08-01
-Scala,Machine Learning,Views,2015,9,867,2015-09-01
-Scala,Machine Learning,Views,2015,10,2579,2015-10-01
-Scala,Machine Learning,Views,2015,11,2795,2015-11-01
-Scala,Machine Learning,Views,2016,1,2592,2016-01-01
-Scala,Machine Learning,Views,2016,2,1553,2016-02-01
-Scala,Machine Learning,Views,2016,3,1231,2016-03-01
-Scala,Machine Learning,Views,2016,4,7014,2016-04-01
-Scala,Machine Learning,Views,2016,5,962,2016-05-01
-Scala,Machine Learning,Views,2016,6,4993,2016-06-01
-Scala,Machine Learning,Views,2016,7,1427,2016-07-01
-Scala,Machine Learning,Views,2016,8,2192,2016-08-01
-Scala,Machine Learning,Views,2016,9,1523,2016-09-01
-Scala,Machine Learning,Views,2016,10,930,2016-10-01
-Scala,Machine Learning,Views,2016,11,4444,2016-11-01
-Scala,Machine Learning,Views,2016,12,1746,2016-12-01
-Scala,Machine Learning,Views,2017,1,8071,2017-01-01
-Scala,Machine Learning,Views,2017,3,1734,2017-03-01
-Scala,Machine Learning,Views,2017,4,3131,2017-04-01
-Scala,Machine Learning,Views,2017,5,1208,2017-05-01
-Scala,Machine Learning,Views,2017,6,102,2017-06-01
-Scala,Machine Learning,Views,2017,7,2749,2017-07-01
-Scala,Machine Learning,Views,2017,8,2029,2017-08-01
-Scala,Machine Learning,Views,2017,9,1102,2017-09-01
-Scala,Machine Learning,Views,2017,10,1556,2017-10-01
-Scala,Machine Learning,Views,2017,11,832,2017-11-01
-Scala,Machine Learning,Views,2017,12,265,2017-12-01
-Scala,Machine Learning,Views,2018,1,1155,2018-01-01
-Scala,Machine Learning,Views,2018,2,786,2018-02-01
-Scala,Machine Learning,Views,2018,3,619,2018-03-01
-Scala,Machine Learning,Views,2018,4,905,2018-04-01
-Scala,Machine Learning,Views,2018,5,146,2018-05-01
-Scala,Machine Learning,Views,2018,6,332,2018-06-01
-Scala,Machine Learning,Views,2018,7,186,2018-07-01
-Scala,Machine Learning,Views,2018,8,158,2018-08-01
-Scala,Machine Learning,Views,2018,9,170,2018-09-01
+language,subject,popularity_measure,year,month,date,value
+R,Bigdata,Answers,2012,1,2012-01-01,4
+R,Bigdata,Answers,2012,2,2012-02-01,9
+R,Bigdata,Answers,2012,3,2012-03-01,2
+R,Bigdata,Answers,2012,5,2012-05-01,2
+R,Bigdata,Answers,2012,6,2012-06-01,6
+R,Bigdata,Answers,2012,7,2012-07-01,4
+R,Bigdata,Answers,2012,8,2012-08-01,3
+R,Bigdata,Answers,2012,9,2012-09-01,6
+R,Bigdata,Answers,2012,10,2012-10-01,2
+R,Bigdata,Answers,2012,11,2012-11-01,5
+R,Bigdata,Answers,2012,12,2012-12-01,6
+R,Bigdata,Answers,2013,1,2013-01-01,3
+R,Bigdata,Answers,2013,2,2013-02-01,7
+R,Bigdata,Answers,2013,3,2013-03-01,6
+R,Bigdata,Answers,2013,4,2013-04-01,9
+R,Bigdata,Answers,2013,5,2013-05-01,6
+R,Bigdata,Answers,2013,6,2013-06-01,14
+R,Bigdata,Answers,2013,7,2013-07-01,3
+R,Bigdata,Answers,2013,8,2013-08-01,8
+R,Bigdata,Answers,2013,9,2013-09-01,7
+R,Bigdata,Answers,2013,10,2013-10-01,12
+R,Bigdata,Answers,2013,11,2013-11-01,11
+R,Bigdata,Answers,2013,12,2013-12-01,8
+R,Bigdata,Answers,2014,1,2014-01-01,9
+R,Bigdata,Answers,2014,2,2014-02-01,14
+R,Bigdata,Answers,2014,3,2014-03-01,14
+R,Bigdata,Answers,2014,4,2014-04-01,10
+R,Bigdata,Answers,2014,5,2014-05-01,16
+R,Bigdata,Answers,2014,6,2014-06-01,5
+R,Bigdata,Answers,2014,7,2014-07-01,14
+R,Bigdata,Answers,2014,8,2014-08-01,7
+R,Bigdata,Answers,2014,9,2014-09-01,4
+R,Bigdata,Answers,2014,10,2014-10-01,0
+R,Bigdata,Answers,2014,11,2014-11-01,3
+R,Bigdata,Answers,2014,12,2014-12-01,15
+R,Bigdata,Answers,2015,1,2015-01-01,3
+R,Bigdata,Answers,2015,2,2015-02-01,5
+R,Bigdata,Answers,2015,3,2015-03-01,13
+R,Bigdata,Answers,2015,4,2015-04-01,8
+R,Bigdata,Answers,2015,5,2015-05-01,3
+R,Bigdata,Answers,2015,6,2015-06-01,10
+R,Bigdata,Answers,2015,7,2015-07-01,9
+R,Bigdata,Answers,2015,8,2015-08-01,3
+R,Bigdata,Answers,2015,9,2015-09-01,8
+R,Bigdata,Answers,2015,10,2015-10-01,6
+R,Bigdata,Answers,2015,11,2015-11-01,3
+R,Bigdata,Answers,2015,12,2015-12-01,13
+R,Bigdata,Answers,2016,1,2016-01-01,5
+R,Bigdata,Answers,2016,2,2016-02-01,6
+R,Bigdata,Answers,2016,3,2016-03-01,6
+R,Bigdata,Answers,2016,4,2016-04-01,2
+R,Bigdata,Answers,2016,5,2016-05-01,14
+R,Bigdata,Answers,2016,6,2016-06-01,3
+R,Bigdata,Answers,2016,7,2016-07-01,7
+R,Bigdata,Answers,2016,8,2016-08-01,5
+R,Bigdata,Answers,2016,9,2016-09-01,5
+R,Bigdata,Answers,2016,10,2016-10-01,5
+R,Bigdata,Answers,2016,11,2016-11-01,2
+R,Bigdata,Answers,2016,12,2016-12-01,1
+R,Bigdata,Answers,2017,1,2017-01-01,5
+R,Bigdata,Answers,2017,2,2017-02-01,7
+R,Bigdata,Answers,2017,3,2017-03-01,5
+R,Bigdata,Answers,2017,4,2017-04-01,6
+R,Bigdata,Answers,2017,5,2017-05-01,3
+R,Bigdata,Answers,2017,6,2017-06-01,9
+R,Bigdata,Answers,2017,7,2017-07-01,4
+R,Bigdata,Answers,2017,8,2017-08-01,6
+R,Bigdata,Answers,2017,9,2017-09-01,4
+R,Bigdata,Answers,2017,10,2017-10-01,8
+R,Bigdata,Answers,2017,11,2017-11-01,10
+R,Bigdata,Answers,2017,12,2017-12-01,4
+R,Bigdata,Answers,2018,1,2018-01-01,4
+R,Bigdata,Answers,2018,2,2018-02-01,11
+R,Bigdata,Answers,2018,3,2018-03-01,6
+R,Bigdata,Answers,2018,4,2018-04-01,4
+R,Bigdata,Answers,2018,5,2018-05-01,6
+R,Bigdata,Answers,2018,6,2018-06-01,0
+R,Bigdata,Answers,2018,7,2018-07-01,2
+R,Bigdata,Answers,2018,8,2018-08-01,4
+R,Bigdata,Answers,2018,9,2018-09-01,7
+R,Bigdata,Answers,2018,10,2018-10-01,6
+R,Bigdata,Questions,2012,1,2012-01-01,2
+R,Bigdata,Questions,2012,2,2012-02-01,3
+R,Bigdata,Questions,2012,3,2012-03-01,2
+R,Bigdata,Questions,2012,5,2012-05-01,1
+R,Bigdata,Questions,2012,6,2012-06-01,2
+R,Bigdata,Questions,2012,7,2012-07-01,2
+R,Bigdata,Questions,2012,8,2012-08-01,2
+R,Bigdata,Questions,2012,9,2012-09-01,5
+R,Bigdata,Questions,2012,10,2012-10-01,2
+R,Bigdata,Questions,2012,11,2012-11-01,3
+R,Bigdata,Questions,2012,12,2012-12-01,3
+R,Bigdata,Questions,2013,1,2013-01-01,2
+R,Bigdata,Questions,2013,2,2013-02-01,3
+R,Bigdata,Questions,2013,3,2013-03-01,5
+R,Bigdata,Questions,2013,4,2013-04-01,7
+R,Bigdata,Questions,2013,5,2013-05-01,6
+R,Bigdata,Questions,2013,6,2013-06-01,9
+R,Bigdata,Questions,2013,7,2013-07-01,3
+R,Bigdata,Questions,2013,8,2013-08-01,8
+R,Bigdata,Questions,2013,9,2013-09-01,5
+R,Bigdata,Questions,2013,10,2013-10-01,10
+R,Bigdata,Questions,2013,11,2013-11-01,8
+R,Bigdata,Questions,2013,12,2013-12-01,7
+R,Bigdata,Questions,2014,1,2014-01-01,7
+R,Bigdata,Questions,2014,2,2014-02-01,9
+R,Bigdata,Questions,2014,3,2014-03-01,8
+R,Bigdata,Questions,2014,4,2014-04-01,8
+R,Bigdata,Questions,2014,5,2014-05-01,7
+R,Bigdata,Questions,2014,6,2014-06-01,6
+R,Bigdata,Questions,2014,7,2014-07-01,7
+R,Bigdata,Questions,2014,8,2014-08-01,6
+R,Bigdata,Questions,2014,9,2014-09-01,4
+R,Bigdata,Questions,2014,10,2014-10-01,1
+R,Bigdata,Questions,2014,11,2014-11-01,2
+R,Bigdata,Questions,2014,12,2014-12-01,7
+R,Bigdata,Questions,2015,1,2015-01-01,3
+R,Bigdata,Questions,2015,2,2015-02-01,4
+R,Bigdata,Questions,2015,3,2015-03-01,11
+R,Bigdata,Questions,2015,4,2015-04-01,5
+R,Bigdata,Questions,2015,5,2015-05-01,4
+R,Bigdata,Questions,2015,6,2015-06-01,11
+R,Bigdata,Questions,2015,7,2015-07-01,10
+R,Bigdata,Questions,2015,8,2015-08-01,4
+R,Bigdata,Questions,2015,9,2015-09-01,10
+R,Bigdata,Questions,2015,10,2015-10-01,5
+R,Bigdata,Questions,2015,11,2015-11-01,6
+R,Bigdata,Questions,2015,12,2015-12-01,9
+R,Bigdata,Questions,2016,1,2016-01-01,5
+R,Bigdata,Questions,2016,2,2016-02-01,7
+R,Bigdata,Questions,2016,3,2016-03-01,4
+R,Bigdata,Questions,2016,4,2016-04-01,5
+R,Bigdata,Questions,2016,5,2016-05-01,6
+R,Bigdata,Questions,2016,6,2016-06-01,6
+R,Bigdata,Questions,2016,7,2016-07-01,10
+R,Bigdata,Questions,2016,8,2016-08-01,5
+R,Bigdata,Questions,2016,9,2016-09-01,5
+R,Bigdata,Questions,2016,10,2016-10-01,6
+R,Bigdata,Questions,2016,11,2016-11-01,2
+R,Bigdata,Questions,2016,12,2016-12-01,2
+R,Bigdata,Questions,2017,1,2017-01-01,4
+R,Bigdata,Questions,2017,2,2017-02-01,8
+R,Bigdata,Questions,2017,3,2017-03-01,7
+R,Bigdata,Questions,2017,4,2017-04-01,5
+R,Bigdata,Questions,2017,5,2017-05-01,2
+R,Bigdata,Questions,2017,6,2017-06-01,8
+R,Bigdata,Questions,2017,7,2017-07-01,6
+R,Bigdata,Questions,2017,8,2017-08-01,6
+R,Bigdata,Questions,2017,9,2017-09-01,5
+R,Bigdata,Questions,2017,10,2017-10-01,7
+R,Bigdata,Questions,2017,11,2017-11-01,8
+R,Bigdata,Questions,2017,12,2017-12-01,2
+R,Bigdata,Questions,2018,1,2018-01-01,3
+R,Bigdata,Questions,2018,2,2018-02-01,9
+R,Bigdata,Questions,2018,3,2018-03-01,5
+R,Bigdata,Questions,2018,4,2018-04-01,8
+R,Bigdata,Questions,2018,5,2018-05-01,7
+R,Bigdata,Questions,2018,6,2018-06-01,3
+R,Bigdata,Questions,2018,7,2018-07-01,5
+R,Bigdata,Questions,2018,8,2018-08-01,6
+R,Bigdata,Questions,2018,9,2018-09-01,6
+R,Bigdata,Questions,2018,10,2018-10-01,6
+R,Bigdata,Score,2012,1,2012-01-01,12
+R,Bigdata,Score,2012,2,2012-02-01,47
+R,Bigdata,Score,2012,3,2012-03-01,11
+R,Bigdata,Score,2012,5,2012-05-01,14
+R,Bigdata,Score,2012,6,2012-06-01,40
+R,Bigdata,Score,2012,7,2012-07-01,3
+R,Bigdata,Score,2012,8,2012-08-01,4
+R,Bigdata,Score,2012,9,2012-09-01,13
+R,Bigdata,Score,2012,10,2012-10-01,38
+R,Bigdata,Score,2012,11,2012-11-01,9
+R,Bigdata,Score,2012,12,2012-12-01,14
+R,Bigdata,Score,2013,1,2013-01-01,10
+R,Bigdata,Score,2013,2,2013-02-01,7
+R,Bigdata,Score,2013,3,2013-03-01,6
+R,Bigdata,Score,2013,4,2013-04-01,13
+R,Bigdata,Score,2013,5,2013-05-01,11
+R,Bigdata,Score,2013,6,2013-06-01,45
+R,Bigdata,Score,2013,7,2013-07-01,0
+R,Bigdata,Score,2013,8,2013-08-01,5
+R,Bigdata,Score,2013,9,2013-09-01,22
+R,Bigdata,Score,2013,10,2013-10-01,33
+R,Bigdata,Score,2013,11,2013-11-01,10
+R,Bigdata,Score,2013,12,2013-12-01,3
+R,Bigdata,Score,2014,1,2014-01-01,9
+R,Bigdata,Score,2014,2,2014-02-01,21
+R,Bigdata,Score,2014,3,2014-03-01,15
+R,Bigdata,Score,2014,4,2014-04-01,4
+R,Bigdata,Score,2014,5,2014-05-01,16
+R,Bigdata,Score,2014,6,2014-06-01,13
+R,Bigdata,Score,2014,7,2014-07-01,7
+R,Bigdata,Score,2014,8,2014-08-01,8
+R,Bigdata,Score,2014,9,2014-09-01,1
+R,Bigdata,Score,2014,10,2014-10-01,0
+R,Bigdata,Score,2014,11,2014-11-01,10
+R,Bigdata,Score,2014,12,2014-12-01,30
+R,Bigdata,Score,2015,1,2015-01-01,-1
+R,Bigdata,Score,2015,2,2015-02-01,8
+R,Bigdata,Score,2015,3,2015-03-01,5
+R,Bigdata,Score,2015,4,2015-04-01,14
+R,Bigdata,Score,2015,5,2015-05-01,5
+R,Bigdata,Score,2015,6,2015-06-01,10
+R,Bigdata,Score,2015,7,2015-07-01,13
+R,Bigdata,Score,2015,8,2015-08-01,3
+R,Bigdata,Score,2015,9,2015-09-01,11
+R,Bigdata,Score,2015,10,2015-10-01,1
+R,Bigdata,Score,2015,11,2015-11-01,2
+R,Bigdata,Score,2015,12,2015-12-01,18
+R,Bigdata,Score,2016,1,2016-01-01,9
+R,Bigdata,Score,2016,2,2016-02-01,1
+R,Bigdata,Score,2016,3,2016-03-01,4
+R,Bigdata,Score,2016,4,2016-04-01,12
+R,Bigdata,Score,2016,5,2016-05-01,5
+R,Bigdata,Score,2016,6,2016-06-01,3
+R,Bigdata,Score,2016,7,2016-07-01,9
+R,Bigdata,Score,2016,8,2016-08-01,1
+R,Bigdata,Score,2016,9,2016-09-01,3
+R,Bigdata,Score,2016,10,2016-10-01,8
+R,Bigdata,Score,2016,11,2016-11-01,0
+R,Bigdata,Score,2016,12,2016-12-01,-1
+R,Bigdata,Score,2017,1,2017-01-01,1
+R,Bigdata,Score,2017,2,2017-02-01,11
+R,Bigdata,Score,2017,3,2017-03-01,0
+R,Bigdata,Score,2017,4,2017-04-01,4
+R,Bigdata,Score,2017,5,2017-05-01,1
+R,Bigdata,Score,2017,6,2017-06-01,13
+R,Bigdata,Score,2017,7,2017-07-01,0
+R,Bigdata,Score,2017,8,2017-08-01,1
+R,Bigdata,Score,2017,9,2017-09-01,6
+R,Bigdata,Score,2017,10,2017-10-01,8
+R,Bigdata,Score,2017,11,2017-11-01,4
+R,Bigdata,Score,2017,12,2017-12-01,0
+R,Bigdata,Score,2018,1,2018-01-01,2
+R,Bigdata,Score,2018,2,2018-02-01,4
+R,Bigdata,Score,2018,3,2018-03-01,2
+R,Bigdata,Score,2018,4,2018-04-01,-1
+R,Bigdata,Score,2018,5,2018-05-01,9
+R,Bigdata,Score,2018,6,2018-06-01,1
+R,Bigdata,Score,2018,7,2018-07-01,-3
+R,Bigdata,Score,2018,8,2018-08-01,9
+R,Bigdata,Score,2018,9,2018-09-01,3
+R,Bigdata,Score,2018,10,2018-10-01,-1
+R,Bigdata,Views,2012,1,2012-01-01,5240
+R,Bigdata,Views,2012,2,2012-02-01,21140
+R,Bigdata,Views,2012,3,2012-03-01,2595
+R,Bigdata,Views,2012,5,2012-05-01,379
+R,Bigdata,Views,2012,6,2012-06-01,21249
+R,Bigdata,Views,2012,7,2012-07-01,1267
+R,Bigdata,Views,2012,8,2012-08-01,6364
+R,Bigdata,Views,2012,9,2012-09-01,7365
+R,Bigdata,Views,2012,10,2012-10-01,7963
+R,Bigdata,Views,2012,11,2012-11-01,3104
+R,Bigdata,Views,2012,12,2012-12-01,2989
+R,Bigdata,Views,2013,1,2013-01-01,4405
+R,Bigdata,Views,2013,2,2013-02-01,3165
+R,Bigdata,Views,2013,3,2013-03-01,2991
+R,Bigdata,Views,2013,4,2013-04-01,11511
+R,Bigdata,Views,2013,5,2013-05-01,4108
+R,Bigdata,Views,2013,6,2013-06-01,34338
+R,Bigdata,Views,2013,7,2013-07-01,1233
+R,Bigdata,Views,2013,8,2013-08-01,5273
+R,Bigdata,Views,2013,9,2013-09-01,9623
+R,Bigdata,Views,2013,10,2013-10-01,44082
+R,Bigdata,Views,2013,11,2013-11-01,5648
+R,Bigdata,Views,2013,12,2013-12-01,2244
+R,Bigdata,Views,2014,1,2014-01-01,5807
+R,Bigdata,Views,2014,2,2014-02-01,22160
+R,Bigdata,Views,2014,3,2014-03-01,24854
+R,Bigdata,Views,2014,4,2014-04-01,9033
+R,Bigdata,Views,2014,5,2014-05-01,6791
+R,Bigdata,Views,2014,6,2014-06-01,6831
+R,Bigdata,Views,2014,7,2014-07-01,5427
+R,Bigdata,Views,2014,8,2014-08-01,14288
+R,Bigdata,Views,2014,9,2014-09-01,820
+R,Bigdata,Views,2014,10,2014-10-01,173
+R,Bigdata,Views,2014,11,2014-11-01,2493
+R,Bigdata,Views,2014,12,2014-12-01,17328
+R,Bigdata,Views,2015,1,2015-01-01,1331
+R,Bigdata,Views,2015,2,2015-02-01,1261
+R,Bigdata,Views,2015,3,2015-03-01,3629
+R,Bigdata,Views,2015,4,2015-04-01,1819
+R,Bigdata,Views,2015,5,2015-05-01,802
+R,Bigdata,Views,2015,6,2015-06-01,2077
+R,Bigdata,Views,2015,7,2015-07-01,6999
+R,Bigdata,Views,2015,8,2015-08-01,1966
+R,Bigdata,Views,2015,9,2015-09-01,5612
+R,Bigdata,Views,2015,10,2015-10-01,1022
+R,Bigdata,Views,2015,11,2015-11-01,1281
+R,Bigdata,Views,2015,12,2015-12-01,4454
+R,Bigdata,Views,2016,1,2016-01-01,1251
+R,Bigdata,Views,2016,2,2016-02-01,1690
+R,Bigdata,Views,2016,3,2016-03-01,1516
+R,Bigdata,Views,2016,4,2016-04-01,11868
+R,Bigdata,Views,2016,5,2016-05-01,7081
+R,Bigdata,Views,2016,6,2016-06-01,817
+R,Bigdata,Views,2016,7,2016-07-01,3381
+R,Bigdata,Views,2016,8,2016-08-01,1195
+R,Bigdata,Views,2016,9,2016-09-01,1629
+R,Bigdata,Views,2016,10,2016-10-01,2114
+R,Bigdata,Views,2016,11,2016-11-01,1308
+R,Bigdata,Views,2016,12,2016-12-01,159
+R,Bigdata,Views,2017,1,2017-01-01,477
+R,Bigdata,Views,2017,2,2017-02-01,2173
+R,Bigdata,Views,2017,3,2017-03-01,741
+R,Bigdata,Views,2017,4,2017-04-01,1540
+R,Bigdata,Views,2017,5,2017-05-01,119
+R,Bigdata,Views,2017,6,2017-06-01,1648
+R,Bigdata,Views,2017,7,2017-07-01,500
+R,Bigdata,Views,2017,8,2017-08-01,852
+R,Bigdata,Views,2017,9,2017-09-01,674
+R,Bigdata,Views,2017,10,2017-10-01,1245
+R,Bigdata,Views,2017,11,2017-11-01,1688
+R,Bigdata,Views,2017,12,2017-12-01,111
+R,Bigdata,Views,2018,1,2018-01-01,221
+R,Bigdata,Views,2018,2,2018-02-01,732
+R,Bigdata,Views,2018,3,2018-03-01,509
+R,Bigdata,Views,2018,4,2018-04-01,445
+R,Bigdata,Views,2018,5,2018-05-01,403
+R,Bigdata,Views,2018,6,2018-06-01,70
+R,Bigdata,Views,2018,7,2018-07-01,206
+R,Bigdata,Views,2018,8,2018-08-01,347
+R,Bigdata,Views,2018,9,2018-09-01,271
+R,Bigdata,Views,2018,10,2018-10-01,250
+Python,Bigdata,Answers,2012,2,2012-02-01,1
+Python,Bigdata,Answers,2012,3,2012-03-01,3
+Python,Bigdata,Answers,2012,4,2012-04-01,3
+Python,Bigdata,Answers,2012,5,2012-05-01,2
+Python,Bigdata,Answers,2012,8,2012-08-01,6
+Python,Bigdata,Answers,2012,9,2012-09-01,1
+Python,Bigdata,Answers,2012,10,2012-10-01,4
+Python,Bigdata,Answers,2013,2,2013-02-01,10
+Python,Bigdata,Answers,2013,3,2013-03-01,2
+Python,Bigdata,Answers,2013,4,2013-04-01,9
+Python,Bigdata,Answers,2013,5,2013-05-01,1
+Python,Bigdata,Answers,2013,6,2013-06-01,5
+Python,Bigdata,Answers,2013,7,2013-07-01,3
+Python,Bigdata,Answers,2013,8,2013-08-01,2
+Python,Bigdata,Answers,2013,9,2013-09-01,8
+Python,Bigdata,Answers,2013,10,2013-10-01,14
+Python,Bigdata,Answers,2013,11,2013-11-01,3
+Python,Bigdata,Answers,2013,12,2013-12-01,3
+Python,Bigdata,Answers,2014,1,2014-01-01,7
+Python,Bigdata,Answers,2014,2,2014-02-01,9
+Python,Bigdata,Answers,2014,3,2014-03-01,8
+Python,Bigdata,Answers,2014,4,2014-04-01,12
+Python,Bigdata,Answers,2014,5,2014-05-01,14
+Python,Bigdata,Answers,2014,6,2014-06-01,3
+Python,Bigdata,Answers,2014,7,2014-07-01,15
+Python,Bigdata,Answers,2014,8,2014-08-01,15
+Python,Bigdata,Answers,2014,9,2014-09-01,10
+Python,Bigdata,Answers,2014,10,2014-10-01,6
+Python,Bigdata,Answers,2014,11,2014-11-01,28
+Python,Bigdata,Answers,2014,12,2014-12-01,2
+Python,Bigdata,Answers,2015,1,2015-01-01,3
+Python,Bigdata,Answers,2015,2,2015-02-01,4
+Python,Bigdata,Answers,2015,3,2015-03-01,4
+Python,Bigdata,Answers,2015,4,2015-04-01,10
+Python,Bigdata,Answers,2015,5,2015-05-01,9
+Python,Bigdata,Answers,2015,6,2015-06-01,12
+Python,Bigdata,Answers,2015,7,2015-07-01,14
+Python,Bigdata,Answers,2015,8,2015-08-01,5
+Python,Bigdata,Answers,2015,9,2015-09-01,19
+Python,Bigdata,Answers,2015,10,2015-10-01,10
+Python,Bigdata,Answers,2015,11,2015-11-01,14
+Python,Bigdata,Answers,2015,12,2015-12-01,6
+Python,Bigdata,Answers,2016,1,2016-01-01,10
+Python,Bigdata,Answers,2016,2,2016-02-01,13
+Python,Bigdata,Answers,2016,3,2016-03-01,15
+Python,Bigdata,Answers,2016,4,2016-04-01,16
+Python,Bigdata,Answers,2016,5,2016-05-01,23
+Python,Bigdata,Answers,2016,6,2016-06-01,19
+Python,Bigdata,Answers,2016,7,2016-07-01,11
+Python,Bigdata,Answers,2016,8,2016-08-01,16
+Python,Bigdata,Answers,2016,9,2016-09-01,16
+Python,Bigdata,Answers,2016,10,2016-10-01,9
+Python,Bigdata,Answers,2016,11,2016-11-01,14
+Python,Bigdata,Answers,2016,12,2016-12-01,9
+Python,Bigdata,Answers,2017,1,2017-01-01,12
+Python,Bigdata,Answers,2017,2,2017-02-01,18
+Python,Bigdata,Answers,2017,3,2017-03-01,16
+Python,Bigdata,Answers,2017,4,2017-04-01,15
+Python,Bigdata,Answers,2017,5,2017-05-01,19
+Python,Bigdata,Answers,2017,6,2017-06-01,12
+Python,Bigdata,Answers,2017,7,2017-07-01,11
+Python,Bigdata,Answers,2017,8,2017-08-01,12
+Python,Bigdata,Answers,2017,9,2017-09-01,9
+Python,Bigdata,Answers,2017,10,2017-10-01,12
+Python,Bigdata,Answers,2017,11,2017-11-01,20
+Python,Bigdata,Answers,2017,12,2017-12-01,8
+Python,Bigdata,Answers,2018,1,2018-01-01,11
+Python,Bigdata,Answers,2018,2,2018-02-01,14
+Python,Bigdata,Answers,2018,3,2018-03-01,26
+Python,Bigdata,Answers,2018,4,2018-04-01,10
+Python,Bigdata,Answers,2018,5,2018-05-01,17
+Python,Bigdata,Answers,2018,6,2018-06-01,3
+Python,Bigdata,Answers,2018,7,2018-07-01,7
+Python,Bigdata,Answers,2018,8,2018-08-01,8
+Python,Bigdata,Answers,2018,9,2018-09-01,16
+Python,Bigdata,Answers,2018,10,2018-10-01,19
+Python,Bigdata,Questions,2012,2,2012-02-01,1
+Python,Bigdata,Questions,2012,3,2012-03-01,1
+Python,Bigdata,Questions,2012,4,2012-04-01,1
+Python,Bigdata,Questions,2012,5,2012-05-01,2
+Python,Bigdata,Questions,2012,8,2012-08-01,2
+Python,Bigdata,Questions,2012,9,2012-09-01,1
+Python,Bigdata,Questions,2012,10,2012-10-01,2
+Python,Bigdata,Questions,2013,2,2013-02-01,5
+Python,Bigdata,Questions,2013,3,2013-03-01,4
+Python,Bigdata,Questions,2013,4,2013-04-01,6
+Python,Bigdata,Questions,2013,5,2013-05-01,1
+Python,Bigdata,Questions,2013,6,2013-06-01,4
+Python,Bigdata,Questions,2013,7,2013-07-01,3
+Python,Bigdata,Questions,2013,8,2013-08-01,1
+Python,Bigdata,Questions,2013,9,2013-09-01,6
+Python,Bigdata,Questions,2013,10,2013-10-01,9
+Python,Bigdata,Questions,2013,11,2013-11-01,4
+Python,Bigdata,Questions,2013,12,2013-12-01,2
+Python,Bigdata,Questions,2014,1,2014-01-01,3
+Python,Bigdata,Questions,2014,2,2014-02-01,5
+Python,Bigdata,Questions,2014,3,2014-03-01,3
+Python,Bigdata,Questions,2014,4,2014-04-01,7
+Python,Bigdata,Questions,2014,5,2014-05-01,3
+Python,Bigdata,Questions,2014,6,2014-06-01,1
+Python,Bigdata,Questions,2014,7,2014-07-01,9
+Python,Bigdata,Questions,2014,8,2014-08-01,9
+Python,Bigdata,Questions,2014,9,2014-09-01,8
+Python,Bigdata,Questions,2014,10,2014-10-01,5
+Python,Bigdata,Questions,2014,11,2014-11-01,14
+Python,Bigdata,Questions,2014,12,2014-12-01,3
+Python,Bigdata,Questions,2015,1,2015-01-01,2
+Python,Bigdata,Questions,2015,2,2015-02-01,7
+Python,Bigdata,Questions,2015,3,2015-03-01,4
+Python,Bigdata,Questions,2015,4,2015-04-01,7
+Python,Bigdata,Questions,2015,5,2015-05-01,7
+Python,Bigdata,Questions,2015,6,2015-06-01,8
+Python,Bigdata,Questions,2015,7,2015-07-01,8
+Python,Bigdata,Questions,2015,8,2015-08-01,6
+Python,Bigdata,Questions,2015,9,2015-09-01,10
+Python,Bigdata,Questions,2015,10,2015-10-01,9
+Python,Bigdata,Questions,2015,11,2015-11-01,12
+Python,Bigdata,Questions,2015,12,2015-12-01,6
+Python,Bigdata,Questions,2016,1,2016-01-01,11
+Python,Bigdata,Questions,2016,2,2016-02-01,9
+Python,Bigdata,Questions,2016,3,2016-03-01,14
+Python,Bigdata,Questions,2016,4,2016-04-01,14
+Python,Bigdata,Questions,2016,5,2016-05-01,16
+Python,Bigdata,Questions,2016,6,2016-06-01,20
+Python,Bigdata,Questions,2016,7,2016-07-01,11
+Python,Bigdata,Questions,2016,8,2016-08-01,12
+Python,Bigdata,Questions,2016,9,2016-09-01,13
+Python,Bigdata,Questions,2016,10,2016-10-01,6
+Python,Bigdata,Questions,2016,11,2016-11-01,13
+Python,Bigdata,Questions,2016,12,2016-12-01,6
+Python,Bigdata,Questions,2017,1,2017-01-01,9
+Python,Bigdata,Questions,2017,2,2017-02-01,14
+Python,Bigdata,Questions,2017,3,2017-03-01,15
+Python,Bigdata,Questions,2017,4,2017-04-01,14
+Python,Bigdata,Questions,2017,5,2017-05-01,17
+Python,Bigdata,Questions,2017,6,2017-06-01,13
+Python,Bigdata,Questions,2017,7,2017-07-01,9
+Python,Bigdata,Questions,2017,8,2017-08-01,17
+Python,Bigdata,Questions,2017,9,2017-09-01,9
+Python,Bigdata,Questions,2017,10,2017-10-01,13
+Python,Bigdata,Questions,2017,11,2017-11-01,17
+Python,Bigdata,Questions,2017,12,2017-12-01,8
+Python,Bigdata,Questions,2018,1,2018-01-01,13
+Python,Bigdata,Questions,2018,2,2018-02-01,13
+Python,Bigdata,Questions,2018,3,2018-03-01,17
+Python,Bigdata,Questions,2018,4,2018-04-01,11
+Python,Bigdata,Questions,2018,5,2018-05-01,17
+Python,Bigdata,Questions,2018,6,2018-06-01,6
+Python,Bigdata,Questions,2018,7,2018-07-01,11
+Python,Bigdata,Questions,2018,8,2018-08-01,13
+Python,Bigdata,Questions,2018,9,2018-09-01,16
+Python,Bigdata,Questions,2018,10,2018-10-01,15
+Python,Bigdata,Score,2012,2,2012-02-01,0
+Python,Bigdata,Score,2012,3,2012-03-01,2
+Python,Bigdata,Score,2012,4,2012-04-01,2
+Python,Bigdata,Score,2012,5,2012-05-01,2
+Python,Bigdata,Score,2012,8,2012-08-01,6
+Python,Bigdata,Score,2012,9,2012-09-01,2
+Python,Bigdata,Score,2012,10,2012-10-01,4
+Python,Bigdata,Score,2013,2,2013-02-01,12
+Python,Bigdata,Score,2013,3,2013-03-01,4
+Python,Bigdata,Score,2013,4,2013-04-01,35
+Python,Bigdata,Score,2013,5,2013-05-01,0
+Python,Bigdata,Score,2013,6,2013-06-01,6
+Python,Bigdata,Score,2013,7,2013-07-01,3
+Python,Bigdata,Score,2013,8,2013-08-01,21
+Python,Bigdata,Score,2013,9,2013-09-01,3
+Python,Bigdata,Score,2013,10,2013-10-01,17
+Python,Bigdata,Score,2013,11,2013-11-01,3
+Python,Bigdata,Score,2013,12,2013-12-01,0
+Python,Bigdata,Score,2014,1,2014-01-01,3
+Python,Bigdata,Score,2014,2,2014-02-01,9
+Python,Bigdata,Score,2014,3,2014-03-01,3
+Python,Bigdata,Score,2014,4,2014-04-01,5
+Python,Bigdata,Score,2014,5,2014-05-01,29
+Python,Bigdata,Score,2014,6,2014-06-01,2
+Python,Bigdata,Score,2014,7,2014-07-01,12
+Python,Bigdata,Score,2014,8,2014-08-01,16
+Python,Bigdata,Score,2014,9,2014-09-01,4
+Python,Bigdata,Score,2014,10,2014-10-01,6
+Python,Bigdata,Score,2014,11,2014-11-01,41
+Python,Bigdata,Score,2014,12,2014-12-01,1
+Python,Bigdata,Score,2015,1,2015-01-01,6
+Python,Bigdata,Score,2015,2,2015-02-01,10
+Python,Bigdata,Score,2015,3,2015-03-01,8
+Python,Bigdata,Score,2015,4,2015-04-01,31
+Python,Bigdata,Score,2015,5,2015-05-01,5
+Python,Bigdata,Score,2015,6,2015-06-01,10
+Python,Bigdata,Score,2015,7,2015-07-01,11
+Python,Bigdata,Score,2015,8,2015-08-01,16
+Python,Bigdata,Score,2015,9,2015-09-01,30
+Python,Bigdata,Score,2015,10,2015-10-01,9
+Python,Bigdata,Score,2015,11,2015-11-01,25
+Python,Bigdata,Score,2015,12,2015-12-01,6
+Python,Bigdata,Score,2016,1,2016-01-01,16
+Python,Bigdata,Score,2016,2,2016-02-01,9
+Python,Bigdata,Score,2016,3,2016-03-01,18
+Python,Bigdata,Score,2016,4,2016-04-01,35
+Python,Bigdata,Score,2016,5,2016-05-01,19
+Python,Bigdata,Score,2016,6,2016-06-01,7
+Python,Bigdata,Score,2016,7,2016-07-01,10
+Python,Bigdata,Score,2016,8,2016-08-01,72
+Python,Bigdata,Score,2016,9,2016-09-01,19
+Python,Bigdata,Score,2016,10,2016-10-01,8
+Python,Bigdata,Score,2016,11,2016-11-01,14
+Python,Bigdata,Score,2016,12,2016-12-01,4
+Python,Bigdata,Score,2017,1,2017-01-01,20
+Python,Bigdata,Score,2017,2,2017-02-01,7
+Python,Bigdata,Score,2017,3,2017-03-01,6
+Python,Bigdata,Score,2017,4,2017-04-01,23
+Python,Bigdata,Score,2017,5,2017-05-01,14
+Python,Bigdata,Score,2017,6,2017-06-01,14
+Python,Bigdata,Score,2017,7,2017-07-01,6
+Python,Bigdata,Score,2017,8,2017-08-01,12
+Python,Bigdata,Score,2017,9,2017-09-01,4
+Python,Bigdata,Score,2017,10,2017-10-01,20
+Python,Bigdata,Score,2017,11,2017-11-01,10
+Python,Bigdata,Score,2017,12,2017-12-01,11
+Python,Bigdata,Score,2018,1,2018-01-01,-2
+Python,Bigdata,Score,2018,2,2018-02-01,-2
+Python,Bigdata,Score,2018,3,2018-03-01,10
+Python,Bigdata,Score,2018,4,2018-04-01,12
+Python,Bigdata,Score,2018,5,2018-05-01,8
+Python,Bigdata,Score,2018,6,2018-06-01,-2
+Python,Bigdata,Score,2018,7,2018-07-01,3
+Python,Bigdata,Score,2018,8,2018-08-01,-1
+Python,Bigdata,Score,2018,9,2018-09-01,-2
+Python,Bigdata,Score,2018,10,2018-10-01,4
+Python,Bigdata,Views,2012,2,2012-02-01,125
+Python,Bigdata,Views,2012,3,2012-03-01,477
+Python,Bigdata,Views,2012,4,2012-04-01,74
+Python,Bigdata,Views,2012,5,2012-05-01,1762
+Python,Bigdata,Views,2012,8,2012-08-01,4540
+Python,Bigdata,Views,2012,9,2012-09-01,942
+Python,Bigdata,Views,2012,10,2012-10-01,2350
+Python,Bigdata,Views,2013,2,2013-02-01,8636
+Python,Bigdata,Views,2013,3,2013-03-01,689
+Python,Bigdata,Views,2013,4,2013-04-01,15210
+Python,Bigdata,Views,2013,5,2013-05-01,269
+Python,Bigdata,Views,2013,6,2013-06-01,4835
+Python,Bigdata,Views,2013,7,2013-07-01,2741
+Python,Bigdata,Views,2013,8,2013-08-01,30843
+Python,Bigdata,Views,2013,9,2013-09-01,3600
+Python,Bigdata,Views,2013,10,2013-10-01,13149
+Python,Bigdata,Views,2013,11,2013-11-01,1403
+Python,Bigdata,Views,2013,12,2013-12-01,964
+Python,Bigdata,Views,2014,1,2014-01-01,2273
+Python,Bigdata,Views,2014,2,2014-02-01,6924
+Python,Bigdata,Views,2014,3,2014-03-01,2792
+Python,Bigdata,Views,2014,4,2014-04-01,3192
+Python,Bigdata,Views,2014,5,2014-05-01,12162
+Python,Bigdata,Views,2014,6,2014-06-01,143
+Python,Bigdata,Views,2014,7,2014-07-01,9905
+Python,Bigdata,Views,2014,8,2014-08-01,10135
+Python,Bigdata,Views,2014,9,2014-09-01,3953
+Python,Bigdata,Views,2014,10,2014-10-01,2083
+Python,Bigdata,Views,2014,11,2014-11-01,58668
+Python,Bigdata,Views,2014,12,2014-12-01,674
+Python,Bigdata,Views,2015,1,2015-01-01,4652
+Python,Bigdata,Views,2015,2,2015-02-01,2446
+Python,Bigdata,Views,2015,3,2015-03-01,1774
+Python,Bigdata,Views,2015,4,2015-04-01,32699
+Python,Bigdata,Views,2015,5,2015-05-01,4397
+Python,Bigdata,Views,2015,6,2015-06-01,9203
+Python,Bigdata,Views,2015,7,2015-07-01,7195
+Python,Bigdata,Views,2015,8,2015-08-01,3298
+Python,Bigdata,Views,2015,9,2015-09-01,19118
+Python,Bigdata,Views,2015,10,2015-10-01,6048
+Python,Bigdata,Views,2015,11,2015-11-01,33319
+Python,Bigdata,Views,2015,12,2015-12-01,889
+Python,Bigdata,Views,2016,1,2016-01-01,3981
+Python,Bigdata,Views,2016,2,2016-02-01,4841
+Python,Bigdata,Views,2016,3,2016-03-01,7453
+Python,Bigdata,Views,2016,4,2016-04-01,5068
+Python,Bigdata,Views,2016,5,2016-05-01,12443
+Python,Bigdata,Views,2016,6,2016-06-01,4115
+Python,Bigdata,Views,2016,7,2016-07-01,7963
+Python,Bigdata,Views,2016,8,2016-08-01,21898
+Python,Bigdata,Views,2016,9,2016-09-01,7659
+Python,Bigdata,Views,2016,10,2016-10-01,1210
+Python,Bigdata,Views,2016,11,2016-11-01,12832
+Python,Bigdata,Views,2016,12,2016-12-01,6468
+Python,Bigdata,Views,2017,1,2017-01-01,2584
+Python,Bigdata,Views,2017,2,2017-02-01,5731
+Python,Bigdata,Views,2017,3,2017-03-01,4786
+Python,Bigdata,Views,2017,4,2017-04-01,8718
+Python,Bigdata,Views,2017,5,2017-05-01,9496
+Python,Bigdata,Views,2017,6,2017-06-01,5197
+Python,Bigdata,Views,2017,7,2017-07-01,1531
+Python,Bigdata,Views,2017,8,2017-08-01,3556
+Python,Bigdata,Views,2017,9,2017-09-01,2384
+Python,Bigdata,Views,2017,10,2017-10-01,6473
+Python,Bigdata,Views,2017,11,2017-11-01,9893
+Python,Bigdata,Views,2017,12,2017-12-01,1797
+Python,Bigdata,Views,2018,1,2018-01-01,2809
+Python,Bigdata,Views,2018,2,2018-02-01,2099
+Python,Bigdata,Views,2018,3,2018-03-01,4137
+Python,Bigdata,Views,2018,4,2018-04-01,1599
+Python,Bigdata,Views,2018,5,2018-05-01,1945
+Python,Bigdata,Views,2018,6,2018-06-01,2154
+Python,Bigdata,Views,2018,7,2018-07-01,1121
+Python,Bigdata,Views,2018,8,2018-08-01,701
+Python,Bigdata,Views,2018,9,2018-09-01,1109
+Python,Bigdata,Views,2018,10,2018-10-01,582
+Scala,Bigdata,Answers,2012,7,2012-07-01,1
+Scala,Bigdata,Answers,2012,11,2012-11-01,0
+Scala,Bigdata,Answers,2013,1,2013-01-01,6
+Scala,Bigdata,Answers,2013,6,2013-06-01,1
+Scala,Bigdata,Answers,2013,7,2013-07-01,4
+Scala,Bigdata,Answers,2013,9,2013-09-01,1
+Scala,Bigdata,Answers,2013,11,2013-11-01,1
+Scala,Bigdata,Answers,2013,12,2013-12-01,2
+Scala,Bigdata,Answers,2014,1,2014-01-01,1
+Scala,Bigdata,Answers,2014,2,2014-02-01,1
+Scala,Bigdata,Answers,2014,3,2014-03-01,3
+Scala,Bigdata,Answers,2014,4,2014-04-01,2
+Scala,Bigdata,Answers,2014,9,2014-09-01,2
+Scala,Bigdata,Answers,2014,10,2014-10-01,2
+Scala,Bigdata,Answers,2014,11,2014-11-01,27
+Scala,Bigdata,Answers,2014,12,2014-12-01,3
+Scala,Bigdata,Answers,2015,1,2015-01-01,5
+Scala,Bigdata,Answers,2015,2,2015-02-01,2
+Scala,Bigdata,Answers,2015,3,2015-03-01,6
+Scala,Bigdata,Answers,2015,4,2015-04-01,5
+Scala,Bigdata,Answers,2015,5,2015-05-01,6
+Scala,Bigdata,Answers,2015,6,2015-06-01,4
+Scala,Bigdata,Answers,2015,7,2015-07-01,2
+Scala,Bigdata,Answers,2015,8,2015-08-01,3
+Scala,Bigdata,Answers,2015,9,2015-09-01,11
+Scala,Bigdata,Answers,2015,10,2015-10-01,5
+Scala,Bigdata,Answers,2015,11,2015-11-01,1
+Scala,Bigdata,Answers,2015,12,2015-12-01,5
+Scala,Bigdata,Answers,2016,1,2016-01-01,0
+Scala,Bigdata,Answers,2016,3,2016-03-01,4
+Scala,Bigdata,Answers,2016,4,2016-04-01,16
+Scala,Bigdata,Answers,2016,5,2016-05-01,3
+Scala,Bigdata,Answers,2016,6,2016-06-01,20
+Scala,Bigdata,Answers,2016,7,2016-07-01,6
+Scala,Bigdata,Answers,2016,8,2016-08-01,26
+Scala,Bigdata,Answers,2016,9,2016-09-01,17
+Scala,Bigdata,Answers,2016,10,2016-10-01,15
+Scala,Bigdata,Answers,2016,11,2016-11-01,5
+Scala,Bigdata,Answers,2016,12,2016-12-01,8
+Scala,Bigdata,Answers,2017,1,2017-01-01,9
+Scala,Bigdata,Answers,2017,2,2017-02-01,8
+Scala,Bigdata,Answers,2017,3,2017-03-01,5
+Scala,Bigdata,Answers,2017,4,2017-04-01,5
+Scala,Bigdata,Answers,2017,5,2017-05-01,11
+Scala,Bigdata,Answers,2017,6,2017-06-01,9
+Scala,Bigdata,Answers,2017,7,2017-07-01,5
+Scala,Bigdata,Answers,2017,8,2017-08-01,2
+Scala,Bigdata,Answers,2017,9,2017-09-01,5
+Scala,Bigdata,Answers,2017,10,2017-10-01,8
+Scala,Bigdata,Answers,2017,11,2017-11-01,7
+Scala,Bigdata,Answers,2017,12,2017-12-01,1
+Scala,Bigdata,Answers,2018,1,2018-01-01,4
+Scala,Bigdata,Answers,2018,2,2018-02-01,2
+Scala,Bigdata,Answers,2018,3,2018-03-01,11
+Scala,Bigdata,Answers,2018,4,2018-04-01,5
+Scala,Bigdata,Answers,2018,5,2018-05-01,8
+Scala,Bigdata,Answers,2018,6,2018-06-01,10
+Scala,Bigdata,Answers,2018,7,2018-07-01,14
+Scala,Bigdata,Answers,2018,8,2018-08-01,5
+Scala,Bigdata,Answers,2018,9,2018-09-01,17
+Scala,Bigdata,Answers,2018,10,2018-10-01,14
+Scala,Bigdata,Questions,2012,7,2012-07-01,1
+Scala,Bigdata,Questions,2012,11,2012-11-01,1
+Scala,Bigdata,Questions,2013,1,2013-01-01,2
+Scala,Bigdata,Questions,2013,6,2013-06-01,2
+Scala,Bigdata,Questions,2013,7,2013-07-01,3
+Scala,Bigdata,Questions,2013,9,2013-09-01,1
+Scala,Bigdata,Questions,2013,11,2013-11-01,1
+Scala,Bigdata,Questions,2013,12,2013-12-01,1
+Scala,Bigdata,Questions,2014,1,2014-01-01,2
+Scala,Bigdata,Questions,2014,2,2014-02-01,1
+Scala,Bigdata,Questions,2014,3,2014-03-01,3
+Scala,Bigdata,Questions,2014,4,2014-04-01,1
+Scala,Bigdata,Questions,2014,9,2014-09-01,1
+Scala,Bigdata,Questions,2014,10,2014-10-01,2
+Scala,Bigdata,Questions,2014,11,2014-11-01,13
+Scala,Bigdata,Questions,2014,12,2014-12-01,2
+Scala,Bigdata,Questions,2015,1,2015-01-01,2
+Scala,Bigdata,Questions,2015,2,2015-02-01,1
+Scala,Bigdata,Questions,2015,3,2015-03-01,5
+Scala,Bigdata,Questions,2015,4,2015-04-01,3
+Scala,Bigdata,Questions,2015,5,2015-05-01,3
+Scala,Bigdata,Questions,2015,6,2015-06-01,3
+Scala,Bigdata,Questions,2015,7,2015-07-01,2
+Scala,Bigdata,Questions,2015,8,2015-08-01,3
+Scala,Bigdata,Questions,2015,9,2015-09-01,6
+Scala,Bigdata,Questions,2015,10,2015-10-01,4
+Scala,Bigdata,Questions,2015,11,2015-11-01,1
+Scala,Bigdata,Questions,2015,12,2015-12-01,4
+Scala,Bigdata,Questions,2016,1,2016-01-01,1
+Scala,Bigdata,Questions,2016,3,2016-03-01,4
+Scala,Bigdata,Questions,2016,4,2016-04-01,14
+Scala,Bigdata,Questions,2016,5,2016-05-01,4
+Scala,Bigdata,Questions,2016,6,2016-06-01,12
+Scala,Bigdata,Questions,2016,7,2016-07-01,5
+Scala,Bigdata,Questions,2016,8,2016-08-01,20
+Scala,Bigdata,Questions,2016,9,2016-09-01,16
+Scala,Bigdata,Questions,2016,10,2016-10-01,11
+Scala,Bigdata,Questions,2016,11,2016-11-01,4
+Scala,Bigdata,Questions,2016,12,2016-12-01,5
+Scala,Bigdata,Questions,2017,1,2017-01-01,8
+Scala,Bigdata,Questions,2017,2,2017-02-01,5
+Scala,Bigdata,Questions,2017,3,2017-03-01,4
+Scala,Bigdata,Questions,2017,4,2017-04-01,3
+Scala,Bigdata,Questions,2017,5,2017-05-01,8
+Scala,Bigdata,Questions,2017,6,2017-06-01,5
+Scala,Bigdata,Questions,2017,7,2017-07-01,7
+Scala,Bigdata,Questions,2017,8,2017-08-01,3
+Scala,Bigdata,Questions,2017,9,2017-09-01,7
+Scala,Bigdata,Questions,2017,10,2017-10-01,8
+Scala,Bigdata,Questions,2017,11,2017-11-01,4
+Scala,Bigdata,Questions,2017,12,2017-12-01,2
+Scala,Bigdata,Questions,2018,1,2018-01-01,5
+Scala,Bigdata,Questions,2018,2,2018-02-01,3
+Scala,Bigdata,Questions,2018,3,2018-03-01,11
+Scala,Bigdata,Questions,2018,4,2018-04-01,6
+Scala,Bigdata,Questions,2018,5,2018-05-01,11
+Scala,Bigdata,Questions,2018,6,2018-06-01,12
+Scala,Bigdata,Questions,2018,7,2018-07-01,8
+Scala,Bigdata,Questions,2018,8,2018-08-01,5
+Scala,Bigdata,Questions,2018,9,2018-09-01,14
+Scala,Bigdata,Questions,2018,10,2018-10-01,9
+Scala,Bigdata,Score,2012,7,2012-07-01,2
+Scala,Bigdata,Score,2012,11,2012-11-01,2
+Scala,Bigdata,Score,2013,1,2013-01-01,28
+Scala,Bigdata,Score,2013,6,2013-06-01,1
+Scala,Bigdata,Score,2013,7,2013-07-01,4
+Scala,Bigdata,Score,2013,9,2013-09-01,0
+Scala,Bigdata,Score,2013,11,2013-11-01,1
+Scala,Bigdata,Score,2013,12,2013-12-01,0
+Scala,Bigdata,Score,2014,1,2014-01-01,0
+Scala,Bigdata,Score,2014,2,2014-02-01,2
+Scala,Bigdata,Score,2014,3,2014-03-01,8
+Scala,Bigdata,Score,2014,4,2014-04-01,2
+Scala,Bigdata,Score,2014,9,2014-09-01,0
+Scala,Bigdata,Score,2014,10,2014-10-01,0
+Scala,Bigdata,Score,2014,11,2014-11-01,37
+Scala,Bigdata,Score,2014,12,2014-12-01,20
+Scala,Bigdata,Score,2015,1,2015-01-01,20
+Scala,Bigdata,Score,2015,2,2015-02-01,6
+Scala,Bigdata,Score,2015,3,2015-03-01,7
+Scala,Bigdata,Score,2015,4,2015-04-01,6
+Scala,Bigdata,Score,2015,5,2015-05-01,16
+Scala,Bigdata,Score,2015,6,2015-06-01,3
+Scala,Bigdata,Score,2015,7,2015-07-01,7
+Scala,Bigdata,Score,2015,8,2015-08-01,2
+Scala,Bigdata,Score,2015,9,2015-09-01,10
+Scala,Bigdata,Score,2015,10,2015-10-01,-2
+Scala,Bigdata,Score,2015,11,2015-11-01,0
+Scala,Bigdata,Score,2015,12,2015-12-01,13
+Scala,Bigdata,Score,2016,1,2016-01-01,1
+Scala,Bigdata,Score,2016,3,2016-03-01,2
+Scala,Bigdata,Score,2016,4,2016-04-01,8
+Scala,Bigdata,Score,2016,5,2016-05-01,8
+Scala,Bigdata,Score,2016,6,2016-06-01,33
+Scala,Bigdata,Score,2016,7,2016-07-01,0
+Scala,Bigdata,Score,2016,8,2016-08-01,30
+Scala,Bigdata,Score,2016,9,2016-09-01,24
+Scala,Bigdata,Score,2016,10,2016-10-01,22
+Scala,Bigdata,Score,2016,11,2016-11-01,2
+Scala,Bigdata,Score,2016,12,2016-12-01,9
+Scala,Bigdata,Score,2017,1,2017-01-01,9
+Scala,Bigdata,Score,2017,2,2017-02-01,12
+Scala,Bigdata,Score,2017,3,2017-03-01,-2
+Scala,Bigdata,Score,2017,4,2017-04-01,2
+Scala,Bigdata,Score,2017,5,2017-05-01,7
+Scala,Bigdata,Score,2017,6,2017-06-01,14
+Scala,Bigdata,Score,2017,7,2017-07-01,0
+Scala,Bigdata,Score,2017,8,2017-08-01,5
+Scala,Bigdata,Score,2017,9,2017-09-01,-1
+Scala,Bigdata,Score,2017,10,2017-10-01,-5
+Scala,Bigdata,Score,2017,11,2017-11-01,5
+Scala,Bigdata,Score,2017,12,2017-12-01,0
+Scala,Bigdata,Score,2018,1,2018-01-01,4
+Scala,Bigdata,Score,2018,2,2018-02-01,1
+Scala,Bigdata,Score,2018,3,2018-03-01,8
+Scala,Bigdata,Score,2018,4,2018-04-01,3
+Scala,Bigdata,Score,2018,5,2018-05-01,14
+Scala,Bigdata,Score,2018,6,2018-06-01,1
+Scala,Bigdata,Score,2018,7,2018-07-01,2
+Scala,Bigdata,Score,2018,8,2018-08-01,1
+Scala,Bigdata,Score,2018,9,2018-09-01,2
+Scala,Bigdata,Score,2018,10,2018-10-01,0
+Scala,Bigdata,Views,2012,7,2012-07-01,188
+Scala,Bigdata,Views,2012,11,2012-11-01,257
+Scala,Bigdata,Views,2013,1,2013-01-01,13693
+Scala,Bigdata,Views,2013,6,2013-06-01,5760
+Scala,Bigdata,Views,2013,7,2013-07-01,2664
+Scala,Bigdata,Views,2013,9,2013-09-01,284
+Scala,Bigdata,Views,2013,11,2013-11-01,101
+Scala,Bigdata,Views,2013,12,2013-12-01,135
+Scala,Bigdata,Views,2014,1,2014-01-01,143
+Scala,Bigdata,Views,2014,2,2014-02-01,1114
+Scala,Bigdata,Views,2014,3,2014-03-01,997
+Scala,Bigdata,Views,2014,4,2014-04-01,3625
+Scala,Bigdata,Views,2014,9,2014-09-01,51
+Scala,Bigdata,Views,2014,10,2014-10-01,375
+Scala,Bigdata,Views,2014,11,2014-11-01,58186
+Scala,Bigdata,Views,2014,12,2014-12-01,4482
+Scala,Bigdata,Views,2015,1,2015-01-01,16262
+Scala,Bigdata,Views,2015,2,2015-02-01,3603
+Scala,Bigdata,Views,2015,3,2015-03-01,1859
+Scala,Bigdata,Views,2015,4,2015-04-01,3335
+Scala,Bigdata,Views,2015,5,2015-05-01,7435
+Scala,Bigdata,Views,2015,6,2015-06-01,5467
+Scala,Bigdata,Views,2015,7,2015-07-01,2036
+Scala,Bigdata,Views,2015,8,2015-08-01,3668
+Scala,Bigdata,Views,2015,9,2015-09-01,9072
+Scala,Bigdata,Views,2015,10,2015-10-01,3469
+Scala,Bigdata,Views,2015,11,2015-11-01,64
+Scala,Bigdata,Views,2015,12,2015-12-01,6792
+Scala,Bigdata,Views,2016,1,2016-01-01,49
+Scala,Bigdata,Views,2016,3,2016-03-01,1383
+Scala,Bigdata,Views,2016,4,2016-04-01,10002
+Scala,Bigdata,Views,2016,5,2016-05-01,7132
+Scala,Bigdata,Views,2016,6,2016-06-01,11309
+Scala,Bigdata,Views,2016,7,2016-07-01,2260
+Scala,Bigdata,Views,2016,8,2016-08-01,18715
+Scala,Bigdata,Views,2016,9,2016-09-01,19185
+Scala,Bigdata,Views,2016,10,2016-10-01,28636
+Scala,Bigdata,Views,2016,11,2016-11-01,2686
+Scala,Bigdata,Views,2016,12,2016-12-01,3115
+Scala,Bigdata,Views,2017,1,2017-01-01,13954
+Scala,Bigdata,Views,2017,2,2017-02-01,4088
+Scala,Bigdata,Views,2017,3,2017-03-01,1688
+Scala,Bigdata,Views,2017,4,2017-04-01,3186
+Scala,Bigdata,Views,2017,5,2017-05-01,4067
+Scala,Bigdata,Views,2017,6,2017-06-01,24713
+Scala,Bigdata,Views,2017,7,2017-07-01,3159
+Scala,Bigdata,Views,2017,8,2017-08-01,562
+Scala,Bigdata,Views,2017,9,2017-09-01,1177
+Scala,Bigdata,Views,2017,10,2017-10-01,2105
+Scala,Bigdata,Views,2017,11,2017-11-01,1027
+Scala,Bigdata,Views,2017,12,2017-12-01,144
+Scala,Bigdata,Views,2018,1,2018-01-01,1435
+Scala,Bigdata,Views,2018,2,2018-02-01,372
+Scala,Bigdata,Views,2018,3,2018-03-01,2087
+Scala,Bigdata,Views,2018,4,2018-04-01,1316
+Scala,Bigdata,Views,2018,5,2018-05-01,2157
+Scala,Bigdata,Views,2018,6,2018-06-01,1814
+Scala,Bigdata,Views,2018,7,2018-07-01,882
+Scala,Bigdata,Views,2018,8,2018-08-01,232
+Scala,Bigdata,Views,2018,9,2018-09-01,1038
+Scala,Bigdata,Views,2018,10,2018-10-01,533
+R,Data Science,Answers,2015,4,2015-04-01,1
+R,Data Science,Answers,2015,11,2015-11-01,3
+R,Data Science,Answers,2015,12,2015-12-01,6
+R,Data Science,Answers,2016,1,2016-01-01,2
+R,Data Science,Answers,2016,2,2016-02-01,3
+R,Data Science,Answers,2016,3,2016-03-01,1
+R,Data Science,Answers,2016,4,2016-04-01,6
+R,Data Science,Answers,2016,5,2016-05-01,6
+R,Data Science,Answers,2016,6,2016-06-01,3
+R,Data Science,Answers,2016,7,2016-07-01,8
+R,Data Science,Answers,2016,8,2016-08-01,8
+R,Data Science,Answers,2016,9,2016-09-01,3
+R,Data Science,Answers,2016,10,2016-10-01,4
+R,Data Science,Answers,2016,11,2016-11-01,13
+R,Data Science,Answers,2016,12,2016-12-01,10
+R,Data Science,Answers,2017,1,2017-01-01,5
+R,Data Science,Answers,2017,2,2017-02-01,6
+R,Data Science,Answers,2017,3,2017-03-01,11
+R,Data Science,Answers,2017,4,2017-04-01,10
+R,Data Science,Answers,2017,5,2017-05-01,10
+R,Data Science,Answers,2017,6,2017-06-01,8
+R,Data Science,Answers,2017,7,2017-07-01,7
+R,Data Science,Answers,2017,8,2017-08-01,10
+R,Data Science,Answers,2017,9,2017-09-01,20
+R,Data Science,Answers,2017,10,2017-10-01,12
+R,Data Science,Answers,2017,11,2017-11-01,22
+R,Data Science,Answers,2017,12,2017-12-01,8
+R,Data Science,Answers,2018,1,2018-01-01,13
+R,Data Science,Answers,2018,2,2018-02-01,14
+R,Data Science,Answers,2018,3,2018-03-01,18
+R,Data Science,Answers,2018,4,2018-04-01,23
+R,Data Science,Answers,2018,5,2018-05-01,11
+R,Data Science,Answers,2018,6,2018-06-01,9
+R,Data Science,Answers,2018,7,2018-07-01,17
+R,Data Science,Answers,2018,8,2018-08-01,13
+R,Data Science,Answers,2018,9,2018-09-01,7
+R,Data Science,Answers,2018,10,2018-10-01,18
+R,Data Science,Questions,2015,4,2015-04-01,2
+R,Data Science,Questions,2015,11,2015-11-01,1
+R,Data Science,Questions,2015,12,2015-12-01,5
+R,Data Science,Questions,2016,1,2016-01-01,1
+R,Data Science,Questions,2016,2,2016-02-01,3
+R,Data Science,Questions,2016,3,2016-03-01,1
+R,Data Science,Questions,2016,4,2016-04-01,6
+R,Data Science,Questions,2016,5,2016-05-01,6
+R,Data Science,Questions,2016,6,2016-06-01,2
+R,Data Science,Questions,2016,7,2016-07-01,7
+R,Data Science,Questions,2016,8,2016-08-01,5
+R,Data Science,Questions,2016,9,2016-09-01,6
+R,Data Science,Questions,2016,10,2016-10-01,6
+R,Data Science,Questions,2016,11,2016-11-01,10
+R,Data Science,Questions,2016,12,2016-12-01,9
+R,Data Science,Questions,2017,1,2017-01-01,5
+R,Data Science,Questions,2017,2,2017-02-01,7
+R,Data Science,Questions,2017,3,2017-03-01,9
+R,Data Science,Questions,2017,4,2017-04-01,8
+R,Data Science,Questions,2017,5,2017-05-01,8
+R,Data Science,Questions,2017,6,2017-06-01,8
+R,Data Science,Questions,2017,7,2017-07-01,7
+R,Data Science,Questions,2017,8,2017-08-01,8
+R,Data Science,Questions,2017,9,2017-09-01,13
+R,Data Science,Questions,2017,10,2017-10-01,10
+R,Data Science,Questions,2017,11,2017-11-01,18
+R,Data Science,Questions,2017,12,2017-12-01,9
+R,Data Science,Questions,2018,1,2018-01-01,13
+R,Data Science,Questions,2018,2,2018-02-01,16
+R,Data Science,Questions,2018,3,2018-03-01,18
+R,Data Science,Questions,2018,4,2018-04-01,19
+R,Data Science,Questions,2018,5,2018-05-01,13
+R,Data Science,Questions,2018,6,2018-06-01,11
+R,Data Science,Questions,2018,7,2018-07-01,17
+R,Data Science,Questions,2018,8,2018-08-01,15
+R,Data Science,Questions,2018,9,2018-09-01,8
+R,Data Science,Questions,2018,10,2018-10-01,17
+R,Data Science,Score,2015,4,2015-04-01,5
+R,Data Science,Score,2015,11,2015-11-01,1
+R,Data Science,Score,2015,12,2015-12-01,3
+R,Data Science,Score,2016,1,2016-01-01,0
+R,Data Science,Score,2016,2,2016-02-01,1
+R,Data Science,Score,2016,3,2016-03-01,0
+R,Data Science,Score,2016,4,2016-04-01,5
+R,Data Science,Score,2016,5,2016-05-01,-1
+R,Data Science,Score,2016,6,2016-06-01,1
+R,Data Science,Score,2016,7,2016-07-01,1
+R,Data Science,Score,2016,8,2016-08-01,3
+R,Data Science,Score,2016,9,2016-09-01,4
+R,Data Science,Score,2016,10,2016-10-01,2
+R,Data Science,Score,2016,11,2016-11-01,4
+R,Data Science,Score,2016,12,2016-12-01,3
+R,Data Science,Score,2017,1,2017-01-01,-2
+R,Data Science,Score,2017,2,2017-02-01,6
+R,Data Science,Score,2017,3,2017-03-01,10
+R,Data Science,Score,2017,4,2017-04-01,3
+R,Data Science,Score,2017,5,2017-05-01,1
+R,Data Science,Score,2017,6,2017-06-01,10
+R,Data Science,Score,2017,7,2017-07-01,3
+R,Data Science,Score,2017,8,2017-08-01,2
+R,Data Science,Score,2017,9,2017-09-01,5
+R,Data Science,Score,2017,10,2017-10-01,3
+R,Data Science,Score,2017,11,2017-11-01,2
+R,Data Science,Score,2017,12,2017-12-01,2
+R,Data Science,Score,2018,1,2018-01-01,1
+R,Data Science,Score,2018,2,2018-02-01,3
+R,Data Science,Score,2018,3,2018-03-01,7
+R,Data Science,Score,2018,4,2018-04-01,-9
+R,Data Science,Score,2018,5,2018-05-01,2
+R,Data Science,Score,2018,6,2018-06-01,3
+R,Data Science,Score,2018,7,2018-07-01,9
+R,Data Science,Score,2018,8,2018-08-01,3
+R,Data Science,Score,2018,9,2018-09-01,1
+R,Data Science,Score,2018,10,2018-10-01,4
+R,Data Science,Views,2015,4,2015-04-01,2485
+R,Data Science,Views,2015,11,2015-11-01,418
+R,Data Science,Views,2015,12,2015-12-01,542
+R,Data Science,Views,2016,1,2016-01-01,280
+R,Data Science,Views,2016,2,2016-02-01,585
+R,Data Science,Views,2016,3,2016-03-01,60
+R,Data Science,Views,2016,4,2016-04-01,1773
+R,Data Science,Views,2016,5,2016-05-01,1245
+R,Data Science,Views,2016,6,2016-06-01,162
+R,Data Science,Views,2016,7,2016-07-01,2393
+R,Data Science,Views,2016,8,2016-08-01,3428
+R,Data Science,Views,2016,9,2016-09-01,2606
+R,Data Science,Views,2016,10,2016-10-01,1385
+R,Data Science,Views,2016,11,2016-11-01,6604
+R,Data Science,Views,2016,12,2016-12-01,1941
+R,Data Science,Views,2017,1,2017-01-01,2616
+R,Data Science,Views,2017,2,2017-02-01,4178
+R,Data Science,Views,2017,3,2017-03-01,5560
+R,Data Science,Views,2017,4,2017-04-01,2145
+R,Data Science,Views,2017,5,2017-05-01,863
+R,Data Science,Views,2017,6,2017-06-01,1878
+R,Data Science,Views,2017,7,2017-07-01,11812
+R,Data Science,Views,2017,8,2017-08-01,3561
+R,Data Science,Views,2017,9,2017-09-01,4237
+R,Data Science,Views,2017,10,2017-10-01,1310
+R,Data Science,Views,2017,11,2017-11-01,2660
+R,Data Science,Views,2017,12,2017-12-01,1654
+R,Data Science,Views,2018,1,2018-01-01,1757
+R,Data Science,Views,2018,2,2018-02-01,3118
+R,Data Science,Views,2018,3,2018-03-01,5174
+R,Data Science,Views,2018,4,2018-04-01,2348
+R,Data Science,Views,2018,5,2018-05-01,1212
+R,Data Science,Views,2018,6,2018-06-01,635
+R,Data Science,Views,2018,7,2018-07-01,1315
+R,Data Science,Views,2018,8,2018-08-01,736
+R,Data Science,Views,2018,9,2018-09-01,371
+R,Data Science,Views,2018,10,2018-10-01,676
+Python,Data Science,Answers,2015,5,2015-05-01,1
+Python,Data Science,Answers,2015,10,2015-10-01,2
+Python,Data Science,Answers,2015,11,2015-11-01,4
+Python,Data Science,Answers,2015,12,2015-12-01,6
+Python,Data Science,Answers,2016,1,2016-01-01,31
+Python,Data Science,Answers,2016,2,2016-02-01,6
+Python,Data Science,Answers,2016,3,2016-03-01,10
+Python,Data Science,Answers,2016,4,2016-04-01,7
+Python,Data Science,Answers,2016,5,2016-05-01,12
+Python,Data Science,Answers,2016,6,2016-06-01,20
+Python,Data Science,Answers,2016,7,2016-07-01,19
+Python,Data Science,Answers,2016,8,2016-08-01,11
+Python,Data Science,Answers,2016,9,2016-09-01,19
+Python,Data Science,Answers,2016,10,2016-10-01,13
+Python,Data Science,Answers,2016,11,2016-11-01,24
+Python,Data Science,Answers,2016,12,2016-12-01,15
+Python,Data Science,Answers,2017,1,2017-01-01,31
+Python,Data Science,Answers,2017,2,2017-02-01,23
+Python,Data Science,Answers,2017,3,2017-03-01,29
+Python,Data Science,Answers,2017,4,2017-04-01,50
+Python,Data Science,Answers,2017,5,2017-05-01,36
+Python,Data Science,Answers,2017,6,2017-06-01,48
+Python,Data Science,Answers,2017,7,2017-07-01,55
+Python,Data Science,Answers,2017,8,2017-08-01,53
+Python,Data Science,Answers,2017,9,2017-09-01,36
+Python,Data Science,Answers,2017,10,2017-10-01,49
+Python,Data Science,Answers,2017,11,2017-11-01,44
+Python,Data Science,Answers,2017,12,2017-12-01,60
+Python,Data Science,Answers,2018,1,2018-01-01,54
+Python,Data Science,Answers,2018,2,2018-02-01,49
+Python,Data Science,Answers,2018,3,2018-03-01,62
+Python,Data Science,Answers,2018,4,2018-04-01,55
+Python,Data Science,Answers,2018,5,2018-05-01,44
+Python,Data Science,Answers,2018,6,2018-06-01,59
+Python,Data Science,Answers,2018,7,2018-07-01,82
+Python,Data Science,Answers,2018,8,2018-08-01,65
+Python,Data Science,Answers,2018,9,2018-09-01,54
+Python,Data Science,Answers,2018,10,2018-10-01,85
+Python,Data Science,Questions,2015,5,2015-05-01,2
+Python,Data Science,Questions,2015,10,2015-10-01,2
+Python,Data Science,Questions,2015,11,2015-11-01,4
+Python,Data Science,Questions,2015,12,2015-12-01,5
+Python,Data Science,Questions,2016,1,2016-01-01,11
+Python,Data Science,Questions,2016,2,2016-02-01,3
+Python,Data Science,Questions,2016,3,2016-03-01,6
+Python,Data Science,Questions,2016,4,2016-04-01,6
+Python,Data Science,Questions,2016,5,2016-05-01,10
+Python,Data Science,Questions,2016,6,2016-06-01,11
+Python,Data Science,Questions,2016,7,2016-07-01,12
+Python,Data Science,Questions,2016,8,2016-08-01,10
+Python,Data Science,Questions,2016,9,2016-09-01,15
+Python,Data Science,Questions,2016,10,2016-10-01,11
+Python,Data Science,Questions,2016,11,2016-11-01,20
+Python,Data Science,Questions,2016,12,2016-12-01,14
+Python,Data Science,Questions,2017,1,2017-01-01,20
+Python,Data Science,Questions,2017,2,2017-02-01,22
+Python,Data Science,Questions,2017,3,2017-03-01,19
+Python,Data Science,Questions,2017,4,2017-04-01,29
+Python,Data Science,Questions,2017,5,2017-05-01,26
+Python,Data Science,Questions,2017,6,2017-06-01,30
+Python,Data Science,Questions,2017,7,2017-07-01,47
+Python,Data Science,Questions,2017,8,2017-08-01,40
+Python,Data Science,Questions,2017,9,2017-09-01,26
+Python,Data Science,Questions,2017,10,2017-10-01,46
+Python,Data Science,Questions,2017,11,2017-11-01,45
+Python,Data Science,Questions,2017,12,2017-12-01,46
+Python,Data Science,Questions,2018,1,2018-01-01,51
+Python,Data Science,Questions,2018,2,2018-02-01,44
+Python,Data Science,Questions,2018,3,2018-03-01,54
+Python,Data Science,Questions,2018,4,2018-04-01,59
+Python,Data Science,Questions,2018,5,2018-05-01,45
+Python,Data Science,Questions,2018,6,2018-06-01,52
+Python,Data Science,Questions,2018,7,2018-07-01,75
+Python,Data Science,Questions,2018,8,2018-08-01,58
+Python,Data Science,Questions,2018,9,2018-09-01,51
+Python,Data Science,Questions,2018,10,2018-10-01,80
+Python,Data Science,Score,2015,5,2015-05-01,3
+Python,Data Science,Score,2015,10,2015-10-01,3
+Python,Data Science,Score,2015,11,2015-11-01,4
+Python,Data Science,Score,2015,12,2015-12-01,8
+Python,Data Science,Score,2016,1,2016-01-01,256
+Python,Data Science,Score,2016,2,2016-02-01,8
+Python,Data Science,Score,2016,3,2016-03-01,6
+Python,Data Science,Score,2016,4,2016-04-01,5
+Python,Data Science,Score,2016,5,2016-05-01,11
+Python,Data Science,Score,2016,6,2016-06-01,29
+Python,Data Science,Score,2016,7,2016-07-01,15
+Python,Data Science,Score,2016,8,2016-08-01,11
+Python,Data Science,Score,2016,9,2016-09-01,29
+Python,Data Science,Score,2016,10,2016-10-01,10
+Python,Data Science,Score,2016,11,2016-11-01,20
+Python,Data Science,Score,2016,12,2016-12-01,13
+Python,Data Science,Score,2017,1,2017-01-01,38
+Python,Data Science,Score,2017,2,2017-02-01,11
+Python,Data Science,Score,2017,3,2017-03-01,32
+Python,Data Science,Score,2017,4,2017-04-01,45
+Python,Data Science,Score,2017,5,2017-05-01,15
+Python,Data Science,Score,2017,6,2017-06-01,71
+Python,Data Science,Score,2017,7,2017-07-01,35
+Python,Data Science,Score,2017,8,2017-08-01,7
+Python,Data Science,Score,2017,9,2017-09-01,13
+Python,Data Science,Score,2017,10,2017-10-01,34
+Python,Data Science,Score,2017,11,2017-11-01,19
+Python,Data Science,Score,2017,12,2017-12-01,20
+Python,Data Science,Score,2018,1,2018-01-01,9
+Python,Data Science,Score,2018,2,2018-02-01,-1
+Python,Data Science,Score,2018,3,2018-03-01,18
+Python,Data Science,Score,2018,4,2018-04-01,4
+Python,Data Science,Score,2018,5,2018-05-01,32
+Python,Data Science,Score,2018,6,2018-06-01,21
+Python,Data Science,Score,2018,7,2018-07-01,6
+Python,Data Science,Score,2018,8,2018-08-01,-9
+Python,Data Science,Score,2018,9,2018-09-01,9
+Python,Data Science,Score,2018,10,2018-10-01,25
+Python,Data Science,Views,2015,5,2015-05-01,2275
+Python,Data Science,Views,2015,10,2015-10-01,796
+Python,Data Science,Views,2015,11,2015-11-01,2210
+Python,Data Science,Views,2015,12,2015-12-01,10844
+Python,Data Science,Views,2016,1,2016-01-01,218816
+Python,Data Science,Views,2016,2,2016-02-01,6083
+Python,Data Science,Views,2016,3,2016-03-01,5321
+Python,Data Science,Views,2016,4,2016-04-01,2831
+Python,Data Science,Views,2016,5,2016-05-01,5020
+Python,Data Science,Views,2016,6,2016-06-01,28771
+Python,Data Science,Views,2016,7,2016-07-01,14826
+Python,Data Science,Views,2016,8,2016-08-01,10056
+Python,Data Science,Views,2016,9,2016-09-01,14320
+Python,Data Science,Views,2016,10,2016-10-01,24088
+Python,Data Science,Views,2016,11,2016-11-01,18219
+Python,Data Science,Views,2016,12,2016-12-01,19011
+Python,Data Science,Views,2017,1,2017-01-01,22176
+Python,Data Science,Views,2017,2,2017-02-01,23177
+Python,Data Science,Views,2017,3,2017-03-01,30747
+Python,Data Science,Views,2017,4,2017-04-01,45806
+Python,Data Science,Views,2017,5,2017-05-01,12889
+Python,Data Science,Views,2017,6,2017-06-01,126310
+Python,Data Science,Views,2017,7,2017-07-01,21227
+Python,Data Science,Views,2017,8,2017-08-01,23876
+Python,Data Science,Views,2017,9,2017-09-01,14758
+Python,Data Science,Views,2017,10,2017-10-01,14860
+Python,Data Science,Views,2017,11,2017-11-01,11839
+Python,Data Science,Views,2017,12,2017-12-01,48110
+Python,Data Science,Views,2018,1,2018-01-01,14991
+Python,Data Science,Views,2018,2,2018-02-01,6624
+Python,Data Science,Views,2018,3,2018-03-01,9916
+Python,Data Science,Views,2018,4,2018-04-01,6938
+Python,Data Science,Views,2018,5,2018-05-01,8165
+Python,Data Science,Views,2018,6,2018-06-01,5781
+Python,Data Science,Views,2018,7,2018-07-01,7060
+Python,Data Science,Views,2018,8,2018-08-01,3692
+Python,Data Science,Views,2018,9,2018-09-01,2795
+Python,Data Science,Views,2018,10,2018-10-01,3897
+Scala,Data Science,Answers,2016,4,2016-04-01,1
+Scala,Data Science,Answers,2016,6,2016-06-01,0
+Scala,Data Science,Answers,2016,8,2016-08-01,1
+Scala,Data Science,Answers,2016,9,2016-09-01,0
+Scala,Data Science,Answers,2016,10,2016-10-01,6
+Scala,Data Science,Answers,2016,12,2016-12-01,3
+Scala,Data Science,Answers,2017,3,2017-03-01,2
+Scala,Data Science,Answers,2017,5,2017-05-01,3
+Scala,Data Science,Answers,2017,7,2017-07-01,1
+Scala,Data Science,Answers,2017,9,2017-09-01,1
+Scala,Data Science,Answers,2017,10,2017-10-01,2
+Scala,Data Science,Answers,2017,11,2017-11-01,2
+Scala,Data Science,Answers,2018,1,2018-01-01,2
+Scala,Data Science,Answers,2018,2,2018-02-01,1
+Scala,Data Science,Answers,2018,4,2018-04-01,1
+Scala,Data Science,Answers,2018,6,2018-06-01,1
+Scala,Data Science,Questions,2016,4,2016-04-01,1
+Scala,Data Science,Questions,2016,6,2016-06-01,1
+Scala,Data Science,Questions,2016,8,2016-08-01,1
+Scala,Data Science,Questions,2016,9,2016-09-01,1
+Scala,Data Science,Questions,2016,10,2016-10-01,3
+Scala,Data Science,Questions,2016,12,2016-12-01,2
+Scala,Data Science,Questions,2017,3,2017-03-01,1
+Scala,Data Science,Questions,2017,5,2017-05-01,3
+Scala,Data Science,Questions,2017,7,2017-07-01,1
+Scala,Data Science,Questions,2017,9,2017-09-01,1
+Scala,Data Science,Questions,2017,10,2017-10-01,2
+Scala,Data Science,Questions,2017,11,2017-11-01,1
+Scala,Data Science,Questions,2018,1,2018-01-01,1
+Scala,Data Science,Questions,2018,2,2018-02-01,1
+Scala,Data Science,Questions,2018,4,2018-04-01,2
+Scala,Data Science,Questions,2018,6,2018-06-01,1
+Scala,Data Science,Score,2016,4,2016-04-01,0
+Scala,Data Science,Score,2016,6,2016-06-01,2
+Scala,Data Science,Score,2016,8,2016-08-01,0
+Scala,Data Science,Score,2016,9,2016-09-01,1
+Scala,Data Science,Score,2016,10,2016-10-01,6
+Scala,Data Science,Score,2016,12,2016-12-01,4
+Scala,Data Science,Score,2017,3,2017-03-01,14
+Scala,Data Science,Score,2017,5,2017-05-01,3
+Scala,Data Science,Score,2017,7,2017-07-01,0
+Scala,Data Science,Score,2017,9,2017-09-01,2
+Scala,Data Science,Score,2017,10,2017-10-01,1
+Scala,Data Science,Score,2017,11,2017-11-01,0
+Scala,Data Science,Score,2018,1,2018-01-01,0
+Scala,Data Science,Score,2018,2,2018-02-01,-4
+Scala,Data Science,Score,2018,4,2018-04-01,3
+Scala,Data Science,Score,2018,6,2018-06-01,0
+Scala,Data Science,Views,2016,4,2016-04-01,688
+Scala,Data Science,Views,2016,6,2016-06-01,221
+Scala,Data Science,Views,2016,8,2016-08-01,209
+Scala,Data Science,Views,2016,9,2016-09-01,398
+Scala,Data Science,Views,2016,10,2016-10-01,2209
+Scala,Data Science,Views,2016,12,2016-12-01,1646
+Scala,Data Science,Views,2017,3,2017-03-01,16892
+Scala,Data Science,Views,2017,5,2017-05-01,630
+Scala,Data Science,Views,2017,7,2017-07-01,80
+Scala,Data Science,Views,2017,9,2017-09-01,169
+Scala,Data Science,Views,2017,10,2017-10-01,222
+Scala,Data Science,Views,2017,11,2017-11-01,169
+Scala,Data Science,Views,2018,1,2018-01-01,320
+Scala,Data Science,Views,2018,2,2018-02-01,107
+Scala,Data Science,Views,2018,4,2018-04-01,528
+Scala,Data Science,Views,2018,6,2018-06-01,26
+R,Machine Learning,Answers,2012,1,2012-01-01,4
+R,Machine Learning,Answers,2012,2,2012-02-01,4
+R,Machine Learning,Answers,2012,3,2012-03-01,2
+R,Machine Learning,Answers,2012,4,2012-04-01,14
+R,Machine Learning,Answers,2012,5,2012-05-01,6
+R,Machine Learning,Answers,2012,6,2012-06-01,16
+R,Machine Learning,Answers,2012,7,2012-07-01,3
+R,Machine Learning,Answers,2012,8,2012-08-01,9
+R,Machine Learning,Answers,2012,9,2012-09-01,4
+R,Machine Learning,Answers,2012,10,2012-10-01,3
+R,Machine Learning,Answers,2012,11,2012-11-01,6
+R,Machine Learning,Answers,2012,12,2012-12-01,12
+R,Machine Learning,Answers,2013,1,2013-01-01,4
+R,Machine Learning,Answers,2013,2,2013-02-01,5
+R,Machine Learning,Answers,2013,3,2013-03-01,8
+R,Machine Learning,Answers,2013,4,2013-04-01,7
+R,Machine Learning,Answers,2013,5,2013-05-01,10
+R,Machine Learning,Answers,2013,6,2013-06-01,29
+R,Machine Learning,Answers,2013,7,2013-07-01,17
+R,Machine Learning,Answers,2013,8,2013-08-01,10
+R,Machine Learning,Answers,2013,9,2013-09-01,10
+R,Machine Learning,Answers,2013,10,2013-10-01,18
+R,Machine Learning,Answers,2013,11,2013-11-01,11
+R,Machine Learning,Answers,2013,12,2013-12-01,18
+R,Machine Learning,Answers,2014,1,2014-01-01,11
+R,Machine Learning,Answers,2014,2,2014-02-01,19
+R,Machine Learning,Answers,2014,3,2014-03-01,17
+R,Machine Learning,Answers,2014,4,2014-04-01,23
+R,Machine Learning,Answers,2014,5,2014-05-01,18
+R,Machine Learning,Answers,2014,6,2014-06-01,14
+R,Machine Learning,Answers,2014,7,2014-07-01,16
+R,Machine Learning,Answers,2014,8,2014-08-01,4
+R,Machine Learning,Answers,2014,9,2014-09-01,14
+R,Machine Learning,Answers,2014,10,2014-10-01,14
+R,Machine Learning,Answers,2014,11,2014-11-01,7
+R,Machine Learning,Answers,2014,12,2014-12-01,19
+R,Machine Learning,Answers,2015,1,2015-01-01,7
+R,Machine Learning,Answers,2015,2,2015-02-01,6
+R,Machine Learning,Answers,2015,3,2015-03-01,8
+R,Machine Learning,Answers,2015,4,2015-04-01,22
+R,Machine Learning,Answers,2015,5,2015-05-01,26
+R,Machine Learning,Answers,2015,6,2015-06-01,19
+R,Machine Learning,Answers,2015,7,2015-07-01,21
+R,Machine Learning,Answers,2015,8,2015-08-01,24
+R,Machine Learning,Answers,2015,9,2015-09-01,16
+R,Machine Learning,Answers,2015,10,2015-10-01,27
+R,Machine Learning,Answers,2015,11,2015-11-01,31
+R,Machine Learning,Answers,2015,12,2015-12-01,24
+R,Machine Learning,Answers,2016,1,2016-01-01,40
+R,Machine Learning,Answers,2016,2,2016-02-01,35
+R,Machine Learning,Answers,2016,3,2016-03-01,48
+R,Machine Learning,Answers,2016,4,2016-04-01,34
+R,Machine Learning,Answers,2016,5,2016-05-01,39
+R,Machine Learning,Answers,2016,6,2016-06-01,27
+R,Machine Learning,Answers,2016,7,2016-07-01,42
+R,Machine Learning,Answers,2016,8,2016-08-01,29
+R,Machine Learning,Answers,2016,9,2016-09-01,30
+R,Machine Learning,Answers,2016,10,2016-10-01,44
+R,Machine Learning,Answers,2016,11,2016-11-01,49
+R,Machine Learning,Answers,2016,12,2016-12-01,30
+R,Machine Learning,Answers,2017,1,2017-01-01,30
+R,Machine Learning,Answers,2017,2,2017-02-01,21
+R,Machine Learning,Answers,2017,3,2017-03-01,38
+R,Machine Learning,Answers,2017,4,2017-04-01,39
+R,Machine Learning,Answers,2017,5,2017-05-01,27
+R,Machine Learning,Answers,2017,6,2017-06-01,22
+R,Machine Learning,Answers,2017,7,2017-07-01,36
+R,Machine Learning,Answers,2017,8,2017-08-01,22
+R,Machine Learning,Answers,2017,9,2017-09-01,19
+R,Machine Learning,Answers,2017,10,2017-10-01,33
+R,Machine Learning,Answers,2017,11,2017-11-01,33
+R,Machine Learning,Answers,2017,12,2017-12-01,16
+R,Machine Learning,Answers,2018,1,2018-01-01,28
+R,Machine Learning,Answers,2018,2,2018-02-01,37
+R,Machine Learning,Answers,2018,3,2018-03-01,50
+R,Machine Learning,Answers,2018,4,2018-04-01,26
+R,Machine Learning,Answers,2018,5,2018-05-01,30
+R,Machine Learning,Answers,2018,6,2018-06-01,19
+R,Machine Learning,Answers,2018,7,2018-07-01,21
+R,Machine Learning,Answers,2018,8,2018-08-01,20
+R,Machine Learning,Answers,2018,9,2018-09-01,18
+R,Machine Learning,Answers,2018,10,2018-10-01,22
+R,Machine Learning,Questions,2012,1,2012-01-01,2
+R,Machine Learning,Questions,2012,2,2012-02-01,3
+R,Machine Learning,Questions,2012,3,2012-03-01,1
+R,Machine Learning,Questions,2012,4,2012-04-01,6
+R,Machine Learning,Questions,2012,5,2012-05-01,5
+R,Machine Learning,Questions,2012,6,2012-06-01,7
+R,Machine Learning,Questions,2012,7,2012-07-01,3
+R,Machine Learning,Questions,2012,8,2012-08-01,6
+R,Machine Learning,Questions,2012,9,2012-09-01,4
+R,Machine Learning,Questions,2012,10,2012-10-01,2
+R,Machine Learning,Questions,2012,11,2012-11-01,3
+R,Machine Learning,Questions,2012,12,2012-12-01,6
+R,Machine Learning,Questions,2013,1,2013-01-01,3
+R,Machine Learning,Questions,2013,2,2013-02-01,4
+R,Machine Learning,Questions,2013,3,2013-03-01,6
+R,Machine Learning,Questions,2013,4,2013-04-01,6
+R,Machine Learning,Questions,2013,5,2013-05-01,7
+R,Machine Learning,Questions,2013,6,2013-06-01,14
+R,Machine Learning,Questions,2013,7,2013-07-01,10
+R,Machine Learning,Questions,2013,8,2013-08-01,8
+R,Machine Learning,Questions,2013,9,2013-09-01,9
+R,Machine Learning,Questions,2013,10,2013-10-01,14
+R,Machine Learning,Questions,2013,11,2013-11-01,9
+R,Machine Learning,Questions,2013,12,2013-12-01,12
+R,Machine Learning,Questions,2014,1,2014-01-01,6
+R,Machine Learning,Questions,2014,2,2014-02-01,13
+R,Machine Learning,Questions,2014,3,2014-03-01,15
+R,Machine Learning,Questions,2014,4,2014-04-01,14
+R,Machine Learning,Questions,2014,5,2014-05-01,18
+R,Machine Learning,Questions,2014,6,2014-06-01,13
+R,Machine Learning,Questions,2014,7,2014-07-01,10
+R,Machine Learning,Questions,2014,8,2014-08-01,6
+R,Machine Learning,Questions,2014,9,2014-09-01,10
+R,Machine Learning,Questions,2014,10,2014-10-01,13
+R,Machine Learning,Questions,2014,11,2014-11-01,12
+R,Machine Learning,Questions,2014,12,2014-12-01,12
+R,Machine Learning,Questions,2015,1,2015-01-01,8
+R,Machine Learning,Questions,2015,2,2015-02-01,8
+R,Machine Learning,Questions,2015,3,2015-03-01,12
+R,Machine Learning,Questions,2015,4,2015-04-01,22
+R,Machine Learning,Questions,2015,5,2015-05-01,19
+R,Machine Learning,Questions,2015,6,2015-06-01,15
+R,Machine Learning,Questions,2015,7,2015-07-01,20
+R,Machine Learning,Questions,2015,8,2015-08-01,18
+R,Machine Learning,Questions,2015,9,2015-09-01,15
+R,Machine Learning,Questions,2015,10,2015-10-01,27
+R,Machine Learning,Questions,2015,11,2015-11-01,25
+R,Machine Learning,Questions,2015,12,2015-12-01,26
+R,Machine Learning,Questions,2016,1,2016-01-01,41
+R,Machine Learning,Questions,2016,2,2016-02-01,26
+R,Machine Learning,Questions,2016,3,2016-03-01,44
+R,Machine Learning,Questions,2016,4,2016-04-01,34
+R,Machine Learning,Questions,2016,5,2016-05-01,35
+R,Machine Learning,Questions,2016,6,2016-06-01,24
+R,Machine Learning,Questions,2016,7,2016-07-01,35
+R,Machine Learning,Questions,2016,8,2016-08-01,30
+R,Machine Learning,Questions,2016,9,2016-09-01,34
+R,Machine Learning,Questions,2016,10,2016-10-01,44
+R,Machine Learning,Questions,2016,11,2016-11-01,42
+R,Machine Learning,Questions,2016,12,2016-12-01,33
+R,Machine Learning,Questions,2017,1,2017-01-01,29
+R,Machine Learning,Questions,2017,2,2017-02-01,24
+R,Machine Learning,Questions,2017,3,2017-03-01,40
+R,Machine Learning,Questions,2017,4,2017-04-01,41
+R,Machine Learning,Questions,2017,5,2017-05-01,29
+R,Machine Learning,Questions,2017,6,2017-06-01,22
+R,Machine Learning,Questions,2017,7,2017-07-01,46
+R,Machine Learning,Questions,2017,8,2017-08-01,26
+R,Machine Learning,Questions,2017,9,2017-09-01,26
+R,Machine Learning,Questions,2017,10,2017-10-01,30
+R,Machine Learning,Questions,2017,11,2017-11-01,34
+R,Machine Learning,Questions,2017,12,2017-12-01,30
+R,Machine Learning,Questions,2018,1,2018-01-01,34
+R,Machine Learning,Questions,2018,2,2018-02-01,45
+R,Machine Learning,Questions,2018,3,2018-03-01,50
+R,Machine Learning,Questions,2018,4,2018-04-01,41
+R,Machine Learning,Questions,2018,5,2018-05-01,41
+R,Machine Learning,Questions,2018,6,2018-06-01,34
+R,Machine Learning,Questions,2018,7,2018-07-01,33
+R,Machine Learning,Questions,2018,8,2018-08-01,26
+R,Machine Learning,Questions,2018,9,2018-09-01,25
+R,Machine Learning,Questions,2018,10,2018-10-01,30
+R,Machine Learning,Score,2012,1,2012-01-01,11
+R,Machine Learning,Score,2012,2,2012-02-01,20
+R,Machine Learning,Score,2012,3,2012-03-01,1
+R,Machine Learning,Score,2012,4,2012-04-01,22
+R,Machine Learning,Score,2012,5,2012-05-01,21
+R,Machine Learning,Score,2012,6,2012-06-01,63
+R,Machine Learning,Score,2012,7,2012-07-01,13
+R,Machine Learning,Score,2012,8,2012-08-01,19
+R,Machine Learning,Score,2012,9,2012-09-01,8
+R,Machine Learning,Score,2012,10,2012-10-01,9
+R,Machine Learning,Score,2012,11,2012-11-01,11
+R,Machine Learning,Score,2012,12,2012-12-01,51
+R,Machine Learning,Score,2013,1,2013-01-01,5
+R,Machine Learning,Score,2013,2,2013-02-01,18
+R,Machine Learning,Score,2013,3,2013-03-01,24
+R,Machine Learning,Score,2013,4,2013-04-01,11
+R,Machine Learning,Score,2013,5,2013-05-01,24
+R,Machine Learning,Score,2013,6,2013-06-01,123
+R,Machine Learning,Score,2013,7,2013-07-01,44
+R,Machine Learning,Score,2013,8,2013-08-01,11
+R,Machine Learning,Score,2013,9,2013-09-01,24
+R,Machine Learning,Score,2013,10,2013-10-01,36
+R,Machine Learning,Score,2013,11,2013-11-01,18
+R,Machine Learning,Score,2013,12,2013-12-01,24
+R,Machine Learning,Score,2014,1,2014-01-01,9
+R,Machine Learning,Score,2014,2,2014-02-01,26
+R,Machine Learning,Score,2014,3,2014-03-01,45
+R,Machine Learning,Score,2014,4,2014-04-01,29
+R,Machine Learning,Score,2014,5,2014-05-01,22
+R,Machine Learning,Score,2014,6,2014-06-01,16
+R,Machine Learning,Score,2014,7,2014-07-01,32
+R,Machine Learning,Score,2014,8,2014-08-01,8
+R,Machine Learning,Score,2014,9,2014-09-01,26
+R,Machine Learning,Score,2014,10,2014-10-01,40
+R,Machine Learning,Score,2014,11,2014-11-01,22
+R,Machine Learning,Score,2014,12,2014-12-01,44
+R,Machine Learning,Score,2015,1,2015-01-01,11
+R,Machine Learning,Score,2015,2,2015-02-01,10
+R,Machine Learning,Score,2015,3,2015-03-01,12
+R,Machine Learning,Score,2015,4,2015-04-01,89
+R,Machine Learning,Score,2015,5,2015-05-01,33
+R,Machine Learning,Score,2015,6,2015-06-01,13
+R,Machine Learning,Score,2015,7,2015-07-01,16
+R,Machine Learning,Score,2015,8,2015-08-01,18
+R,Machine Learning,Score,2015,9,2015-09-01,18
+R,Machine Learning,Score,2015,10,2015-10-01,39
+R,Machine Learning,Score,2015,11,2015-11-01,39
+R,Machine Learning,Score,2015,12,2015-12-01,47
+R,Machine Learning,Score,2016,1,2016-01-01,62
+R,Machine Learning,Score,2016,2,2016-02-01,23
+R,Machine Learning,Score,2016,3,2016-03-01,22
+R,Machine Learning,Score,2016,4,2016-04-01,33
+R,Machine Learning,Score,2016,5,2016-05-01,48
+R,Machine Learning,Score,2016,6,2016-06-01,20
+R,Machine Learning,Score,2016,7,2016-07-01,37
+R,Machine Learning,Score,2016,8,2016-08-01,23
+R,Machine Learning,Score,2016,9,2016-09-01,56
+R,Machine Learning,Score,2016,10,2016-10-01,39
+R,Machine Learning,Score,2016,11,2016-11-01,45
+R,Machine Learning,Score,2016,12,2016-12-01,13
+R,Machine Learning,Score,2017,1,2017-01-01,36
+R,Machine Learning,Score,2017,2,2017-02-01,20
+R,Machine Learning,Score,2017,3,2017-03-01,41
+R,Machine Learning,Score,2017,4,2017-04-01,30
+R,Machine Learning,Score,2017,5,2017-05-01,25
+R,Machine Learning,Score,2017,6,2017-06-01,2
+R,Machine Learning,Score,2017,7,2017-07-01,20
+R,Machine Learning,Score,2017,8,2017-08-01,11
+R,Machine Learning,Score,2017,9,2017-09-01,14
+R,Machine Learning,Score,2017,10,2017-10-01,14
+R,Machine Learning,Score,2017,11,2017-11-01,0
+R,Machine Learning,Score,2017,12,2017-12-01,58
+R,Machine Learning,Score,2018,1,2018-01-01,20
+R,Machine Learning,Score,2018,2,2018-02-01,35
+R,Machine Learning,Score,2018,3,2018-03-01,20
+R,Machine Learning,Score,2018,4,2018-04-01,32
+R,Machine Learning,Score,2018,5,2018-05-01,6
+R,Machine Learning,Score,2018,6,2018-06-01,7
+R,Machine Learning,Score,2018,7,2018-07-01,1
+R,Machine Learning,Score,2018,8,2018-08-01,18
+R,Machine Learning,Score,2018,9,2018-09-01,21
+R,Machine Learning,Score,2018,10,2018-10-01,10
+R,Machine Learning,Views,2012,1,2012-01-01,4484
+R,Machine Learning,Views,2012,2,2012-02-01,3862
+R,Machine Learning,Views,2012,3,2012-03-01,2140
+R,Machine Learning,Views,2012,4,2012-04-01,37225
+R,Machine Learning,Views,2012,5,2012-05-01,48603
+R,Machine Learning,Views,2012,6,2012-06-01,51596
+R,Machine Learning,Views,2012,7,2012-07-01,6136
+R,Machine Learning,Views,2012,8,2012-08-01,16823
+R,Machine Learning,Views,2012,9,2012-09-01,5254
+R,Machine Learning,Views,2012,10,2012-10-01,6575
+R,Machine Learning,Views,2012,11,2012-11-01,11033
+R,Machine Learning,Views,2012,12,2012-12-01,63544
+R,Machine Learning,Views,2013,1,2013-01-01,1745
+R,Machine Learning,Views,2013,2,2013-02-01,14470
+R,Machine Learning,Views,2013,3,2013-03-01,31263
+R,Machine Learning,Views,2013,4,2013-04-01,10873
+R,Machine Learning,Views,2013,5,2013-05-01,21141
+R,Machine Learning,Views,2013,6,2013-06-01,84328
+R,Machine Learning,Views,2013,7,2013-07-01,64810
+R,Machine Learning,Views,2013,8,2013-08-01,21532
+R,Machine Learning,Views,2013,9,2013-09-01,23653
+R,Machine Learning,Views,2013,10,2013-10-01,45856
+R,Machine Learning,Views,2013,11,2013-11-01,18253
+R,Machine Learning,Views,2013,12,2013-12-01,26492
+R,Machine Learning,Views,2014,1,2014-01-01,25695
+R,Machine Learning,Views,2014,2,2014-02-01,30754
+R,Machine Learning,Views,2014,3,2014-03-01,29892
+R,Machine Learning,Views,2014,4,2014-04-01,44684
+R,Machine Learning,Views,2014,5,2014-05-01,18057
+R,Machine Learning,Views,2014,6,2014-06-01,8747
+R,Machine Learning,Views,2014,7,2014-07-01,38734
+R,Machine Learning,Views,2014,8,2014-08-01,2097
+R,Machine Learning,Views,2014,9,2014-09-01,46803
+R,Machine Learning,Views,2014,10,2014-10-01,25673
+R,Machine Learning,Views,2014,11,2014-11-01,12939
+R,Machine Learning,Views,2014,12,2014-12-01,36247
+R,Machine Learning,Views,2015,1,2015-01-01,8767
+R,Machine Learning,Views,2015,2,2015-02-01,5976
+R,Machine Learning,Views,2015,3,2015-03-01,8229
+R,Machine Learning,Views,2015,4,2015-04-01,66396
+R,Machine Learning,Views,2015,5,2015-05-01,57955
+R,Machine Learning,Views,2015,6,2015-06-01,15180
+R,Machine Learning,Views,2015,7,2015-07-01,9954
+R,Machine Learning,Views,2015,8,2015-08-01,16163
+R,Machine Learning,Views,2015,9,2015-09-01,13553
+R,Machine Learning,Views,2015,10,2015-10-01,44215
+R,Machine Learning,Views,2015,11,2015-11-01,20506
+R,Machine Learning,Views,2015,12,2015-12-01,30029
+R,Machine Learning,Views,2016,1,2016-01-01,57445
+R,Machine Learning,Views,2016,2,2016-02-01,16028
+R,Machine Learning,Views,2016,3,2016-03-01,66157
+R,Machine Learning,Views,2016,4,2016-04-01,63698
+R,Machine Learning,Views,2016,5,2016-05-01,25445
+R,Machine Learning,Views,2016,6,2016-06-01,13422
+R,Machine Learning,Views,2016,7,2016-07-01,46383
+R,Machine Learning,Views,2016,8,2016-08-01,18316
+R,Machine Learning,Views,2016,9,2016-09-01,31429
+R,Machine Learning,Views,2016,10,2016-10-01,45419
+R,Machine Learning,Views,2016,11,2016-11-01,42640
+R,Machine Learning,Views,2016,12,2016-12-01,15177
+R,Machine Learning,Views,2017,1,2017-01-01,32916
+R,Machine Learning,Views,2017,2,2017-02-01,18531
+R,Machine Learning,Views,2017,3,2017-03-01,18730
+R,Machine Learning,Views,2017,4,2017-04-01,17742
+R,Machine Learning,Views,2017,5,2017-05-01,11223
+R,Machine Learning,Views,2017,6,2017-06-01,5670
+R,Machine Learning,Views,2017,7,2017-07-01,12711
+R,Machine Learning,Views,2017,8,2017-08-01,8643
+R,Machine Learning,Views,2017,9,2017-09-01,14952
+R,Machine Learning,Views,2017,10,2017-10-01,8923
+R,Machine Learning,Views,2017,11,2017-11-01,8002
+R,Machine Learning,Views,2017,12,2017-12-01,7980
+R,Machine Learning,Views,2018,1,2018-01-01,8602
+R,Machine Learning,Views,2018,2,2018-02-01,10794
+R,Machine Learning,Views,2018,3,2018-03-01,8923
+R,Machine Learning,Views,2018,4,2018-04-01,5396
+R,Machine Learning,Views,2018,5,2018-05-01,4006
+R,Machine Learning,Views,2018,6,2018-06-01,2821
+R,Machine Learning,Views,2018,7,2018-07-01,3340
+R,Machine Learning,Views,2018,8,2018-08-01,2382
+R,Machine Learning,Views,2018,9,2018-09-01,1841
+R,Machine Learning,Views,2018,10,2018-10-01,1262
+Python,Machine Learning,Answers,2012,1,2012-01-01,36
+Python,Machine Learning,Answers,2012,2,2012-02-01,26
+Python,Machine Learning,Answers,2012,3,2012-03-01,14
+Python,Machine Learning,Answers,2012,4,2012-04-01,30
+Python,Machine Learning,Answers,2012,5,2012-05-01,12
+Python,Machine Learning,Answers,2012,6,2012-06-01,34
+Python,Machine Learning,Answers,2012,7,2012-07-01,20
+Python,Machine Learning,Answers,2012,8,2012-08-01,30
+Python,Machine Learning,Answers,2012,9,2012-09-01,19
+Python,Machine Learning,Answers,2012,10,2012-10-01,18
+Python,Machine Learning,Answers,2012,11,2012-11-01,38
+Python,Machine Learning,Answers,2012,12,2012-12-01,22
+Python,Machine Learning,Answers,2013,1,2013-01-01,26
+Python,Machine Learning,Answers,2013,2,2013-02-01,18
+Python,Machine Learning,Answers,2013,3,2013-03-01,41
+Python,Machine Learning,Answers,2013,4,2013-04-01,35
+Python,Machine Learning,Answers,2013,5,2013-05-01,53
+Python,Machine Learning,Answers,2013,6,2013-06-01,40
+Python,Machine Learning,Answers,2013,7,2013-07-01,50
+Python,Machine Learning,Answers,2013,8,2013-08-01,30
+Python,Machine Learning,Answers,2013,9,2013-09-01,31
+Python,Machine Learning,Answers,2013,10,2013-10-01,44
+Python,Machine Learning,Answers,2013,11,2013-11-01,59
+Python,Machine Learning,Answers,2013,12,2013-12-01,54
+Python,Machine Learning,Answers,2014,1,2014-01-01,47
+Python,Machine Learning,Answers,2014,2,2014-02-01,76
+Python,Machine Learning,Answers,2014,3,2014-03-01,56
+Python,Machine Learning,Answers,2014,4,2014-04-01,49
+Python,Machine Learning,Answers,2014,5,2014-05-01,19
+Python,Machine Learning,Answers,2014,6,2014-06-01,42
+Python,Machine Learning,Answers,2014,7,2014-07-01,49
+Python,Machine Learning,Answers,2014,8,2014-08-01,37
+Python,Machine Learning,Answers,2014,9,2014-09-01,31
+Python,Machine Learning,Answers,2014,10,2014-10-01,64
+Python,Machine Learning,Answers,2014,11,2014-11-01,37
+Python,Machine Learning,Answers,2014,12,2014-12-01,76
+Python,Machine Learning,Answers,2015,1,2015-01-01,71
+Python,Machine Learning,Answers,2015,2,2015-02-01,46
+Python,Machine Learning,Answers,2015,3,2015-03-01,45
+Python,Machine Learning,Answers,2015,4,2015-04-01,89
+Python,Machine Learning,Answers,2015,5,2015-05-01,92
+Python,Machine Learning,Answers,2015,6,2015-06-01,61
+Python,Machine Learning,Answers,2015,7,2015-07-01,94
+Python,Machine Learning,Answers,2015,8,2015-08-01,90
+Python,Machine Learning,Answers,2015,9,2015-09-01,71
+Python,Machine Learning,Answers,2015,10,2015-10-01,78
+Python,Machine Learning,Answers,2015,11,2015-11-01,169
+Python,Machine Learning,Answers,2015,12,2015-12-01,134
+Python,Machine Learning,Answers,2016,1,2016-01-01,170
+Python,Machine Learning,Answers,2016,2,2016-02-01,144
+Python,Machine Learning,Answers,2016,3,2016-03-01,152
+Python,Machine Learning,Answers,2016,4,2016-04-01,182
+Python,Machine Learning,Answers,2016,5,2016-05-01,216
+Python,Machine Learning,Answers,2016,6,2016-06-01,173
+Python,Machine Learning,Answers,2016,7,2016-07-01,176
+Python,Machine Learning,Answers,2016,8,2016-08-01,213
+Python,Machine Learning,Answers,2016,9,2016-09-01,153
+Python,Machine Learning,Answers,2016,10,2016-10-01,198
+Python,Machine Learning,Answers,2016,11,2016-11-01,216
+Python,Machine Learning,Answers,2016,12,2016-12-01,192
+Python,Machine Learning,Answers,2017,1,2017-01-01,255
+Python,Machine Learning,Answers,2017,2,2017-02-01,263
+Python,Machine Learning,Answers,2017,3,2017-03-01,283
+Python,Machine Learning,Answers,2017,4,2017-04-01,281
+Python,Machine Learning,Answers,2017,5,2017-05-01,233
+Python,Machine Learning,Answers,2017,6,2017-06-01,287
+Python,Machine Learning,Answers,2017,7,2017-07-01,368
+Python,Machine Learning,Answers,2017,8,2017-08-01,334
+Python,Machine Learning,Answers,2017,9,2017-09-01,305
+Python,Machine Learning,Answers,2017,10,2017-10-01,288
+Python,Machine Learning,Answers,2017,11,2017-11-01,333
+Python,Machine Learning,Answers,2017,12,2017-12-01,247
+Python,Machine Learning,Answers,2018,1,2018-01-01,293
+Python,Machine Learning,Answers,2018,2,2018-02-01,339
+Python,Machine Learning,Answers,2018,3,2018-03-01,415
+Python,Machine Learning,Answers,2018,4,2018-04-01,443
+Python,Machine Learning,Answers,2018,5,2018-05-01,372
+Python,Machine Learning,Answers,2018,6,2018-06-01,326
+Python,Machine Learning,Answers,2018,7,2018-07-01,403
+Python,Machine Learning,Answers,2018,8,2018-08-01,356
+Python,Machine Learning,Answers,2018,9,2018-09-01,266
+Python,Machine Learning,Answers,2018,10,2018-10-01,343
+Python,Machine Learning,Questions,2012,1,2012-01-01,13
+Python,Machine Learning,Questions,2012,2,2012-02-01,8
+Python,Machine Learning,Questions,2012,3,2012-03-01,8
+Python,Machine Learning,Questions,2012,4,2012-04-01,18
+Python,Machine Learning,Questions,2012,5,2012-05-01,6
+Python,Machine Learning,Questions,2012,6,2012-06-01,17
+Python,Machine Learning,Questions,2012,7,2012-07-01,12
+Python,Machine Learning,Questions,2012,8,2012-08-01,16
+Python,Machine Learning,Questions,2012,9,2012-09-01,12
+Python,Machine Learning,Questions,2012,10,2012-10-01,14
+Python,Machine Learning,Questions,2012,11,2012-11-01,16
+Python,Machine Learning,Questions,2012,12,2012-12-01,16
+Python,Machine Learning,Questions,2013,1,2013-01-01,17
+Python,Machine Learning,Questions,2013,2,2013-02-01,11
+Python,Machine Learning,Questions,2013,3,2013-03-01,19
+Python,Machine Learning,Questions,2013,4,2013-04-01,23
+Python,Machine Learning,Questions,2013,5,2013-05-01,30
+Python,Machine Learning,Questions,2013,6,2013-06-01,21
+Python,Machine Learning,Questions,2013,7,2013-07-01,27
+Python,Machine Learning,Questions,2013,8,2013-08-01,20
+Python,Machine Learning,Questions,2013,9,2013-09-01,22
+Python,Machine Learning,Questions,2013,10,2013-10-01,22
+Python,Machine Learning,Questions,2013,11,2013-11-01,31
+Python,Machine Learning,Questions,2013,12,2013-12-01,40
+Python,Machine Learning,Questions,2014,1,2014-01-01,35
+Python,Machine Learning,Questions,2014,2,2014-02-01,42
+Python,Machine Learning,Questions,2014,3,2014-03-01,38
+Python,Machine Learning,Questions,2014,4,2014-04-01,33
+Python,Machine Learning,Questions,2014,5,2014-05-01,18
+Python,Machine Learning,Questions,2014,6,2014-06-01,37
+Python,Machine Learning,Questions,2014,7,2014-07-01,40
+Python,Machine Learning,Questions,2014,8,2014-08-01,27
+Python,Machine Learning,Questions,2014,9,2014-09-01,25
+Python,Machine Learning,Questions,2014,10,2014-10-01,40
+Python,Machine Learning,Questions,2014,11,2014-11-01,29
+Python,Machine Learning,Questions,2014,12,2014-12-01,53
+Python,Machine Learning,Questions,2015,1,2015-01-01,59
+Python,Machine Learning,Questions,2015,2,2015-02-01,39
+Python,Machine Learning,Questions,2015,3,2015-03-01,50
+Python,Machine Learning,Questions,2015,4,2015-04-01,63
+Python,Machine Learning,Questions,2015,5,2015-05-01,77
+Python,Machine Learning,Questions,2015,6,2015-06-01,50
+Python,Machine Learning,Questions,2015,7,2015-07-01,67
+Python,Machine Learning,Questions,2015,8,2015-08-01,65
+Python,Machine Learning,Questions,2015,9,2015-09-01,56
+Python,Machine Learning,Questions,2015,10,2015-10-01,63
+Python,Machine Learning,Questions,2015,11,2015-11-01,86
+Python,Machine Learning,Questions,2015,12,2015-12-01,101
+Python,Machine Learning,Questions,2016,1,2016-01-01,119
+Python,Machine Learning,Questions,2016,2,2016-02-01,117
+Python,Machine Learning,Questions,2016,3,2016-03-01,134
+Python,Machine Learning,Questions,2016,4,2016-04-01,143
+Python,Machine Learning,Questions,2016,5,2016-05-01,141
+Python,Machine Learning,Questions,2016,6,2016-06-01,136
+Python,Machine Learning,Questions,2016,7,2016-07-01,142
+Python,Machine Learning,Questions,2016,8,2016-08-01,151
+Python,Machine Learning,Questions,2016,9,2016-09-01,121
+Python,Machine Learning,Questions,2016,10,2016-10-01,174
+Python,Machine Learning,Questions,2016,11,2016-11-01,186
+Python,Machine Learning,Questions,2016,12,2016-12-01,179
+Python,Machine Learning,Questions,2017,1,2017-01-01,224
+Python,Machine Learning,Questions,2017,2,2017-02-01,222
+Python,Machine Learning,Questions,2017,3,2017-03-01,268
+Python,Machine Learning,Questions,2017,4,2017-04-01,251
+Python,Machine Learning,Questions,2017,5,2017-05-01,220
+Python,Machine Learning,Questions,2017,6,2017-06-01,279
+Python,Machine Learning,Questions,2017,7,2017-07-01,346
+Python,Machine Learning,Questions,2017,8,2017-08-01,298
+Python,Machine Learning,Questions,2017,9,2017-09-01,250
+Python,Machine Learning,Questions,2017,10,2017-10-01,262
+Python,Machine Learning,Questions,2017,11,2017-11-01,281
+Python,Machine Learning,Questions,2017,12,2017-12-01,259
+Python,Machine Learning,Questions,2018,1,2018-01-01,304
+Python,Machine Learning,Questions,2018,2,2018-02-01,354
+Python,Machine Learning,Questions,2018,3,2018-03-01,438
+Python,Machine Learning,Questions,2018,4,2018-04-01,491
+Python,Machine Learning,Questions,2018,5,2018-05-01,418
+Python,Machine Learning,Questions,2018,6,2018-06-01,360
+Python,Machine Learning,Questions,2018,7,2018-07-01,438
+Python,Machine Learning,Questions,2018,8,2018-08-01,389
+Python,Machine Learning,Questions,2018,9,2018-09-01,326
+Python,Machine Learning,Questions,2018,10,2018-10-01,401
+Python,Machine Learning,Score,2012,1,2012-01-01,194
+Python,Machine Learning,Score,2012,2,2012-02-01,95
+Python,Machine Learning,Score,2012,3,2012-03-01,58
+Python,Machine Learning,Score,2012,4,2012-04-01,126
+Python,Machine Learning,Score,2012,5,2012-05-01,173
+Python,Machine Learning,Score,2012,6,2012-06-01,122
+Python,Machine Learning,Score,2012,7,2012-07-01,47
+Python,Machine Learning,Score,2012,8,2012-08-01,156
+Python,Machine Learning,Score,2012,9,2012-09-01,121
+Python,Machine Learning,Score,2012,10,2012-10-01,67
+Python,Machine Learning,Score,2012,11,2012-11-01,129
+Python,Machine Learning,Score,2012,12,2012-12-01,67
+Python,Machine Learning,Score,2013,1,2013-01-01,95
+Python,Machine Learning,Score,2013,2,2013-02-01,32
+Python,Machine Learning,Score,2013,3,2013-03-01,112
+Python,Machine Learning,Score,2013,4,2013-04-01,53
+Python,Machine Learning,Score,2013,5,2013-05-01,125
+Python,Machine Learning,Score,2013,6,2013-06-01,135
+Python,Machine Learning,Score,2013,7,2013-07-01,123
+Python,Machine Learning,Score,2013,8,2013-08-01,62
+Python,Machine Learning,Score,2013,9,2013-09-01,62
+Python,Machine Learning,Score,2013,10,2013-10-01,128
+Python,Machine Learning,Score,2013,11,2013-11-01,272
+Python,Machine Learning,Score,2013,12,2013-12-01,157
+Python,Machine Learning,Score,2014,1,2014-01-01,80
+Python,Machine Learning,Score,2014,2,2014-02-01,145
+Python,Machine Learning,Score,2014,3,2014-03-01,99
+Python,Machine Learning,Score,2014,4,2014-04-01,200
+Python,Machine Learning,Score,2014,5,2014-05-01,20
+Python,Machine Learning,Score,2014,6,2014-06-01,88
+Python,Machine Learning,Score,2014,7,2014-07-01,93
+Python,Machine Learning,Score,2014,8,2014-08-01,59
+Python,Machine Learning,Score,2014,9,2014-09-01,57
+Python,Machine Learning,Score,2014,10,2014-10-01,123
+Python,Machine Learning,Score,2014,11,2014-11-01,71
+Python,Machine Learning,Score,2014,12,2014-12-01,126
+Python,Machine Learning,Score,2015,1,2015-01-01,105
+Python,Machine Learning,Score,2015,2,2015-02-01,97
+Python,Machine Learning,Score,2015,3,2015-03-01,52
+Python,Machine Learning,Score,2015,4,2015-04-01,263
+Python,Machine Learning,Score,2015,5,2015-05-01,132
+Python,Machine Learning,Score,2015,6,2015-06-01,161
+Python,Machine Learning,Score,2015,7,2015-07-01,270
+Python,Machine Learning,Score,2015,8,2015-08-01,206
+Python,Machine Learning,Score,2015,9,2015-09-01,124
+Python,Machine Learning,Score,2015,10,2015-10-01,163
+Python,Machine Learning,Score,2015,11,2015-11-01,748
+Python,Machine Learning,Score,2015,12,2015-12-01,612
+Python,Machine Learning,Score,2016,1,2016-01-01,685
+Python,Machine Learning,Score,2016,2,2016-02-01,334
+Python,Machine Learning,Score,2016,3,2016-03-01,344
+Python,Machine Learning,Score,2016,4,2016-04-01,390
+Python,Machine Learning,Score,2016,5,2016-05-01,421
+Python,Machine Learning,Score,2016,6,2016-06-01,315
+Python,Machine Learning,Score,2016,7,2016-07-01,308
+Python,Machine Learning,Score,2016,8,2016-08-01,642
+Python,Machine Learning,Score,2016,9,2016-09-01,206
+Python,Machine Learning,Score,2016,10,2016-10-01,264
+Python,Machine Learning,Score,2016,11,2016-11-01,398
+Python,Machine Learning,Score,2016,12,2016-12-01,290
+Python,Machine Learning,Score,2017,1,2017-01-01,440
+Python,Machine Learning,Score,2017,2,2017-02-01,342
+Python,Machine Learning,Score,2017,3,2017-03-01,415
+Python,Machine Learning,Score,2017,4,2017-04-01,339
+Python,Machine Learning,Score,2017,5,2017-05-01,220
+Python,Machine Learning,Score,2017,6,2017-06-01,371
+Python,Machine Learning,Score,2017,7,2017-07-01,353
+Python,Machine Learning,Score,2017,8,2017-08-01,333
+Python,Machine Learning,Score,2017,9,2017-09-01,249
+Python,Machine Learning,Score,2017,10,2017-10-01,223
+Python,Machine Learning,Score,2017,11,2017-11-01,221
+Python,Machine Learning,Score,2017,12,2017-12-01,244
+Python,Machine Learning,Score,2018,1,2018-01-01,273
+Python,Machine Learning,Score,2018,2,2018-02-01,399
+Python,Machine Learning,Score,2018,3,2018-03-01,211
+Python,Machine Learning,Score,2018,4,2018-04-01,245
+Python,Machine Learning,Score,2018,5,2018-05-01,240
+Python,Machine Learning,Score,2018,6,2018-06-01,116
+Python,Machine Learning,Score,2018,7,2018-07-01,101
+Python,Machine Learning,Score,2018,8,2018-08-01,283
+Python,Machine Learning,Score,2018,9,2018-09-01,124
+Python,Machine Learning,Score,2018,10,2018-10-01,56
+Python,Machine Learning,Views,2012,1,2012-01-01,49494
+Python,Machine Learning,Views,2012,2,2012-02-01,73338
+Python,Machine Learning,Views,2012,3,2012-03-01,23428
+Python,Machine Learning,Views,2012,4,2012-04-01,83693
+Python,Machine Learning,Views,2012,5,2012-05-01,95350
+Python,Machine Learning,Views,2012,6,2012-06-01,75843
+Python,Machine Learning,Views,2012,7,2012-07-01,24531
+Python,Machine Learning,Views,2012,8,2012-08-01,132027
+Python,Machine Learning,Views,2012,9,2012-09-01,57260
+Python,Machine Learning,Views,2012,10,2012-10-01,35211
+Python,Machine Learning,Views,2012,11,2012-11-01,147907
+Python,Machine Learning,Views,2012,12,2012-12-01,67718
+Python,Machine Learning,Views,2013,1,2013-01-01,59363
+Python,Machine Learning,Views,2013,2,2013-02-01,38953
+Python,Machine Learning,Views,2013,3,2013-03-01,126344
+Python,Machine Learning,Views,2013,4,2013-04-01,47722
+Python,Machine Learning,Views,2013,5,2013-05-01,88405
+Python,Machine Learning,Views,2013,6,2013-06-01,71027
+Python,Machine Learning,Views,2013,7,2013-07-01,175404
+Python,Machine Learning,Views,2013,8,2013-08-01,92106
+Python,Machine Learning,Views,2013,9,2013-09-01,74091
+Python,Machine Learning,Views,2013,10,2013-10-01,106620
+Python,Machine Learning,Views,2013,11,2013-11-01,202871
+Python,Machine Learning,Views,2013,12,2013-12-01,124325
+Python,Machine Learning,Views,2014,1,2014-01-01,92838
+Python,Machine Learning,Views,2014,2,2014-02-01,131872
+Python,Machine Learning,Views,2014,3,2014-03-01,79450
+Python,Machine Learning,Views,2014,4,2014-04-01,184629
+Python,Machine Learning,Views,2014,5,2014-05-01,13644
+Python,Machine Learning,Views,2014,6,2014-06-01,59154
+Python,Machine Learning,Views,2014,7,2014-07-01,107613
+Python,Machine Learning,Views,2014,8,2014-08-01,49967
+Python,Machine Learning,Views,2014,9,2014-09-01,43968
+Python,Machine Learning,Views,2014,10,2014-10-01,95098
+Python,Machine Learning,Views,2014,11,2014-11-01,45304
+Python,Machine Learning,Views,2014,12,2014-12-01,122544
+Python,Machine Learning,Views,2015,1,2015-01-01,79814
+Python,Machine Learning,Views,2015,2,2015-02-01,107688
+Python,Machine Learning,Views,2015,3,2015-03-01,55348
+Python,Machine Learning,Views,2015,4,2015-04-01,194381
+Python,Machine Learning,Views,2015,5,2015-05-01,121820
+Python,Machine Learning,Views,2015,6,2015-06-01,138035
+Python,Machine Learning,Views,2015,7,2015-07-01,261743
+Python,Machine Learning,Views,2015,8,2015-08-01,163535
+Python,Machine Learning,Views,2015,9,2015-09-01,98300
+Python,Machine Learning,Views,2015,10,2015-10-01,147298
+Python,Machine Learning,Views,2015,11,2015-11-01,596999
+Python,Machine Learning,Views,2015,12,2015-12-01,385428
+Python,Machine Learning,Views,2016,1,2016-01-01,505698
+Python,Machine Learning,Views,2016,2,2016-02-01,246111
+Python,Machine Learning,Views,2016,3,2016-03-01,331115
+Python,Machine Learning,Views,2016,4,2016-04-01,335213
+Python,Machine Learning,Views,2016,5,2016-05-01,401311
+Python,Machine Learning,Views,2016,6,2016-06-01,262143
+Python,Machine Learning,Views,2016,7,2016-07-01,213855
+Python,Machine Learning,Views,2016,8,2016-08-01,621510
+Python,Machine Learning,Views,2016,9,2016-09-01,158985
+Python,Machine Learning,Views,2016,10,2016-10-01,239449
+Python,Machine Learning,Views,2016,11,2016-11-01,356520
+Python,Machine Learning,Views,2016,12,2016-12-01,175342
+Python,Machine Learning,Views,2017,1,2017-01-01,342501
+Python,Machine Learning,Views,2017,2,2017-02-01,256854
+Python,Machine Learning,Views,2017,3,2017-03-01,360423
+Python,Machine Learning,Views,2017,4,2017-04-01,234398
+Python,Machine Learning,Views,2017,5,2017-05-01,153892
+Python,Machine Learning,Views,2017,6,2017-06-01,211366
+Python,Machine Learning,Views,2017,7,2017-07-01,212393
+Python,Machine Learning,Views,2017,8,2017-08-01,263934
+Python,Machine Learning,Views,2017,9,2017-09-01,169783
+Python,Machine Learning,Views,2017,10,2017-10-01,135761
+Python,Machine Learning,Views,2017,11,2017-11-01,211170
+Python,Machine Learning,Views,2017,12,2017-12-01,130251
+Python,Machine Learning,Views,2018,1,2018-01-01,151776
+Python,Machine Learning,Views,2018,2,2018-02-01,173423
+Python,Machine Learning,Views,2018,3,2018-03-01,120470
+Python,Machine Learning,Views,2018,4,2018-04-01,104562
+Python,Machine Learning,Views,2018,5,2018-05-01,90703
+Python,Machine Learning,Views,2018,6,2018-06-01,63986
+Python,Machine Learning,Views,2018,7,2018-07-01,55738
+Python,Machine Learning,Views,2018,8,2018-08-01,40676
+Python,Machine Learning,Views,2018,9,2018-09-01,24122
+Python,Machine Learning,Views,2018,10,2018-10-01,19727
+Scala,Machine Learning,Answers,2012,1,2012-01-01,5
+Scala,Machine Learning,Answers,2012,2,2012-02-01,5
+Scala,Machine Learning,Answers,2012,9,2012-09-01,3
+Scala,Machine Learning,Answers,2012,10,2012-10-01,2
+Scala,Machine Learning,Answers,2013,4,2013-04-01,1
+Scala,Machine Learning,Answers,2013,6,2013-06-01,1
+Scala,Machine Learning,Answers,2013,7,2013-07-01,2
+Scala,Machine Learning,Answers,2013,11,2013-11-01,1
+Scala,Machine Learning,Answers,2013,12,2013-12-01,2
+Scala,Machine Learning,Answers,2014,1,2014-01-01,1
+Scala,Machine Learning,Answers,2014,3,2014-03-01,1
+Scala,Machine Learning,Answers,2014,7,2014-07-01,3
+Scala,Machine Learning,Answers,2014,9,2014-09-01,1
+Scala,Machine Learning,Answers,2014,11,2014-11-01,1
+Scala,Machine Learning,Answers,2014,12,2014-12-01,3
+Scala,Machine Learning,Answers,2015,2,2015-02-01,2
+Scala,Machine Learning,Answers,2015,3,2015-03-01,1
+Scala,Machine Learning,Answers,2015,4,2015-04-01,4
+Scala,Machine Learning,Answers,2015,5,2015-05-01,0
+Scala,Machine Learning,Answers,2015,6,2015-06-01,4
+Scala,Machine Learning,Answers,2015,7,2015-07-01,4
+Scala,Machine Learning,Answers,2015,8,2015-08-01,3
+Scala,Machine Learning,Answers,2015,9,2015-09-01,0
+Scala,Machine Learning,Answers,2015,10,2015-10-01,3
+Scala,Machine Learning,Answers,2015,11,2015-11-01,3
+Scala,Machine Learning,Answers,2016,1,2016-01-01,3
+Scala,Machine Learning,Answers,2016,2,2016-02-01,3
+Scala,Machine Learning,Answers,2016,3,2016-03-01,2
+Scala,Machine Learning,Answers,2016,4,2016-04-01,9
+Scala,Machine Learning,Answers,2016,5,2016-05-01,0
+Scala,Machine Learning,Answers,2016,6,2016-06-01,7
+Scala,Machine Learning,Answers,2016,7,2016-07-01,5
+Scala,Machine Learning,Answers,2016,8,2016-08-01,5
+Scala,Machine Learning,Answers,2016,9,2016-09-01,1
+Scala,Machine Learning,Answers,2016,10,2016-10-01,5
+Scala,Machine Learning,Answers,2016,11,2016-11-01,8
+Scala,Machine Learning,Answers,2016,12,2016-12-01,5
+Scala,Machine Learning,Answers,2017,1,2017-01-01,5
+Scala,Machine Learning,Answers,2017,3,2017-03-01,5
+Scala,Machine Learning,Answers,2017,4,2017-04-01,5
+Scala,Machine Learning,Answers,2017,5,2017-05-01,6
+Scala,Machine Learning,Answers,2017,6,2017-06-01,1
+Scala,Machine Learning,Answers,2017,7,2017-07-01,10
+Scala,Machine Learning,Answers,2017,8,2017-08-01,7
+Scala,Machine Learning,Answers,2017,9,2017-09-01,3
+Scala,Machine Learning,Answers,2017,10,2017-10-01,2
+Scala,Machine Learning,Answers,2017,11,2017-11-01,3
+Scala,Machine Learning,Answers,2017,12,2017-12-01,1
+Scala,Machine Learning,Answers,2018,1,2018-01-01,3
+Scala,Machine Learning,Answers,2018,2,2018-02-01,3
+Scala,Machine Learning,Answers,2018,3,2018-03-01,4
+Scala,Machine Learning,Answers,2018,4,2018-04-01,4
+Scala,Machine Learning,Answers,2018,5,2018-05-01,3
+Scala,Machine Learning,Answers,2018,6,2018-06-01,5
+Scala,Machine Learning,Answers,2018,7,2018-07-01,4
+Scala,Machine Learning,Answers,2018,8,2018-08-01,1
+Scala,Machine Learning,Answers,2018,9,2018-09-01,1
+Scala,Machine Learning,Questions,2012,1,2012-01-01,3
+Scala,Machine Learning,Questions,2012,2,2012-02-01,1
+Scala,Machine Learning,Questions,2012,9,2012-09-01,1
+Scala,Machine Learning,Questions,2012,10,2012-10-01,1
+Scala,Machine Learning,Questions,2013,4,2013-04-01,2
+Scala,Machine Learning,Questions,2013,6,2013-06-01,1
+Scala,Machine Learning,Questions,2013,7,2013-07-01,1
+Scala,Machine Learning,Questions,2013,11,2013-11-01,1
+Scala,Machine Learning,Questions,2013,12,2013-12-01,2
+Scala,Machine Learning,Questions,2014,1,2014-01-01,1
+Scala,Machine Learning,Questions,2014,3,2014-03-01,1
+Scala,Machine Learning,Questions,2014,7,2014-07-01,1
+Scala,Machine Learning,Questions,2014,9,2014-09-01,1
+Scala,Machine Learning,Questions,2014,11,2014-11-01,1
+Scala,Machine Learning,Questions,2014,12,2014-12-01,2
+Scala,Machine Learning,Questions,2015,2,2015-02-01,2
+Scala,Machine Learning,Questions,2015,3,2015-03-01,1
+Scala,Machine Learning,Questions,2015,4,2015-04-01,3
+Scala,Machine Learning,Questions,2015,5,2015-05-01,1
+Scala,Machine Learning,Questions,2015,6,2015-06-01,4
+Scala,Machine Learning,Questions,2015,7,2015-07-01,2
+Scala,Machine Learning,Questions,2015,8,2015-08-01,2
+Scala,Machine Learning,Questions,2015,9,2015-09-01,1
+Scala,Machine Learning,Questions,2015,10,2015-10-01,3
+Scala,Machine Learning,Questions,2015,11,2015-11-01,3
+Scala,Machine Learning,Questions,2016,1,2016-01-01,2
+Scala,Machine Learning,Questions,2016,2,2016-02-01,3
+Scala,Machine Learning,Questions,2016,3,2016-03-01,2
+Scala,Machine Learning,Questions,2016,4,2016-04-01,12
+Scala,Machine Learning,Questions,2016,5,2016-05-01,3
+Scala,Machine Learning,Questions,2016,6,2016-06-01,9
+Scala,Machine Learning,Questions,2016,7,2016-07-01,6
+Scala,Machine Learning,Questions,2016,8,2016-08-01,4
+Scala,Machine Learning,Questions,2016,9,2016-09-01,2
+Scala,Machine Learning,Questions,2016,10,2016-10-01,4
+Scala,Machine Learning,Questions,2016,11,2016-11-01,10
+Scala,Machine Learning,Questions,2016,12,2016-12-01,3
+Scala,Machine Learning,Questions,2017,1,2017-01-01,4
+Scala,Machine Learning,Questions,2017,3,2017-03-01,6
+Scala,Machine Learning,Questions,2017,4,2017-04-01,2
+Scala,Machine Learning,Questions,2017,5,2017-05-01,8
+Scala,Machine Learning,Questions,2017,6,2017-06-01,2
+Scala,Machine Learning,Questions,2017,7,2017-07-01,10
+Scala,Machine Learning,Questions,2017,8,2017-08-01,8
+Scala,Machine Learning,Questions,2017,9,2017-09-01,6
+Scala,Machine Learning,Questions,2017,10,2017-10-01,2
+Scala,Machine Learning,Questions,2017,11,2017-11-01,4
+Scala,Machine Learning,Questions,2017,12,2017-12-01,1
+Scala,Machine Learning,Questions,2018,1,2018-01-01,4
+Scala,Machine Learning,Questions,2018,2,2018-02-01,4
+Scala,Machine Learning,Questions,2018,3,2018-03-01,5
+Scala,Machine Learning,Questions,2018,4,2018-04-01,4
+Scala,Machine Learning,Questions,2018,5,2018-05-01,2
+Scala,Machine Learning,Questions,2018,6,2018-06-01,5
+Scala,Machine Learning,Questions,2018,7,2018-07-01,3
+Scala,Machine Learning,Questions,2018,8,2018-08-01,3
+Scala,Machine Learning,Questions,2018,9,2018-09-01,3
+Scala,Machine Learning,Score,2012,1,2012-01-01,14
+Scala,Machine Learning,Score,2012,2,2012-02-01,9
+Scala,Machine Learning,Score,2012,9,2012-09-01,6
+Scala,Machine Learning,Score,2012,10,2012-10-01,1
+Scala,Machine Learning,Score,2013,4,2013-04-01,4
+Scala,Machine Learning,Score,2013,6,2013-06-01,0
+Scala,Machine Learning,Score,2013,7,2013-07-01,2
+Scala,Machine Learning,Score,2013,11,2013-11-01,1
+Scala,Machine Learning,Score,2013,12,2013-12-01,5
+Scala,Machine Learning,Score,2014,1,2014-01-01,3
+Scala,Machine Learning,Score,2014,3,2014-03-01,3
+Scala,Machine Learning,Score,2014,7,2014-07-01,3
+Scala,Machine Learning,Score,2014,9,2014-09-01,2
+Scala,Machine Learning,Score,2014,11,2014-11-01,2
+Scala,Machine Learning,Score,2014,12,2014-12-01,14
+Scala,Machine Learning,Score,2015,2,2015-02-01,1
+Scala,Machine Learning,Score,2015,3,2015-03-01,4
+Scala,Machine Learning,Score,2015,4,2015-04-01,2
+Scala,Machine Learning,Score,2015,5,2015-05-01,0
+Scala,Machine Learning,Score,2015,6,2015-06-01,-1
+Scala,Machine Learning,Score,2015,7,2015-07-01,0
+Scala,Machine Learning,Score,2015,8,2015-08-01,1
+Scala,Machine Learning,Score,2015,9,2015-09-01,1
+Scala,Machine Learning,Score,2015,10,2015-10-01,6
+Scala,Machine Learning,Score,2015,11,2015-11-01,7
+Scala,Machine Learning,Score,2016,1,2016-01-01,9
+Scala,Machine Learning,Score,2016,2,2016-02-01,7
+Scala,Machine Learning,Score,2016,3,2016-03-01,2
+Scala,Machine Learning,Score,2016,4,2016-04-01,13
+Scala,Machine Learning,Score,2016,5,2016-05-01,8
+Scala,Machine Learning,Score,2016,6,2016-06-01,4
+Scala,Machine Learning,Score,2016,7,2016-07-01,3
+Scala,Machine Learning,Score,2016,8,2016-08-01,5
+Scala,Machine Learning,Score,2016,9,2016-09-01,3
+Scala,Machine Learning,Score,2016,10,2016-10-01,1
+Scala,Machine Learning,Score,2016,11,2016-11-01,12
+Scala,Machine Learning,Score,2016,12,2016-12-01,1
+Scala,Machine Learning,Score,2017,1,2017-01-01,9
+Scala,Machine Learning,Score,2017,3,2017-03-01,6
+Scala,Machine Learning,Score,2017,4,2017-04-01,6
+Scala,Machine Learning,Score,2017,5,2017-05-01,8
+Scala,Machine Learning,Score,2017,6,2017-06-01,0
+Scala,Machine Learning,Score,2017,7,2017-07-01,8
+Scala,Machine Learning,Score,2017,8,2017-08-01,2
+Scala,Machine Learning,Score,2017,9,2017-09-01,3
+Scala,Machine Learning,Score,2017,10,2017-10-01,0
+Scala,Machine Learning,Score,2017,11,2017-11-01,3
+Scala,Machine Learning,Score,2017,12,2017-12-01,1
+Scala,Machine Learning,Score,2018,1,2018-01-01,3
+Scala,Machine Learning,Score,2018,2,2018-02-01,3
+Scala,Machine Learning,Score,2018,3,2018-03-01,1
+Scala,Machine Learning,Score,2018,4,2018-04-01,2
+Scala,Machine Learning,Score,2018,5,2018-05-01,2
+Scala,Machine Learning,Score,2018,6,2018-06-01,-3
+Scala,Machine Learning,Score,2018,7,2018-07-01,2
+Scala,Machine Learning,Score,2018,8,2018-08-01,0
+Scala,Machine Learning,Score,2018,9,2018-09-01,-1
+Scala,Machine Learning,Views,2012,1,2012-01-01,4639
+Scala,Machine Learning,Views,2012,2,2012-02-01,3027
+Scala,Machine Learning,Views,2012,9,2012-09-01,2242
+Scala,Machine Learning,Views,2012,10,2012-10-01,307
+Scala,Machine Learning,Views,2013,4,2013-04-01,712
+Scala,Machine Learning,Views,2013,6,2013-06-01,2855
+Scala,Machine Learning,Views,2013,7,2013-07-01,2447
+Scala,Machine Learning,Views,2013,11,2013-11-01,101
+Scala,Machine Learning,Views,2013,12,2013-12-01,1622
+Scala,Machine Learning,Views,2014,1,2014-01-01,723
+Scala,Machine Learning,Views,2014,3,2014-03-01,514
+Scala,Machine Learning,Views,2014,7,2014-07-01,213
+Scala,Machine Learning,Views,2014,9,2014-09-01,419
+Scala,Machine Learning,Views,2014,11,2014-11-01,888
+Scala,Machine Learning,Views,2014,12,2014-12-01,4851
+Scala,Machine Learning,Views,2015,2,2015-02-01,924
+Scala,Machine Learning,Views,2015,3,2015-03-01,1304
+Scala,Machine Learning,Views,2015,4,2015-04-01,1228
+Scala,Machine Learning,Views,2015,5,2015-05-01,174
+Scala,Machine Learning,Views,2015,6,2015-06-01,4362
+Scala,Machine Learning,Views,2015,7,2015-07-01,334
+Scala,Machine Learning,Views,2015,8,2015-08-01,1018
+Scala,Machine Learning,Views,2015,9,2015-09-01,867
+Scala,Machine Learning,Views,2015,10,2015-10-01,2579
+Scala,Machine Learning,Views,2015,11,2015-11-01,2795
+Scala,Machine Learning,Views,2016,1,2016-01-01,2592
+Scala,Machine Learning,Views,2016,2,2016-02-01,1553
+Scala,Machine Learning,Views,2016,3,2016-03-01,1231
+Scala,Machine Learning,Views,2016,4,2016-04-01,7014
+Scala,Machine Learning,Views,2016,5,2016-05-01,962
+Scala,Machine Learning,Views,2016,6,2016-06-01,4993
+Scala,Machine Learning,Views,2016,7,2016-07-01,1427
+Scala,Machine Learning,Views,2016,8,2016-08-01,2192
+Scala,Machine Learning,Views,2016,9,2016-09-01,1523
+Scala,Machine Learning,Views,2016,10,2016-10-01,930
+Scala,Machine Learning,Views,2016,11,2016-11-01,4444
+Scala,Machine Learning,Views,2016,12,2016-12-01,1746
+Scala,Machine Learning,Views,2017,1,2017-01-01,8071
+Scala,Machine Learning,Views,2017,3,2017-03-01,1734
+Scala,Machine Learning,Views,2017,4,2017-04-01,3131
+Scala,Machine Learning,Views,2017,5,2017-05-01,1208
+Scala,Machine Learning,Views,2017,6,2017-06-01,102
+Scala,Machine Learning,Views,2017,7,2017-07-01,2749
+Scala,Machine Learning,Views,2017,8,2017-08-01,2029
+Scala,Machine Learning,Views,2017,9,2017-09-01,1102
+Scala,Machine Learning,Views,2017,10,2017-10-01,1556
+Scala,Machine Learning,Views,2017,11,2017-11-01,832
+Scala,Machine Learning,Views,2017,12,2017-12-01,265
+Scala,Machine Learning,Views,2018,1,2018-01-01,1155
+Scala,Machine Learning,Views,2018,2,2018-02-01,786
+Scala,Machine Learning,Views,2018,3,2018-03-01,619
+Scala,Machine Learning,Views,2018,4,2018-04-01,905
+Scala,Machine Learning,Views,2018,5,2018-05-01,146
+Scala,Machine Learning,Views,2018,6,2018-06-01,332
+Scala,Machine Learning,Views,2018,7,2018-07-01,186
+Scala,Machine Learning,Views,2018,8,2018-08-01,158
+Scala,Machine Learning,Views,2018,9,2018-09-01,170

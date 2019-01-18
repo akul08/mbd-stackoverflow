@@ -254,7 +254,7 @@ so_visualizer = function() {
                     datamap.svg.selectAll("g").attr("transform", 
                                                     "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
                 }
-            }
+            },
         });
     }
 
@@ -302,6 +302,7 @@ so_visualizer = function() {
 
                             projection.scale(globalZoom)
                                         .clipAngle(90)
+                                        .center([-5, 15])
                                         .rotate(options.projectionConfig.rotation)
                                         .translate(globalTranslate);
 

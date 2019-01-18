@@ -17,6 +17,9 @@ spark = SparkSession.builder.getOrCreate()
 subset_filter.spark = spark
 topNTags.sc = sc
 
+def blub(subset, csv_path, lang, subject):
+        print(lang,subject)
+
 if __name__ == "__main__":
         data_path = "file:///home/s2118947/sample3"
         csv_path = 'file:///home/s2118947/'
@@ -24,7 +27,7 @@ if __name__ == "__main__":
         if len(sys.argv) > 1:
                 data_path = sys.argv[1]
 
-        subset_filter.subset_filter(data_path, func= (lambda subset, csv_path, lang, subject: print(lang,subject)))
+        subset_filter.subset_filter(data_path, blub)
 	# popularity measure
         # subset_filter.subset_filter(data_path, func=popularity_measure.popularity_measure)
         # subset_filter.subset_filter(data_path, func=most_X.get_most)
